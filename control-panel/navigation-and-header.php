@@ -480,7 +480,7 @@
                 <li>
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
-                        <span>Activity</span>
+                        <span>Student Life</span>
                     </a>
                     <ul class="ml-menu">
                         <li>
