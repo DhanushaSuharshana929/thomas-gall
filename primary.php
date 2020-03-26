@@ -122,10 +122,10 @@
                                         <h3>Our Learnings</h3>
                                     </div>
                                     <ul>
-                                        <li><a href="#">Primary School<span></span></a></li>
-                                        <li><a href="#">Secondary school<span></span></a></li>
-                                        <li><a href="#">Language Academy <span></span></a></li>
-                                        <a class="read-more" href="activities.php">View More <span class="icon fa fa-angle-right"></span></a>
+                                        <li><a href="early-years.php">Early Years<span></span></a></li>
+                                        <li><a href="primary.php">Primary School<span></span></a></li>
+                                        <li><a href="secondary.php">Secondary school<span></span></a></li>
+                                        <li><a href="language.php">International Language Academy <span></span></a></li>                             
                                     </ul>
                                 </div>
 

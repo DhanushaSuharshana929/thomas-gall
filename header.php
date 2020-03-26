@@ -59,7 +59,7 @@
                             <li><a href="index.php">HOME</a></li>
                             <li class="dropdown"><a href="about.php">ABOUT TGS</a>
                                 <ul>
-                                    
+
                                     <li><a href="about.php">Founders Welcome</a></li>
                                     <li><a href="about.php">Vision, Mission & Core Value</a></li>
                                     <li><a href="about.php">People (Directors/Staff)</a></li>
@@ -69,18 +69,18 @@
 
                             <li class="dropdown"><a href="learning.php">LEARNING</a>
                                 <ul>
-                                    
-                                    <li><a href="primary.php">Primary School</a></li>
-                                    <li><a href="secondary.php">Secondary School</a></li>
-                                    <li><a href="language.php">Language Academy</a></li>
-
+                                    <li><a href="early-years.php">Early years</a></li>
+                                    <li><a href="primary.php">Primary</a></li>
+                                    <li><a href="secondary.php">Secondary</a></li>
+                                    <li><a href="language.php">International Language Academy</a></li>
+                                    <li><a href="testimonials.php">Testimonials</a></li>
                                 </ul>
                             </li>
                             <li><a href="admission.php">ADMISSIONS</a></li>
                         </ul>
                         <!--Right Nav-->
                         <ul class="navigation right-nav clearfix">
-                            
+
                             <li><a href="news.php">NEWS</a></li>
                             <li><a href="activities.php">ACTIVITIES</a></li>
                             <li><a href="gallery.php">GALLERY</a></li>
@@ -120,9 +120,9 @@
                     <div class="navbar-collapse collapse clearfix">
                         <ul class="navigation clearfix">
                             <li><a href="index.php">HOME</a></li>
-                             <li class="dropdown"><a href="about.php">ABOUT TGS</a>
+                            <li class="dropdown"><a href="about.php">ABOUT TGS</a>
                                 <ul>
-                                    
+
                                     <li><a href="about.php">Founders Welcome</a></li>
                                     <li><a href="about.php">Vision, Mission & Core Value</a></li>
                                     <li><a href="about.php">People (Directors/Staff)</a></li>
@@ -130,16 +130,16 @@
                                 </ul>
                             </li>
 
-                            <li class="dropdown"><a href="learning.php">LEARNING</a>
+                             <li class="dropdown"><a href="learning.php">LEARNING</a>
                                 <ul>
-                                    
-                                    <li><a href="primary.php">Primary School</a></li>
-                                    <li><a href="secondary.php">Secondary School</a></li>
-                                    <li><a href="language.php">Language Academy</a></li>
-
+                                    <li><a href="early-years.php">Early years</a></li>
+                                    <li><a href="primary.php">Primary</a></li>
+                                    <li><a href="secondary.php">Secondary</a></li>
+                                    <li><a href="language.php">International Language Academy</a></li>
+                                    <li><a href="testimonials.php">Testimonials</a></li>
                                 </ul>
                             </li>
-                            
+
                             <li><a href="admission.php">ADMISSIONS</a></li>
                             <li ><a href="news.php">NEWS</a></li>
                             <li><a href="activities.php">ACTIVITIES</a></li>
