@@ -57,7 +57,15 @@
                         <!--Left Nav-->
                         <ul class="navigation left-nav clearfix">
                             <li><a href="index.php">HOME</a></li>
-                            <li><a href="about.php">ABOUT US</a></li>
+                            <li class="dropdown"><a href="about.php">ABOUT TGS</a>
+                                <ul>
+                                    
+                                    <li><a href="about.php">Founders Welcome</a></li>
+                                    <li><a href="about.php">Vision, Mission & Core Value</a></li>
+                                    <li><a href="about.php">People (Directors/Staff)</a></li>
+
+                                </ul>
+                            </li>
 
                             <li class="dropdown"><a href="learning.php">LEARNING</a>
                                 <ul>
@@ -112,7 +120,15 @@
                     <div class="navbar-collapse collapse clearfix">
                         <ul class="navigation clearfix">
                             <li><a href="index.php">HOME</a></li>
-                            <li><a href="about.php">ABOUT US</a></li>
+                             <li class="dropdown"><a href="about.php">ABOUT TGS</a>
+                                <ul>
+                                    
+                                    <li><a href="about.php">Founders Welcome</a></li>
+                                    <li><a href="about.php">Vision, Mission & Core Value</a></li>
+                                    <li><a href="about.php">People (Directors/Staff)</a></li>
+
+                                </ul>
+                            </li>
 
                             <li class="dropdown"><a href="learning.php">LEARNING</a>
                                 <ul>

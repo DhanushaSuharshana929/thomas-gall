@@ -4,7 +4,7 @@
     <!-- Mirrored from t.commonsupport.xyz/saratov/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:33 GMT -->
     <head>
         <meta charset="utf-8">
-        <title>Thomas Gall School | About</title>
+        <title>Thomas Gall School | About TGS</title>
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -35,7 +35,7 @@
                         <h1>about us</h1>
                         <ul class="bread-crumb">
                             <li><a href="index.php">Home</a></li>
-                            <li>About</li>
+                            <li>About TGS</li>
                         </ul>
                     </div>
                 </div>
