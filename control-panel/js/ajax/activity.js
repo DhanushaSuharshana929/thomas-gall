@@ -5,7 +5,15 @@ $(document).ready(function () {
         event.preventDefault();
         tinymce.triggerSave();
 
-        if (!$('#title').val() || $('#title').val().length === 0) {
+        if (!$('#activity_type').val() || $('#activity_type').val().length === 0) {
+            swal({
+                title: "Error!",
+                text: "Please enter tour type..!",
+                type: 'error',
+                timer: 1500,
+                showConfirmButton: false
+            });
+        } if (!$('#title').val() || $('#title').val().length === 0) {
             swal({
                 title: "Error!",
                 text: "Please enter title..!",
