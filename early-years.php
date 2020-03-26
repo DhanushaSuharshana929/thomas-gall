@@ -4,7 +4,7 @@
     <!-- Mirrored from t.commonsupport.xyz/saratov/classes-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:51 GMT -->
     <head>
         <meta charset="utf-8">
-        <title>Thomas Gall School | Language Academy</title>
+        <title>Thomas Gall School | Early Years</title>
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -31,11 +31,11 @@
             <section class="page-title" style="background-image:url(images/background/5.jpg);">
                 <div class="auto-container">
                     <div class="inner-box">
-                        <h1>International Language Academy</h1>
+                        <h1>Early Years</h1>
                         <ul class="bread-crumb">
                             <li><a href="index.php">Home</a></li>
                             <li><a href="learning.php">Learning</a></li>
-                            <li>International Language Academy</li>
+                            <li>Early Years</li>
                         </ul>
                     </div>
                 </div>
@@ -79,8 +79,7 @@
                                                 <li><img src="images/resource/products/class-thumb-2.jpg" alt=""></li>
                                             </ul>
 
-                                          
-
+                                            
                                         </div>
                                     </div>
                                     <!--Lower Box-->
@@ -89,12 +88,12 @@
                                         <div class="upper-box">
                                             <div class="clearfix">
                                                 <div class="pull-left">
-                                                    <h3>International Language Academy</h3>
-                                                    <div class="class-date">Feb 29, 2017</div>
+                                                    <h3>Early Years</h3>
+                                                    <div class="class-date">Feb 29, 2020</div>
                                                     
                                                 </div>
                                                 <div class="pull-right">
-                                                    <a href="admission.php" class="theme-btn btn-style-one">Enroll your Child</a>
+                                                    <a href="#" class="theme-btn btn-style-one">Enroll your Child</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -103,8 +102,7 @@
                                             <div class="text">
                                                 <p>Proin nec lacus lacus. Sed vitae consectetur est, et mattis felis. Fusce lacinia nibh vitae fermentum finibus. Donec malesuada efficitur dapibus. Cras euismod nunc tellus, eget tempor purus finibus id. Aliquam magna nibh, mattis a urna nec, semper venenatis magna. Cras suscipit neque libero, in bibendum orci scelerisque mollis. Nunc auctor ut erat vel euismod. Aenean tristique leo eros, at gravida massa semper eu.</p>
                                                 <p>Fusce imperdiet libero et eros tincidunt, vitae accumsan purus pulvinar. Vivamus varius, metus et scelerisque viverra, elit urna malesuada est, non condimentum orci orci vel diam. <a href="#">Donec convallis ipsum sit amet.</a> Mauris placerat neque eu fringilla accumsan. Morbi mattis, lorem sit amet gravida eleifend, nisl felis tincidunt dui, nec porta turpis ligula eu nisl. Donec lacus dolor, facilisis at tortor ac, congue vulputate ligula.</p>
-                                                
-                                                
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -112,10 +110,9 @@
                             </section>
 
                             
-
                         </div>
 
-                            <!--Sidebar-->
+                           <!--Sidebar-->
                         <div class="sidebar-side col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <aside class="sidebar">
 
@@ -140,19 +137,19 @@
                                     <!--Post-->
                                     <article class="post">
                                         <figure class="post-thumb img-circle"><a href="#"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
-                                        <div class="text"><a href="activities.php">Messy Play Day</a></div>
+                                        <div class="text"><a href="#">Messy Play Day</a></div>
                                         <div class="post-info">Posted by Adam Rose</div>
                                     </article>
                                     <!--Post-->
                                     <article class="post">
                                         <figure class="post-thumb img-circle"><a href="#"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
-                                        <div class="text"><a href="activities.php">Independance Day</a></div>
+                                        <div class="text"><a href="#">Independance Day</a></div>
                                         <div class="post-info">Posted by Adam Rose</div>
                                     </article>
                                     <!--Post-->
                                     <article class="post">
                                         <figure class="post-thumb img-circle"><a href="#"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
-                                        <div class="text"><a href="activities.php">Children's Day</a></div>
+                                        <div class="text"><a href="#">Children's Day</a></div>
                                         <div class="post-info">Posted by Adam Rose</div>
                                     </article>
                                     
@@ -169,7 +166,7 @@
                 </div>
             </div>
 
-           
+         
 
             <!--Main Footer-->
             <?php include './footer.php'; ?>
