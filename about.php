@@ -32,7 +32,7 @@
             <section class="page-title" style="background-image:url(images/background/5.jpg);">
                 <div class="auto-container">
                     <div class="inner-box">
-                        <h1>about us</h1>
+                        <h1>About TGS</h1>
                         <ul class="bread-crumb">
                             <li><a href="index.php">Home</a></li>
                             <li>About TGS</li>
@@ -42,184 +42,60 @@
             </section>
             <!--End Page Title-->
 
-            <!--Welcome Section-->
+            <!--Founders Welcome Section-->
             <section class="welcome-section">
                 <div class="auto-container">
-                    <!--Sec Title-->
+
+                    <!--Start Sec Title-->
                     <div class="sec-title centered">
                         <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
-
-                        <div class="title">About Our School</div>
-                        <div class="dark-text">Learning for self, society and a sustainable future</div>
-                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-                        <a href="services.html" class="theme-btn btn-style-one">Read More</a>
+                        <h2>Founders Welcome</h2>
+                        <div class="title">Learning for self,  society and a sustainable future</div>
                     </div>
-                    <!--Image-->
-                    <figure class="image">
-                        <img src="images/resource/welcome-img.png" alt="" />
-                    </figure>
+                    <!--End Sec Title-->
+                    <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/gallery/image-2.jpg">
+                    </div>
+                    <div class=" col-md-7">
+                         <p text-align="justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                             printer took a galley of type and scrambled it to make a type specimen book. It has survived 
+                             not only five centuries, but also the leap into electronic typesetting, remaining essentially 
+                             unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                             Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+                             versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+                             took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                    </div>
+                    
                 </div>
             </section>
             <!--End Welcome Section-->
 
 
-            <!--Teachers Section-->
-            <section class="teachers-section no-padding-btm">
+            <!--Classes News-->
+            <section class="classes-news-section">
                 <div class="auto-container">
+
                     <!--Sec Title-->
                     <div class="sec-title centered">
                         <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
-                        <h2>Our Staff</h2>
-                        <div class="title">Our Great Team</div>
-                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
-                    </div>
-
-                    <div class="three-item-carousel owl-carousel owl-theme">
-
-                        <!--Teacher Block-->
-                        <div class="teacher-block">
-                            <div class="inner-box">
-                                <div class="image-box">
-                                    <img src="images/resource/teacher-1.jpg" alt="" />
-                                </div>
-                                <h3>Lorem Ipsum</h3>
-                                <div class="designation">Lorem Ipsum</div>
-
-                                <ul class="social-links-one">
-                                    <li><a href="#"><span class="fa fa-facebook-square"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!--Teacher Block-->
-                        <div class="teacher-block">
-                            <div class="inner-box">
-                                <div class="image-box">
-                                    <img src="images/resource/teacher-2.jpg" alt="" />
-                                </div>
-                                <h3>Lorem Ipsum</h3>
-                                <div class="designation">Lorem Ipsum</div>
-
-                                <ul class="social-links-one">
-                                    <li><a href="#"><span class="fa fa-facebook-square"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!--Teacher Block-->
-                        <div class="teacher-block">
-                            <div class="inner-box">
-                                <div class="image-box">
-                                    <img src="images/resource/teacher-3.jpg" alt="" />
-                                </div>
-                                <h3>Lorem Ipsum</h3>
-                                <div class="designation">Lorem Ipsum</div>
-
-                                <ul class="social-links-one">
-                                    <li><a href="#"><span class="fa fa-facebook-square"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!--Teacher Block-->
-                        <div class="teacher-block">
-                            <div class="inner-box">
-                                <div class="image-box">
-                                    <img src="images/resource/teacher-1.jpg" alt="" />
-                                </div>
-                                <h3>Lorem Ipsum</h3>
-                                <div class="designation">Lorem Ipsum</div>
-
-                                <ul class="social-links-one">
-                                    <li><a href="#"><span class="fa fa-facebook-square"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!--Teacher Block-->
-                        <div class="teacher-block">
-                            <div class="inner-box">
-                                <div class="image-box">
-                                    <img src="images/resource/teacher-2.jpg" alt="" />
-                                </div>
-                                <h3>David warner</h3>
-                                <div class="designation">Lorem Ipsum</div>
-
-                                <ul class="social-links-one">
-                                    <li><a href="#"><span class="fa fa-facebook-square"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!--Teacher Block-->
-                        <div class="teacher-block">
-                            <div class="inner-box">
-                                <div class="image-box">
-                                    <img src="images/resource/teacher-3.jpg" alt="" />
-                                </div>
-                                <h3>Lorem Ipsum</h3>
-                                <div class="designation">Lorem Ipsum</div>
-
-                                <ul class="social-links-one">
-                                    <li><a href="#"><span class="fa fa-facebook-square"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <h2>Our vission, Mission & Core values</h2>
+                        <div class="title">Learning for self,  society and a sustainable future</div>
 
                     </div>
-                </div>
-
-            </section>
-            <!--End Teachers Section-->
-
-             <!--Classes News-->
-            <section class="classes-news-section">
-                <div class="auto-container">
+                    <!--End Sec Title-->
                     <div class="sec-title centered">
-                        
+
 
                     </div>
                     <div class="row clearfix">
 
-                        <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="#"><img src="images/resource/news-4.jpg" alt="" /></a>
-
-                                        <div class="overlay-layer">
-                                            <a href="#"><span class="icon flaticon-unlink"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-
-                                        <h3><a href="#">Our History</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="#" class="theme-btn btn-style-one">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
                         <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+                        <div class="news-style-two col-md-6 col-sm-12 col-xs-12">
                             <div class="inner-box">
                                 <!--Image Column-->
                                 <div class="image-column">
@@ -235,7 +111,7 @@
                                 <div class="content-column">
                                     <div class="inner">
 
-                                        <h3><a href="#">Vision</a></h3>
+                                        <h3><a href="#">Our Vision</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="#" class="theme-btn btn-style-one">Read More</a>
                                     </div>
@@ -244,7 +120,7 @@
                         </div>
 
                         <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+                        <div class="news-style-two col-md-6 col-sm-12 col-xs-12">
                             <div class="inner-box">
                                 <!--Image Column-->
                                 <div class="image-column">
@@ -260,7 +136,7 @@
                                 <div class="content-column">
                                     <div class="inner">
 
-                                        <h3><a href="#">Mission</a></h3>
+                                        <h3><a href="#">Our Mission</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="#" class="theme-btn btn-style-one">Read More</a>
                                     </div>
@@ -366,7 +242,93 @@
             <!--End values Section-->
 
 
-            
+
+            <!--Teachers Section-->
+            <section class="teachers-section no-padding-btm">
+                <div class="auto-container">
+                    <!--Sec Title-->
+                    <div class="sec-title centered">
+                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
+                        <h2>Our Staff</h2>
+                        <div class="title">Our Great Team</div>
+                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+                    </div>
+
+                    <div class="three-item-carousel owl-carousel owl-theme">
+
+                        <!--Teacher Block-->
+                        <div class="teacher-block">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <img src="images/resource/teacher-1.jpg" alt="" />
+                                </div>
+                                <h3>Lorem Ipsum</h3>
+                                <div class="designation">Lorem Ipsum</div>
+
+                            </div>
+                        </div>
+
+                        <!--Teacher Block-->
+                        <div class="teacher-block">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <img src="images/resource/teacher-2.jpg" alt="" />
+                                </div>
+                                <h3>Lorem Ipsum</h3>
+                                <div class="designation">Lorem Ipsum</div>
+                            </div>
+                        </div>
+
+                        <!--Teacher Block-->
+                        <div class="teacher-block">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <img src="images/resource/teacher-3.jpg" alt="" />
+                                </div>
+                                <h3>Lorem Ipsum</h3>
+                                <div class="designation">Lorem Ipsum</div>
+                            </div>
+                        </div>
+
+                        <!--Teacher Block-->
+                        <div class="teacher-block">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <img src="images/resource/teacher-1.jpg" alt="" />
+                                </div>
+                                <h3>Lorem Ipsum</h3>
+                                <div class="designation">Lorem Ipsum</div>
+                            </div>
+                        </div>
+
+                        <!--Teacher Block-->
+                        <div class="teacher-block">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <img src="images/resource/teacher-2.jpg" alt="" />
+                                </div>
+                                <h3>David warner</h3>
+                                <div class="designation">Lorem Ipsum</div>
+                            </div>
+                        </div>
+
+                        <!--Teacher Block-->
+                        <div class="teacher-block">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <img src="images/resource/teacher-3.jpg" alt="" />
+                                </div>
+                                <h3>Lorem Ipsum</h3>
+                                <div class="designation">Lorem Ipsum</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+            <!--End Teachers Section-->
+
 
             <!--Main Footer-->
             <?php include './footer.php'; ?>
