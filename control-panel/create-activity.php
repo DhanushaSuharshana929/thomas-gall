@@ -48,7 +48,29 @@ include_once(dirname(__FILE__) . '/auth.php');
                             </div>
                             <div class="body">
                                 <form class="form-horizontal"  method="post"  id="form-data" enctype="multipart/form-data"> 
-                                    <div class="col-md-12">
+                                     <div class="col-md-12">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
+
+                                                <select class="form-control" name="activity_type" id="activity_type">
+                                                    <option value=""> --Please Select the Activity type -- </option>
+
+                                                    <?php
+                                                    $TOUR_TYPE = new TourType(NULL);
+                                                    foreach ($TOUR_TYPE->all() as $key => $tour_type) {
+                                                        ?>
+                                                        <option value=" <?php echo $tour_type['id'] ?>">
+                                                            <?php echo $tour_type['name'] ?>
+                                                        </option> 
+                                                    <?php } ?>
+
+
+                                                </select>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                 <div class="col-md-12">
                                         <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="text" id="title" class="form-control"  autocomplete="off" name="title" required="true">
