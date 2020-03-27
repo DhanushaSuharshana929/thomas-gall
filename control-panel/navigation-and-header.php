@@ -363,6 +363,29 @@
                         </li>
                     </ul>
                 </li> 
+
+                <li class="qqq">
+                    
+                    <a href="edit-pages.php?id=1" class="menu-toggle">
+                        <i class="material-icons">chevron_right</i>
+                        <span>Founders Welcome</span>
+                    </a>                
+                </li>
+                <li class="qqq">
+                    
+                    <a href="edit-pages.php?id=2" class="menu-toggle">
+                        <i class="material-icons">chevron_right</i>
+                        <span>Vision, Mission & Core Value</span>
+                    </a>                
+                </li>
+                <li class="qqq">
+                    
+                    <a href="edit-pages.php?id=3" class="menu-toggle">
+                        <i class="material-icons">chevron_right</i>
+                        <span>People (Directors/Staff)</span>
+                    </a>                
+                </li>
+
                 <li class="hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
@@ -395,8 +418,12 @@
                         <span>Gallery</span>
                     </a>
 
+
+                    
+                    
+                    
                 </li> 
-                <li class="qqq">
+                <li class="qqq hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Excursion</span>
