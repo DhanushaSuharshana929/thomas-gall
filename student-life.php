@@ -67,7 +67,7 @@
                                         <div class="post-date">Mar 27, 2020</div>
                                         <h3><a href="#">Lorem Ipsum</a></h3>
                                         
-                                        <a href="student-life.php" class="theme-btn btn-style-one">View More</a>
+                                        <a href="view-student-life.php" class="theme-btn btn-style-one">View More</a>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@
                                         <div class="post-date">Mar 27, 2020</div>
                                         <h3><a href="#">Lorem Ipsum</a></h3>
                                         
-                                        <a href="student-life.php" class="theme-btn btn-style-one">View More</a>
+                                        <a href="view-student-life.php" class="theme-btn btn-style-one">View More</a>
                                     </div>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                                         <div class="post-date">Mar 27, 2020</div>
                                         <h3><a href="#">Lorem Ipsum</a></h3>
                                         
-                                        <a href="student-life.php" class="theme-btn btn-style-one">View More</a>
+                                        <a href="view-student-life.php" class="theme-btn btn-style-one">View More</a>
                                     </div>
                                 </div>
                             </div>
@@ -142,7 +142,7 @@
                                         <div class="post-date">Mar 27, 2020</div>
                                         <h3><a href="#">Lorem Ipsum</a></h3>
                                         
-                                        <a href="student-life.php" class="theme-btn btn-style-one">View More</a>
+                                        <a href="view-student-life.php" class="theme-btn btn-style-one">View More</a>
                                     </div>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@
                                         <div class="post-date">Mar 27, 2020</div>
                                         <h3><a href="#">Lorem Ipsum</a></h3>
                                         
-                                        <a href="student-life.php" class="theme-btn btn-style-one">View More</a>
+                                        <a href="view-student-life.php" class="theme-btn btn-style-one">View More</a>
                                     </div>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@
                                         <div class="post-date">Mar 27, 2020</div>
                                         <h3><a href="#">Lorem Ipsum</a></h3>
                                         
-                                        <a href="student-life.php" class="theme-btn btn-style-one">View More</a>
+                                        <a href="view-student-life.php" class="theme-btn btn-style-one">View More</a>
                                     </div>
                                 </div>
                             </div>
