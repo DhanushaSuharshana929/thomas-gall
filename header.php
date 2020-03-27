@@ -76,13 +76,20 @@
                                     <li><a href="testimonials.php">Testimonials</a></li>
                                 </ul>
                             </li>
-                            <li><a href="admission.php">ADMISSIONS</a></li>
+                            <li class="dropdown"><a href="student-life.php">Student Life</a>
+                                <ul>
+                                    <li><a href="student-life.php">Student Support & Wellbeing</a></li>
+                                    <li><a href="student-life.php">Charity and Community</a></li>
+                                    <li><a href="student-life.php">Circular Activity</a></li>
+                                    <li><a href="student-life.php">Cultural Events</a></li>                                 
+                                </ul>
+                            </li>
+
                         </ul>
                         <!--Right Nav-->
                         <ul class="navigation right-nav clearfix">
-
+                            <li><a href="admission.php">ADMISSIONS</a></li>
                             <li><a href="news.php">NEWS</a></li>
-                            <li><a href="activities.php">ACTIVITIES</a></li>
                             <li><a href="gallery.php">GALLERY</a></li>
                             <li><a href="contact.php">CONTACT US</a></li>
                         </ul>
@@ -130,7 +137,7 @@
                                 </ul>
                             </li>
 
-                             <li class="dropdown"><a href="learning.php">LEARNING</a>
+                            <li class="dropdown"><a href="learning.php">LEARNING</a>
                                 <ul>
                                     <li><a href="early-years.php">Early years</a></li>
                                     <li><a href="primary.php">Primary</a></li>
@@ -140,9 +147,18 @@
                                 </ul>
                             </li>
 
+                            <li class="dropdown"><a href="student-life.php">Student Life</a>
+                                <ul>
+                                    <li><a href="student-life.php">Student Support & Wellbeing</a></li>
+                                    <li><a href="student-life.php">Charity and Community</a></li>
+                                    <li><a href="student-life.php">Circular Activity</a></li>
+                                    <li><a href="student-life.php">Cultural Events</a></li>                                 
+                                </ul>
+                            </li>
+
                             <li><a href="admission.php">ADMISSIONS</a></li>
                             <li ><a href="news.php">NEWS</a></li>
-                            <li><a href="activities.php">ACTIVITIES</a></li>
+
                             <li><a href="gallery.php">GALLERY</a></li>
                             <li><a href="contact.php">CONTACT US</a></li>
                         </ul>
