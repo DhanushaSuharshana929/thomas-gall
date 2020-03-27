@@ -7,6 +7,16 @@
 	}
 }
 
+@media only screen and (max-width: 992px){
+	
+        .main-header .links-nav li.language{
+            display: none;
+        }
+        .main-header .logo-outer{
+            padding: 0px;
+        }
+}
+
 @media only screen and (max-width: 1140px){
 	
 	.main-header .info-box{
@@ -88,7 +98,7 @@
 	}
 	
 	.sticky-header{
-		display:none;	
+		
 	}
 	
 	.main-menu .navigation > li,
@@ -206,10 +216,13 @@
 	.main-header .header-top .top-left ul{
 		text-align: center !important;
 	}
-	
+        .main-header .links-nav li.language{
+            display: none;
+        }
 	.main-header .header-top .top-right ul li,
 	.main-header .header-top .top-left ul li {
-		display: inline-block;
+		
+            
 		margin:0px 8px;
 		float: none;
 	}
@@ -290,7 +303,7 @@
 	.main-menu .navbar-header .navbar-toggle{
 		display:inline-block;
 		border:1px solid #0003ef;
-		margin:28px 0px 0px 0px;
+		margin: 13px 0px -3px 0px;
 		border-radius:0px;
 		background:#0003ef;
 	}
