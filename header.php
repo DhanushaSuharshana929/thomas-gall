@@ -76,7 +76,7 @@
                                     <li><a href="testimonials.php">Testimonials</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown"><a href="student-life.php">Student Life</a>
+                            <li class="dropdown"><a href="student-life.php">STUDENT LIFE</a>
                                 <ul>
                                     <li><a href="student-life.php">Student Support & Wellbeing</a></li>
                                     <li><a href="student-life.php">Charity and Community</a></li>
@@ -88,14 +88,22 @@
                         </ul>
                         <!--Right Nav-->
                         <ul class="navigation right-nav clearfix">
-                            <li><a href="admission.php">ADMISSIONS</a></li>
-                            <li><a href="news.php">NEWS</a></li>
+                            <li class="dropdown"><a href="#">ADMISSION</a>
+                                <ul>
+                                    <li><a href="arrange-a-visit.php">Arrange a Visit</a></li>
+                                    <li><a href="term-dates.php">Term Dates</a></li>
+                                    <li><a href="years-group-guide.php">Years Group Guide</a></li>
+                                    <li><a href="school-fees.php">School Fees</a></li> 
+                                    <li><a href="application.php">Applications</a></li> 
+                                    <li><a href="online-admissions.php">Online Admissions</a></li> 
+                                </ul>
+                            </li>
+
                             <li><a href="gallery.php">GALLERY</a></li>
                             <li><a href="contact.php">CONTACT US</a></li>
                         </ul>
                     </div>
                 </nav>
-
 
 
             </div>
@@ -147,7 +155,7 @@
                                 </ul>
                             </li>
 
-                            <li class="dropdown"><a href="student-life.php">Student Life</a>
+                            <li class="dropdown"><a href="student-life.php">STUDENT LIFE</a>
                                 <ul>
                                     <li><a href="student-life.php">Student Support & Wellbeing</a></li>
                                     <li><a href="student-life.php">Charity and Community</a></li>
@@ -156,8 +164,16 @@
                                 </ul>
                             </li>
 
-                            <li><a href="admission.php">ADMISSIONS</a></li>
-                            <li ><a href="news.php">NEWS</a></li>
+                            <li class="dropdown"><a href="#">ADMISSION</a>
+                                <ul>
+                                    <li><a href="arrange-a-visit.php">Arrange a Visit</a></li>
+                                    <li><a href="term-dates.php">Term Dates</a></li>
+                                    <li><a href="years-group-guide.php">Years Group Guide</a></li>
+                                    <li><a href="school-fees.php">School Fees</a></li> 
+                                    <li><a href="application.php">Applications</a></li> 
+                                    <li><a href="online-admissions.php">Online Admissions</a></li> 
+                                </ul>
+                            </li>
 
                             <li><a href="gallery.php">GALLERY</a></li>
                             <li><a href="contact.php">CONTACT US</a></li>
