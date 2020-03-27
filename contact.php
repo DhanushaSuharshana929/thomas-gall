@@ -8,7 +8,7 @@
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
-
+        <link href="contact-form/style.css" rel="stylesheet" type="text/css"/>
         <!--Favicon-->
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -90,26 +90,49 @@
                                 <!-- contact Form -->
                                 <div class="contact-form">
                                     <!--contact Form-->
-                                    <form method="post" action="http://t.commonsupport.xyz/saratov/sendemail.php" id="contact-form">
 
-                                        <div class="form-group">
-                                            <input type="text" name="username" placeholder="Name *" required>
+
+                                    <div class="form-group">
+                                        <input type="text" id="txtFullName" name="username" placeholder="Name *" required>
+                                        <span id="spanFullName"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="email" id="txtEmail" name="email" placeholder="Email *" required>
+                                        <span id="spanEmail"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="txtPhone" name="phone" placeholder="Contact No *" required>
+                                        <span id="spanPhone"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="message" id="txtMessage" placeholder="Message"></textarea>
+                                        <span id="spanMessage"></span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="col-md-5" style="padding-left: 0px">
+                                                <div class="form-group" >
+                                                    <input type="text" id="captchacode" name="captcha" placeholder="Security Code *" required>
+                                                    <span id="capspan"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3" >
+                                                <div class="form-group" >
+                                                    <?php include './contact-form/captchacode-widget.php'; ?>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <button class="theme-btn btn-style-one" type="submit" id="btnSubmit" name="submit-form">Send Message</button>
+                                                </div>
+                                            </div>
                                         </div>
 
-                                        <div class="form-group">
-                                            <input type="email" name="email" placeholder="Email *" required>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <textarea name="message" placeholder="Message"></textarea>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <button class="theme-btn btn-style-one" type="submit" name="submit-form">Send Message</button>
-                                        </div>
-
-                                    </form>
-
+                                    </div>
+                                    <div class="form-group">
+                                       <img src="./contact-form/img/checking.gif"   alt="checking" id="checking"/>  
+                                    </div>
                                 </div>
                                 <!--End Contact Form -->
                             </div>
@@ -174,7 +197,7 @@
         <script src="js/wow.js"></script>
         <script src="js/validate.js"></script>
         <script src="js/script.js"></script>
-
+        <script src="contact-form/scripts.js" type="text/javascript"></script>
         <!--Google Map APi Key-->
         <script src="http://maps.google.com/maps/api/js?key=AIzaSyBKS14AnP3HCIVlUpPKtGp7CbYuMtcXE2o"></script>
         <script src="js/map-script.js"></script>
