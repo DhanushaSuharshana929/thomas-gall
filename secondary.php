@@ -4,7 +4,7 @@
     <!-- Mirrored from t.commonsupport.xyz/saratov/classes-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:51 GMT -->
     <head>
         <meta charset="utf-8">
-        <title>Thomas Gall School | Secondary School</title>
+        <title>Thomas Gall School | Primary School</title>
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -20,12 +20,15 @@
         <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
     </head>
 
+
     <body>
-        <div class="page-wrapper">         
+
+        <div class="page-wrapper">
 
             <!-- Main Header-->
             <?php include './header.php'; ?>
             <!--End Main Header -->
+
 
             <!--Page Title-->
             <section class="page-title" style="background-image:url(images/background/5.jpg);">
@@ -33,7 +36,7 @@
                     <div class="inner-box">
                         <h1>Secondary School</h1>
                         <ul class="bread-crumb">
-                            <li><a href="index.php">Home</a></li>
+                            <li><a href="./">Home</a></li>
                             <li><a href="learning.php">Learning</a></li>
                             <li>Secondary School</li>
                         </ul>
@@ -42,81 +45,45 @@
             </section>
             <!--End Page Title-->
 
-            <!--Sidebar Page-->
+            
             <div class="sidebar-page-container">
                 <div class="auto-container">
                     <div class="row clearfix">
 
                         <!--Content Side-->
                         <div class="content-side col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                            <!--Classes Single-->
-                            <section class="classes-single">
-                                <div class="inner-box">
-                                    <div class="classes-carousel">
-                                        <div class="carousel-outer">
+                            <!--Blog-->
+                            <section class="blog-classic">
 
-                                            <ul class="image-carousel owl-carousel owl-theme">
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                            </ul>
-
-                                            <ul class="thumbs-carousel owl-carousel owl-theme">
-                                                <li><img src="images/resource/products/class-thumb-1.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-2.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-3.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-4.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-5.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-6.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-1.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-2.jpg" alt=""></li>
-                                            </ul>                                            
-
+                                <!--News Style Four-->
+                                <div class="news-style-four">
+                                    <div class="inner-box">
+                                        <!--Image Column-->
+                                        <div class="image">
+                                            <a href="learning.php"><img src="images/resource/news-11.jpg" alt="" /></a>
                                         </div>
-                                    </div>
-                                    <!--Lower Box-->
-                                    <div class="lower-content">
-                                        <!--Upper Box-->
-                                        <div class="upper-box">
-                                            <div class="clearfix">
-                                                <div class="pull-left">
-                                                    <h3>Secondary School</h3>
-                                                    <div class="class-date">Feb 29, 2020</div>
-                                                    
-                                                </div>
-                                                <div class="pull-right">
-                                                    <a href="admission.php" class="theme-btn btn-style-one">Enroll your Child</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--Lower Box-->
-                                        <div class="lower-box">
-                                            <div class="text">
-                                                <p>Proin nec lacus lacus. Sed vitae consectetur est, et mattis felis. Fusce lacinia nibh vitae fermentum finibus. Donec malesuada efficitur dapibus. Cras euismod nunc tellus, eget tempor purus finibus id. Aliquam magna nibh, mattis a urna nec, semper venenatis magna. Cras suscipit neque libero, in bibendum orci scelerisque mollis. Nunc auctor ut erat vel euismod. Aenean tristique leo eros, at gravida massa semper eu.</p>
-                                                <p>Fusce imperdiet libero et eros tincidunt, vitae accumsan purus pulvinar. Vivamus varius, metus et scelerisque viverra, elit urna malesuada est, non condimentum orci orci vel diam. <a href="#">Donec convallis ipsum sit amet.</a> Mauris placerat neque eu fringilla accumsan. Morbi mattis, lorem sit amet gravida eleifend, nisl felis tincidunt dui, nec porta turpis ligula eu nisl. Donec lacus dolor, facilisis at tortor ac, congue vulputate ligula.</p>
-                                               
+                                        <!--Content Column-->
+                                        <div class="content-column">
+                                            <div class="inner">
+
+                                                <h3><a href="learning.php">Secondary School</a></h3>
+
+                                                <div class="text">Class aptent taciti sociosqu adtora torq uent per conubia mauris 
+                                                    eros nostra. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                                                    amet, consect etur, adipisci velit.</div>
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </section>
-
-                          
-
                         </div>
 
-                           <!--Sidebar-->
+                        <!--Sidebar-->
                         <div class="sidebar-side col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <aside class="sidebar">
 
-                                <!--Services Category Widget-->
+                                <!--Our learnings Category Widget-->
                                 <div class="sidebar-widget category-widget">
                                     <div class="sidebar-title">
                                         <h3>Our Learnings</h3>
@@ -128,51 +95,15 @@
                                         <li><a href="language.php">International Language Academy <span></span></a></li>                             
                                     </ul>
                                 </div>
+                                <!--Our learnings Category Widget-->
 
-                                <!--Services Post Widget-->
-                                <div class="sidebar-widget popular-posts">
-                                    <div class="sidebar-title">
-                                        <h3>Activities</h3>
-                                    </div>
-                                    <!--Post-->
-                                    <article class="post">
-                                        <figure class="post-thumb img-circle"><a href="#"><img src="images/resource/post-thumb-1.jpg" alt=""></a></figure>
-                                        <div class="text"><a href="#">Messy Play Day</a></div>
-                                        <div class="post-info">Posted by Adam Rose</div>
-                                    </article>
-                                    <!--Post-->
-                                    <article class="post">
-                                        <figure class="post-thumb img-circle"><a href="#"><img src="images/resource/post-thumb-2.jpg" alt=""></a></figure>
-                                        <div class="text"><a href="#">Independance Day</a></div>
-                                        <div class="post-info">Posted by Adam Rose</div>
-                                    </article>
-                                    <!--Post-->
-                                    <article class="post">
-                                        <figure class="post-thumb img-circle"><a href="#"><img src="images/resource/post-thumb-3.jpg" alt=""></a></figure>
-                                        <div class="text"><a href="#">Children's Day</a></div>
-                                        <div class="post-info">Posted by Adam Rose</div>
-                                    </article>
-                                    
-                                    <a class="read-more" href="activities.php">View More <span class="icon fa fa-angle-right"></span></a>
-                                </div>
-
-                              
-
-                                
                             </aside>
                         </div>
                         <!--End Sidebar-->
-                            
-                                
-
-                            
-                        </div>
-
+                        
                     </div>
                 </div>
             </div>
-
-          
 
             <!--Main Footer-->
             <?php include './footer.php'; ?>
@@ -197,5 +128,5 @@
 
     </body>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/classes-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:55:06 GMT -->
+    <!-- Mirrored from t.commonsupport.xyz/saratov/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:55:10 GMT -->
 </html>
