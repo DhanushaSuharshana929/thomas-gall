@@ -68,7 +68,7 @@
                                             <div class="text">leads a rag-tag fugitive fleet on a lonely quest - a shining planet known as Earth. So lets make the most of this beautiful day. </div>
                                         </div>
                                     </div>
-                                    <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply-all"></span> Reply</a>
+                                    
                                 </div>
                                 <!--Comment Box-->
                                 <div class="comment-box reply-comment">
@@ -84,7 +84,7 @@
                                             <div class="text">Just two good ol' boys Wouldn't change if they could. Fightin' the system like a true modern day Robin Hood.</div>
                                         </div>
                                     </div>
-                                    <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply-all"></span> Reply</a>
+                                    
                                 </div>
                                 
                                 <!--Comment Box-->
@@ -101,7 +101,7 @@
                                             <div class="text">Ne Go Speed Racer go. And you know where you were then. Mister we could use a man like Herbert Hoover again.</div>
                                         </div>
                                     </div>
-                                    <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply-all"></span> Reply</a>
+                                    
                                 </div>
                                 <!--Comment Box-->
                                 <div class="comment-box reply-comment">
@@ -117,7 +117,7 @@
                                             <div class="text">Just two good ol' boys Wouldn't change if they could. Fightin' the system like a true modern day Robin Hood.</div>
                                         </div>
                                     </div>
-                                    <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply-all"></span> Reply</a>
+                                    
                                 </div>
                                   <!--Comment Box-->
                                 <div class="comment-box">
@@ -133,7 +133,7 @@
                                             <div class="text">Ne Go Speed Racer go. And you know where you were then. Mister we could use a man like Herbert Hoover again.</div>
                                         </div>
                                     </div>
-                                    <a class="comment-reply" href="#"><span class="icon fa fa-mail-reply-all"></span> Reply</a>
+                                   
                                 </div>
                                 
                                 

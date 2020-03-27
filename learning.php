@@ -36,7 +36,7 @@
                         <ul class="bread-crumb">
                             <li><a href="index.php">Home</a></li>
                             <li>Learnings</li>
-                            
+
                         </ul>
                     </div>
                 </div>
@@ -46,17 +46,40 @@
             <section class="classes-section">
                 <div class="auto-container">
 
-                    
-                    <div class="row clearfix">
 
+                    <div class="row clearfix">
                         <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+                        <div class="news-style-two col-md-6 col-sm-12 col-xs-12">
                             <div class="inner-box">
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="classes-single.html"><img src="images/resource/news-4.jpg" alt="" /></a>
-                                        <span class="category">Primary</span>
+                                        <a href="early-years.php"><img src="images/resource/news-4.jpg" alt="" /></a>
+
+                                        <div class="overlay-layer">
+                                            <a href="early-years.php"><span class="icon flaticon-unlink"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Content Column-->
+                                <div class="content-column">
+                                    <div class="inner">
+
+                                        <h3><a href="classes-single.html">Early Years</a></h3>
+                                        <div class="text">We build up the best education nvironment for themselves at most</div>
+                                        <a href="early-years.php" class="theme-btn btn-style-one">Apply Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--News Style Two-->
+                        <div class="news-style-two col-md-6 col-sm-12 col-xs-12">
+                            <div class="inner-box">
+                                <!--Image Column-->
+                                <div class="image-column">
+                                    <div class="image">
+                                        <a href="primary.php"><img src="images/resource/news-4.jpg" alt="" /></a>
+
                                         <div class="overlay-layer">
                                             <a href="primary.php"><span class="icon flaticon-unlink"></span></a>
                                         </div>
@@ -65,23 +88,22 @@
                                 <!--Content Column-->
                                 <div class="content-column">
                                     <div class="inner">
-                                        <div class="post-date">Feb 29, 2017</div>
-                                        <h3><a href="classes-single.html">Primary School</a></h3>
+
+                                        <h3><a href="primary.php">Primary School</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="primary.php" class="theme-btn btn-style-one">Apply Now</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                         <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+                        <div class="news-style-two col-md-6 col-sm-12 col-xs-12">
                             <div class="inner-box">
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="secondary.php"><img src="images/resource/news-5.jpg" alt="" /></a>
-                                        <span class="category">Secondary</span>
+                                        <a href="secondary.php"><img src="images/resource/news-4.jpg" alt="" /></a>
+
                                         <div class="overlay-layer">
                                             <a href="secondary.php"><span class="icon flaticon-unlink"></span></a>
                                         </div>
@@ -90,7 +112,7 @@
                                 <!--Content Column-->
                                 <div class="content-column">
                                     <div class="inner">
-                                        <div class="post-date">Marc 17, 2017</div>
+
                                         <h3><a href="secondary.php">Secondary School</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="secondary.php" class="theme-btn btn-style-one">Apply Now</a>
@@ -100,13 +122,13 @@
                         </div>
 
                         <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+                        <div class="news-style-two col-md-6 col-sm-12 col-xs-12">
                             <div class="inner-box">
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="classes-single.html"><img src="images/resource/news-6.jpg" alt="" /></a>
-                                        <span class="category">Language</span>
+                                        <a href="language.php"><img src="images/resource/news-4.jpg" alt="" /></a>
+
                                         <div class="overlay-layer">
                                             <a href="language.php"><span class="icon flaticon-unlink"></span></a>
                                         </div>
@@ -115,8 +137,8 @@
                                 <!--Content Column-->
                                 <div class="content-column">
                                     <div class="inner">
-                                        <div class="post-date">Apr 01, 2017</div>
-                                        <h3><a href="language.php">Language Academy</a></h3>
+
+                                        <h3><a href="language.php">Imternational Language Academy</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="language.php" class="theme-btn btn-style-one">Apply Now</a>
                                     </div>
@@ -124,174 +146,16 @@
                             </div>
                         </div>
 
-                        <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="classes-single.html"><img src="images/resource/news-15.jpg" alt="" /></a>
-                                        <span class="category">science</span>
-                                        <div class="overlay-layer">
-                                            <a href="classes-single.html"><span class="icon flaticon-unlink"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-                                        <div class="post-date">Feb 12, 2017</div>
-                                        <h3><a href="classes-single.html">Little Star</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="classes-single.html" class="theme-btn btn-style-one">Apply Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="classes-single.html"><img src="images/resource/news-16.jpg" alt="" /></a>
-                                        <span class="category">Maths</span>
-                                        <div class="overlay-layer">
-                                            <a href="classes-single.html"><span class="icon flaticon-unlink"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-                                        <div class="post-date">Marc 22, 2017</div>
-                                        <h3><a href="classes-single.html">Smart Turtles</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="classes-single.html" class="theme-btn btn-style-one">Apply Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="classes-single.html"><img src="images/resource/news-17.jpg" alt="" /></a>
-                                        <span class="category">Drawing</span>
-                                        <div class="overlay-layer">
-                                            <a href="classes-single.html"><span class="icon flaticon-unlink"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-                                        <div class="post-date">Apr 07, 2017</div>
-                                        <h3><a href="classes-single.html">Little Lambs</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="classes-single.html" class="theme-btn btn-style-one">Apply Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="classes-single.html"><img src="images/resource/news-17.jpg" alt="" /></a>
-                                        <span class="category">sports</span>
-                                        <div class="overlay-layer">
-                                            <a href="classes-single.html"><span class="icon flaticon-unlink"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-                                        <div class="post-date">Feb 12, 2017</div>
-                                        <h3><a href="classes-single.html">Color Match</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="classes-single.html" class="theme-btn btn-style-one">Apply Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="classes-single.html"><img src="images/resource/news-18.jpg" alt="" /></a>
-                                        <span class="category">sports</span>
-                                        <div class="overlay-layer">
-                                            <a href="classes-single.html"><span class="icon flaticon-unlink"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-                                        <div class="post-date">Marc 22, 2017</div>
-                                        <h3><a href="classes-single.html">Shapes Match</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="classes-single.html" class="theme-btn btn-style-one">Apply Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="classes-single.html"><img src="images/resource/news-19.jpg" alt="" /></a>
-                                        <span class="category">Dance</span>
-                                        <div class="overlay-layer">
-                                            <a href="classes-single.html"><span class="icon flaticon-unlink"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-                                        <div class="post-date">Apr 07, 2017</div>
-                                        <h3><a href="classes-single.html">Letter Match</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="classes-single.html" class="theme-btn btn-style-one">Apply Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
+                    <!--end row clearfix-->
 
-                    <!-- Styled Pagination -->
-                    <div class="styled-pagination text-center">
-                        <ul class="clearfix">
-                            <li><a class="prev" href="#"><span class="fa fa-angle-left"></span></a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#" class="active">2</a></li>
-                            <li><a class="next" href="#"><span class="fa fa-angle-right"></span></a></li>
-                        </ul>
-                    </div>
 
                 </div>
             </section>
 
-         
 
-             <!--Main Footer-->
+
+            <!--Main Footer-->
             <?php include './footer.php'; ?>
             <!--End Main Footer-->
 
