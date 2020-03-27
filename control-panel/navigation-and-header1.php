@@ -365,59 +365,26 @@
                 </li> 
 
                 <li class="qqq">
-
+                    
                     <a href="edit-pages.php?id=1" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Founders Welcome</span>
                     </a>                
                 </li>
                 <li class="qqq">
-
+                    
                     <a href="edit-pages.php?id=2" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Vision, Mission & Core Value</span>
                     </a>                
                 </li>
                 <li class="qqq">
-
+                    
                     <a href="edit-pages.php?id=3" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>People (Directors/Staff)</span>
                     </a>                
                 </li>
-                <li class="qqq">
-
-                    <a href="edit-pages.php?id=4" class="menu-toggle">
-                        <i class="material-icons">chevron_right</i>
-                        <span>Early Years</span>
-                    </a>                
-                </li>
-                <li class="qqq">
-
-                    <a href="edit-pages.php?id=5" class="menu-toggle">
-                        <i class="material-icons">chevron_right</i>
-                        <span>Primary</span>
-                    </a>                
-                </li>
-                <li class="qqq">
-
-                    <a href="edit-pages.php?id=6" class="menu-toggle">
-                        <i class="material-icons">chevron_right</i>
-                        <span>Secondary</span>
-                    </a>                
-                </li>
-                <li class="qqq">
-
-                    <a href="edit-pages.php?id=7" class="menu-toggle">
-                        <i class="material-icons">chevron_right</i>
-                        <span>International Language Acedemy</span>
-                    </a>                
-                </li>
-
-
-
-
-
 
                 <li class="hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
@@ -452,9 +419,9 @@
                     </a>
 
 
-
-
-
+                    
+                    
+                    
                 </li> 
                 <li class="qqq hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
@@ -508,7 +475,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="hidden">
+                <li class="">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Tour Package</span>
