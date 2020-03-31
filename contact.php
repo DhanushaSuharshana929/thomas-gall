@@ -128,12 +128,20 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-md-12">
 
+                                            <div class="form-group">
+                                                <img src="./contact-form/img/checking.gif"   alt="checking" id="checking"/>  
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div id="dismessage" align="center"></div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                       <img src="./contact-form/img/checking.gif"   alt="checking" id="checking"/>  
-                                    </div>
+
                                 </div>
+
                                 <!--End Contact Form -->
                             </div>
                             <!--Time Column-->

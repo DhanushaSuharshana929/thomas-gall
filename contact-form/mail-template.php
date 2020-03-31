@@ -40,7 +40,7 @@ $visitor_message = '<html xmlns="http://www.w3.org/1999/xhtml">
                                                                                     <td width="182">
 
                                                                                         <a href="' . $site_link . '" alt="" class="CToWUd" border="0">
-                                                                                        <img src="' . $logo . '" alt="" class="CToWUd" border="0">
+//                                                                                        <img src="" alt="" class="CToWUd" border="0">
                                                                                         </a>
                                                                                     </td>
 
@@ -222,7 +222,7 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
 
                                                                                     <td width="182">
 
-                                                                                        <a href="' . $site_link . '" target="_blank"> <img src="' . $logo . '" alt="" class="CToWUd" border="0"></img>
+                                                                                        <a href="' . $site_link . '" target="_blank"> <img src="" alt="" class="CToWUd" border="0"></img>
 
                                                                                         </a>
 
@@ -281,7 +281,7 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
                                                                             </tbody></table>
                                                                     </td>
                                                                 </tr><tr> 
-                                                                    <td style="font-size:20px;color:#33468f;line-height:28px;font-family:Arial,Helvetica,sans-serif;padding-bottom:20px;padding-top: 0px;font-weight: 600;" align="left"> ' . $visitor_subject . ' </td> 
+                                                                    <td style="font-size:20px;color:#33468f;line-height:28px;font-family:Arial,Helvetica,sans-serif;padding-bottom:20px;padding-top: 0px;font-weight: 600;" align="left">  </td> 
                                                                 </tr>
                                                             </tbody> 
                                                         </table> 
@@ -360,7 +360,7 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
 
                                                                             <font style="font-family:Verdana,Geneva,sans-serif;color:#68696a;font-size:14px">
 
-                                                                                  Country : ' . $visitor_country . '
+                                                                                  Country : 
 
                                                                             </font>
 

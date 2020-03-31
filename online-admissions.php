@@ -139,7 +139,7 @@
 
                                         </div>
                                         <div class="col-md-12">
-                                            <img src="./booking-form/img/checking.gif"   alt="checking" id="checking"/>
+                                            <img src="./registration-form/img/checking.gif"   alt="checking" id="checking"/>
                                         </div>
                                         <div class="col-md-12">
                                             <div id="dismessage" align="center"></div>

@@ -1,47 +1,37 @@
 <?php
-
-//------------------------- IMPORTANT -------------------------
+//----------------------Company Information---------------------
 
 require_once "Mail.php";
 
 date_default_timezone_set('Asia/Colombo');
 $todayis = date("l, F j, Y, g:i a");
-$site_link = "http://" . $_SERVER['HTTP_HOST'];
+$site_link = "https://" . $_SERVER['HTTP_HOST'];
 
-//----------------------- DISPLAY STRINGS ---------------------
+//Display Strings 
 $comany_name = "Thomas Gall International School";
-$website_name = "www.thomasgall.com";
-$comConNumber = "+94 (77) 123 0423";
-$comEmail = "thomasgall@gmail.com";
-$comOwner = "HRM";
-$customer_msg = 'Hello, and thank you for your interest in ' . $comany_name . '.We have received your application form, and we will get back to you as soon as possible.';
+$website_name = "www.thomasgalle.com";
+$comConNumber = "+94 77 111 1111";
+$comEmail = "info@thomasgall.com";
+$comOwner = "The Manager";
 
-//----------------------- LOGO ---------------------------------
-
-//$logo = $site_link . '/contact-form/img/logo.png';
-//$logo = 'https://ci4.googleusercontent.com/proxy/lz0tSijRTHwJ3I7PQ1iXA67lYFfULG0evRbR_St785VeiABNukQPJl-JGBcLKTkZz1q4pG6g25P1uxTW4dYkOznHHNV3f-zB=s0-d-e1-ft#http://romaya.galle.website/contact-form/img/logo.png';
-
-// ----------------------- POST VARIABLES --------------------------
-
+// Post Variables
 $visitor_name = $_POST['visitor_name'];
 $visitor_email = $_POST['visitor_email'];
 $visitor_phone = $_POST['visitor_phone'];
-$visitor_country = $_POST['visitor_country'];
-//$visitor_subject = $_POST['subject'];
+$birthday = $_POST['birthday'];
+$gender = $_POST['gender'];
+$nationality = $_POST['nationality'];
 $message = $_POST['message'];
 
 
-//---------------------- SERVER WEBMAIL LOGIN ------------------------
 
-$host = "premium52.web-hosting.com";
-$username = "info@galle.website";
-$password = "*J^.Vgr-v0Pt";
+$host = "sg1-ls7.a2hosting.com";
+$username = "info@srilankapetertours.com";
+$password = "Peter@7027";
 
-//------------------------ MAIL ESSENTIALS --------------------------------
-
-$webmail = "info@galle.website";
-$visitorSubject = "Thank You " . $visitor_name . " - Thomas Gall International School";
-$companySubject = "Contact Inquiry - " . $visitor_name;
+$webmail = "info@thomasgalle.com";
+$visitorSubject = "Thank You " . $visitor_name;
+$companySubject = "Application Form Submission - " . $visitor_name;
 
 //----------------------CAPTCHACODE---------------------
 
@@ -81,6 +71,7 @@ $smtp = Mail::factory('smtp', array('host' => $host,
 
 $visitorMail = $smtp->send($visitor_email, $visitorHeaders, $visitor_message);
 $companyMail = $smtp->send($webmail, $companyHeaders, $company_message);
+$companyMail2 = $smtp->send("dinudhanusha@gmail.com", $companyHeaders, $company_message);
 
 if (PEAR::isError($visitorMail && $companyMail)) {
 
