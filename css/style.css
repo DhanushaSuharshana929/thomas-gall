@@ -3473,13 +3473,15 @@ img{
 .contact-form .form-group input[type="password"],
 .contact-form .form-group input[type="tel"],
 .contact-form .form-group input[type="email"],
+.contact-form .form-group input[type="date"],
+.contact-form .form-group input[type="select"],
 .contact-form .form-group select{
     position:relative;
     display:block;
     width:100%;
     line-height:33px;
     padding:10px 25px;
-    color:#222222;
+    color:#a29b9b;
     border:1px solid #ececec;
     height:55px;
     background:#ffffff;
