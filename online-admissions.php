@@ -8,7 +8,7 @@
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
-
+        <link href="registration-form/style.css" rel="stylesheet" type="text/css"/>
         <!--Favicon-->
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -53,34 +53,99 @@
                                 <!-- contact Form -->
                                 <div class="contact-form">
                                     <!--contact Form-->
-                                    <form method="post" action="http://t.commonsupport.xyz/saratov/sendemail.php" id="contact-form">
-
-                                        <div class="form-group">
-                                            <input type="text" name="fullname" placeholder="Name in Full *" required>
-                                        </div>                                     
-
-                                        <div class="form-group">
-                                            <input type="text" name="nationality" placeholder="Nationality *" required>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <label>Full Name</label>
+                                            <div class="form-group">
+                                                <input type="text" id="txtFullName" name="fullname" placeholder="Name in Full *" required>
+                                            </div>
+                                            <span id="spanFullName"></span>
                                         </div>
 
-                                        <div class="form-group">
-                                            <input type="text" name="gender" placeholder="Gender *" required>
+                                        <div class="col-md-12">
+                                            <label>Birthday</label>
+                                            <div class="form-group">
+                                                <input type="date" id="txtBirthday" name="bday" placeholder="Birthdate *" required>
+                                            </div>
+                                            <span id="spanBirthday"></span>
+                                        </div>
+                                        
+                                        <div class="col-md-6">
+
+                                            <div class="form-group">
+                                                <label>Gender</label>
+                                                <select name="gender" id="txtGender" >
+                                                    <option>-- *Select Gender* -- </option>
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                </select>
+                                                <span id="spanGender"></span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-6">
+                                            <label>Nationality</label>
+                                            <div class="form-group">
+                                                <input type="text" id="txtNationality"name="nationality" placeholder="Nationality *" required>
+                                            </div>
+                                            <span id="spanNationality"></span>
+                                        </div>
+                                        
+                                        <div class="col-md-12">
+                                            <label>Email</label>
+                                            <div class="form-group">
+                                                <input type="email" id="txtEmail"name="email" placeholder="Email *" required>
+                                            </div>
+                                            <span id="spanEmail"></span>
+                                        </div>
+                                        
+                                        <div class="col-md-12">
+                                            <label>Contact No</label>
+                                            <div class="form-group">
+                                                <input id="txtPhone" type="text" name="contact" placeholder="Contact No *" required>
+                                            </div>
+                                            <span id="spanPhone"></span>
+                                        </div>
+                                        
+                                        <div class="col-md-12">
+                                            <label>Address</label>
+                                            <div class="form-group">
+                                                <input type="text" id="txtAddress"name="address" placeholder="Address *" required>
+                                            </div>
+                                            <span id="spanAddress"></span>
+                                        </div>
+                                        
+                                        <div class="col-md-5">
+                                            <label>Captcha Code</label>
+                                            <div class="form-group">
+                                                <input type="text" id="captchacode" name="captcha" placeholder="Captcha Code" required>
+                                            </div>
+                                            <span id="capspan"></span>
+                                        </div>
+                                        
+                                        <div class="col-md-3 col-sm-3 col-xs-3 "style="margin-top: 28px;">
+                                            <div class="form-group">
+                                                <center> <?php include './registration-form/captchacode-widget.php'; ?>
+                                                </center>
+
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-4 col-sm-4 col-xs-4" style="margin-top: 28px;">
+
+                                            <div class="form-group">
+                                                <button class="theme-btn btn-style-one" id="btnSubmit" type="submit" name="submit-form">Send Application</button>            
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-12">
+                                            <img src="./booking-form/img/checking.gif"   alt="checking" id="checking"/>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div id="dismessage" align="center"></div>
                                         </div>
 
-                                        <div class="form-group">
-                                            <input type="email" name="email" placeholder="Address *" required>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <input type="text" name="contact" placeholder="Contact No *" required>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <button class="theme-btn btn-style-one" type="submit" name="submit-form">Send Application</button>            
-                                        </div>
-
-                                    </form>
-
+                                    </div>
                                 </div>
                                 <!--End Contact Form -->
                             </div>
@@ -133,7 +198,7 @@
         <script src="js/wow.js"></script>
         <script src="js/validate.js"></script>
         <script src="js/script.js"></script>
-
+        <script src="registration-form/scripts.js" type="text/javascript"></script>
         <!--Google Map APi Key-->
         <script src="http://maps.google.com/maps/api/js?key=AIzaSyBKS14AnP3HCIVlUpPKtGp7CbYuMtcXE2o"></script>
         <script src="js/map-script.js"></script>
