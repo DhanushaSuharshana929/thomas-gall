@@ -193,7 +193,7 @@ function sendForm() {
 
     jQuery.ajax({
 
-        url: "contact-form/send-email.php",
+        url: "registration-form/send-email.php",
 
         cache: false,
 
@@ -211,7 +211,7 @@ function sendForm() {
 
              visitor_phone: jQuery('#txtPhone').val(),
             
-            visitor_country: jQuery('#txtCountry').val(),
+//            visitor_country: jQuery('#txtCountry').val(),
             birthday: jQuery('#txtBirthday').val(),
             gender: jQuery('#txtGender').val(),
             nationality: jQuery('#txtNationility').val(),
@@ -262,7 +262,7 @@ function sendForm() {
                 jQuery('#txtEmail').val("");
 //
               jQuery('#txtPhone').val("");
-                jQuery('#txtCountry').val("");
+//                jQuery('#txtCountry').val("");
 
 //                jQuery('#txtSubject').val("");
 

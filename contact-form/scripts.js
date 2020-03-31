@@ -228,7 +228,7 @@ function sendForm() {
                 jQuery('#txtEmail').val("");
 //
               jQuery('#txtPhone').val("");
-                jQuery('#txtCountry').val("");
+//                jQuery('#txtCountry').val("");
 
 //                jQuery('#txtSubject').val("");
 

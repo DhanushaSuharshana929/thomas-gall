@@ -26,7 +26,7 @@ $customer_msg = 'Hello, and thank you for your interest in ' . $comany_name . '.
 $visitor_name = $_POST['visitor_name'];
 $visitor_email = $_POST['visitor_email'];
 $visitor_phone = $_POST['visitor_phone'];
-$visitor_country = $_POST['visitor_country'];
+//$visitor_country = $_POST['visitor_country'];
 //$visitor_subject = $_POST['subject'];
 $message = $_POST['message'];
 
