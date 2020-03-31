@@ -60,9 +60,9 @@
                             <li class="dropdown"><a href="about.php">ABOUT TGS</a>
                                 <ul>
 
-                                    <li><a href="about.php">Founders Welcome</a></li>
-                                    <li><a href="about.php">Vision, Mission & Core Value</a></li>
-                                    <li><a href="about.php">People (Directors/Staff)</a></li>
+                                    <li><a href="about.php#welcome">Founders Welcome</a></li>
+                                    <li><a href="about.php#vision">Vision, Mission & Core Value</a></li>
+                                    <li><a href="about.php#people">People (Directors/Staff)</a></li>
 
                                 </ul>
                             </li>

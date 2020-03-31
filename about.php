@@ -43,7 +43,8 @@
             <!--End Page Title-->
 
             <!--Founders Welcome Section-->
-            <section class="welcome-section">
+           
+            <section class="welcome-section" id="welcome">
                 <div class="auto-container">
 
                     <!--Start Sec Title-->
@@ -72,11 +73,13 @@
                     
                 </div>
             </section>
+           
             <!--End Welcome Section-->
 
 
             <!--Classes News-->
-            <section class="classes-news-section">
+ 
+            <section class="classes-news-section" id="vision">
                 <div class="auto-container">
 
                     <!--Sec Title-->
@@ -147,16 +150,18 @@
                     </div>
                 </div>
             </section>
+        
             <!--End Classes News-->
-
+            
             <!--values Section-->
-            <section class="featured-section">
+          
+            <section class="featured-section" >
                 <div class="auto-container">
                     <!--Sec Title-->
                     <div class="sec-title centered">
                         <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
                         <h2>TGS Values</h2>
-                        <div class="title">CRRUW</div>
+                        <div class="title">CREW</div>
                         <div class="text">We're a childcare centre with an engaging curriculum backed by qualified, experienced and experienced </div>
                     </div>
                     <!--End Sec Title-->
@@ -239,12 +244,13 @@
                     </div>
                 </div>
             </section>
+            </a>
             <!--End values Section-->
 
 
 
             <!--Teachers Section-->
-            <section class="teachers-section no-padding-btm">
+            <section class="teachers-section no-padding-btm" id="people">
                 <div class="auto-container">
                     <!--Sec Title-->
                     <div class="sec-title centered">
