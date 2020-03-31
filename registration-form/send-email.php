@@ -9,12 +9,12 @@ $todayis = date("l, F j, Y, g:i a");
 $site_link = "http://" . $_SERVER['HTTP_HOST'];
 
 //----------------------- DISPLAY STRINGS ---------------------
-$comany_name = "Romaya Villas";
-$website_name = "www.romayavillas.com";
-$comConNumber = "+94 (77) 234 0423";
-$comEmail = "romayavillas@gmail.com";
-$comOwner = "Suranga Mendis";
-$customer_msg = 'Hello, and thank you for your interest in ' . $comany_name . '.We have received your enquiry, and we will get back to you as soon as possible.';
+$comany_name = "Thomas Gall International School";
+$website_name = "www.thomasgall.com";
+$comConNumber = "+94 (77) 123 0423";
+$comEmail = "thomasgall@gmail.com";
+$comOwner = "HRM";
+$customer_msg = 'Hello, and thank you for your interest in ' . $comany_name . '.We have received your application form, and we will get back to you as soon as possible.';
 
 //----------------------- LOGO ---------------------------------
 
@@ -40,7 +40,7 @@ $password = "*J^.Vgr-v0Pt";
 //------------------------ MAIL ESSENTIALS --------------------------------
 
 $webmail = "info@galle.website";
-$visitorSubject = "Thank You " . $visitor_name . " - Romaya Villas";
+$visitorSubject = "Thank You " . $visitor_name . " - Thomas Gall International School";
 $companySubject = "Contact Inquiry - " . $visitor_name;
 
 //----------------------CAPTCHACODE---------------------
