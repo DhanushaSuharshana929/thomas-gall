@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+include './class/include.php';
+$PRIMARY = new Page(5);
+?><!DOCTYPE html>
 <html>
 
     <!-- Mirrored from t.commonsupport.xyz/saratov/classes-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:51 GMT -->
@@ -56,21 +59,19 @@
                             <section class="blog-classic">
 
                                 <!--News Style Four-->
-                                <div class="news-style-four">
+                                 <div class="news-style-four">
                                     <div class="inner-box">
                                         <!--Image Column-->
                                         <div class="image">
-                                            <a href="learning.php"><img src="images/resource/news-11.jpg" alt="" /></a>
+                                            <a href="learning.php"><img src="upload/page/<?php echo $PRIMARY->image_name?>" alt="" /></a>
                                         </div>
                                         <!--Content Column-->
                                         <div class="content-column">
                                             <div class="inner">
 
-                                                <h3><a href="learning.php">Primary School</a></h3>
+                                                <h3><a href="learning.php"><?php echo $PRIMARY->title?></a></h3>
 
-                                                <div class="text">Class aptent taciti sociosqu adtora torq uent per conubia mauris 
-                                                    eros nostra. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                                                    amet, consect etur, adipisci velit.</div>
+                                                <div class="text"><?php echo $PRIMARY->description?></div>
 
                                             </div>
                                         </div>

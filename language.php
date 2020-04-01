@@ -1,3 +1,7 @@
+<?php
+include './class/include.php';
+$LANGUAGE = new Page(7);
+?>
 <!DOCTYPE html>
 <html>
 
@@ -56,21 +60,19 @@
                             <section class="blog-classic">
 
                                 <!--News Style Four-->
-                                <div class="news-style-four">
+                                  <div class="news-style-four">
                                     <div class="inner-box">
                                         <!--Image Column-->
                                         <div class="image">
-                                            <a href="learning.php"><img src="images/resource/news-11.jpg" alt="" /></a>
+                                            <a href="learning.php"><img src="upload/page/<?php echo $LANGUAGE->image_name?>" alt="" /></a>
                                         </div>
                                         <!--Content Column-->
                                         <div class="content-column">
                                             <div class="inner">
 
-                                                <h3><a href="learning.php">International Language Academy</a></h3>
+                                                <h3><a href="learning.php"><?php echo $LANGUAGE->title?></a></h3>
 
-                                                <div class="text">Class aptent taciti sociosqu adtora torq uent per conubia mauris 
-                                                    eros nostra. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                                                    amet, consect etur, adipisci velit.</div>
+                                                <div class="text"><?php echo $LANGUAGE->description?></div>
 
                                             </div>
                                         </div>
