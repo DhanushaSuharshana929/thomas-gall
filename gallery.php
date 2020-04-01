@@ -1,3 +1,6 @@
+<?php
+include './class/include.php';
+?>
 <!DOCTYPE html>
 <html>
 
@@ -47,94 +50,35 @@
             <section class="gallery-section">
                 <div class="auto-container">
                     <div class="row clearfix">
-
-                        <!--Gallery Item-->
-                        <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="image-box"><img src="images/gallery/1.jpg" alt="">
-                                    <div class="overlay-box">
-                                        <div class="content">
-                                            <a class="lightbox-image" href="images/gallery/1.jpg" title="Image Title Here" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
+                        <?php
+                        $GALLERY = new AlbumPhoto(NULL);
+                        foreach ($GALLERY->all() as $gallery) {
+                            ?>
+                            <!--Gallery Item-->
+                            <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="image-box"><img src="upload/photo-album/gallery/thumb/<?php echo $gallery['image_name']; ?>" alt="">
+                                        <div class="overlay-box">
+                                            <div class="content">
+                                                <a class="lightbox-image" href="upload/photo-album/gallery/<?php echo $gallery['image_name']; ?>" title="<?php echo $gallery['caption']; ?>" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!--Gallery Item-->
-                        <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="image-box"><img src="images/gallery/2.jpg" alt="">
-                                    <div class="overlay-box">
-                                        <div class="content">
-                                            <a class="lightbox-image" href="images/gallery/2.jpg" title="Image Title Here" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Gallery Item-->
-                        <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="image-box"><img src="images/gallery/3.jpg" alt="">
-                                    <div class="overlay-box">
-                                        <div class="content">
-                                            <a class="lightbox-image" href="images/gallery/3.jpg" title="Image Title Here" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Gallery Item-->
-                        <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="image-box"><img src="images/gallery/4.jpg" alt="">
-                                    <div class="overlay-box">
-                                        <div class="content">
-                                            <a class="lightbox-image" href="images/gallery/4.jpg" title="Image Title Here" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Gallery Item-->
-                        <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="image-box"><img src="images/gallery/5.jpg" alt="">
-                                    <div class="overlay-box">
-                                        <div class="content">
-                                            <a class="lightbox-image" href="images/gallery/5.jpg" title="Image Title Here" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Gallery Item-->
-                        <div class="gallery-item col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <div class="image-box"><img src="images/gallery/6.jpg" alt="">
-                                    <div class="overlay-box">
-                                        <div class="content">
-                                            <a class="lightbox-image" href="images/gallery/6.jpg" title="Image Title Here" data-fancybox-group="example-gallery"><span class="icon flaticon-plus"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                            <?php
+                        }
+                        ?>
                     </div>
 
-                   
+
 
                 </div>
             </section>
             <!--End Gallery Section-->
 
-          
+
 
             <!--Main Footer-->
             <?php include './footer.php'; ?>
