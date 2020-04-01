@@ -1,3 +1,10 @@
+
+<?php
+
+include './class/include.php';
+
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -28,110 +35,7 @@
             <!--End Main Header -->
 
             <!--Main Slider-->
-            <section class="main-slider" data-start-height="600" data-slide-overlay="yes">
-
-                <div class="tp-banner-container">
-                    <div class="tp-banner">
-                        <ul>
-
-                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-1.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                                <img src="images/main-slider/image-1.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-
-                                <div class="overlay-slide"></div>
-
-                                <div class="tp-caption sft sfb tp-resizeme"
-                                     data-x="center" data-hoffset="0"
-                                     data-y="center" data-voffset="-180"
-                                     data-speed="1500"
-                                     data-start="0"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><figure class="content-image"><img src="images/main-slider/content-image-1.png" alt=""></figure> </div>
-
-                                <div class="tp-caption sft sfb tp-resizeme"
-                                     data-x="center" data-hoffset="0"
-                                     data-y="center" data-voffset="-70"
-                                     data-speed="1500"
-                                     data-start="500"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><div class="styled-text">welcome to our school</div></div>
-
-                                <div class="tp-caption sfb sfb tp-resizeme"
-                                     data-x="center" data-hoffset="0"
-                                     data-y="center" data-voffset="25"
-                                     data-speed="1500"
-                                     data-start="1000"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><div class="border-heading">Your Childrens Are Safe With us</div></div>
-
-                                <div class="tp-caption sfb sfb tp-resizeme"
-                                     data-x="center" data-hoffset="0"
-                                     data-y="center" data-voffset="115"
-                                     data-speed="1500"
-                                     data-start="1500"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><div class="text">See Our Thomas Gall School Special Features!</div></div>
-
-                                <div class="tp-caption sfb sfb tp-resizeme"
-                                     data-x="center" data-hoffset="0"
-                                     data-y="center" data-voffset="175"
-                                     data-speed="1500"
-                                     data-start="2000"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><a href="admission.php" class="theme-btn btn-style-one">Join Us</a></div>
-
-                            </li>
-
-                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-2.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                                <img src="images/main-slider/image-2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-                            </li>
-
-                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-3.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                                <img src="images/main-slider/image-3.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-                            </li>
-
-                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-4.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                                <img src="images/main-slider/image-4.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-                            </li>
-
-                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-5.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                                <img src="images/main-slider/image-5.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-                            </li>
-
-                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-6.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                                <img src="images/main-slider/image-6.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-                            </li>
-
-                        </ul>
-
-                    </div>
-                </div>
-
-            </section>
+         <?php include './slider.php'; ?>
             <!--End Main Slider-->
 
             <!--Classes News-->
@@ -467,104 +371,48 @@
                     <!--Client Testimonial Carousel-->
                     <div class="client-testimonial-carousel owl-carousel owl-theme">
 
-                        <!--Testimonial Block Two-->
-                        <div class="testimonial-block-two">
-                            <div class="inner-box">
-                                <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                                <div class="text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae...Sed ut perspiciatis, unde  voluptatem...architecto beatae vitae...Sed ut perspiciatis, unde  voluptatem...</div>
-                            </div>
-                        </div>
+                                       <?php
 
-                        <!--Testimonial Block Two-->
-                        <div class="testimonial-block-two">
-                            <div class="inner-box">
-                                <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                                <div class="text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae...Sed ut perspiciatis, unde  voluptatem...architecto beatae vitae...Sed ut perspiciatis, unde  voluptatem...</div>
-                            </div>
-                        </div>
+                                $COMMENT = new Comments(NULL);
 
-                        <!--Testimonial Block Two-->
-                        <div class="testimonial-block-two">
-                            <div class="inner-box">
-                                <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                                <div class="text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae...Sed ut perspiciatis, unde  voluptatem...architecto beatae vitae...Sed ut perspiciatis, unde  voluptatem...</div>
-                            </div>
-                        </div>
+                                foreach ($COMMENT->all() as $comment) {
 
-                        <!--Testimonial Block Two-->
+                                    ?>                 <!--Testimonial Block Two-->
                         <div class="testimonial-block-two">
                             <div class="inner-box">
                                 <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                                <div class="text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae...Sed ut perspiciatis, unde  voluptatem...architecto beatae vitae...Sed ut perspiciatis, unde  voluptatem...</div>
+                                <div class="text"><?php echo $comment['comment']; ?>...</div>
                             </div>
                         </div>
-
-                        <!--Testimonial Block Two-->
-                        <div class="testimonial-block-two">
-                            <div class="inner-box">
-                                <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                                <div class="text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae...Sed ut perspiciatis, unde  voluptatem...architecto beatae vitae...Sed ut perspiciatis, unde  voluptatem...</div>
-                            </div>
-                        </div>
-
-                        <!--Testimonial Block Two-->
-                        <div class="testimonial-block-two">
-                            <div class="inner-box">
-                                <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                                <div class="text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae...Sed ut perspiciatis, unde  voluptatem...architecto beatae vitae...Sed ut perspiciatis, unde  voluptatem...</div>
-                            </div>
-                        </div>
+<?php
+                                }?>
+       
 
                     </div>
 
                     <!--Product Thumbs Carousel-->
                     <div class="client-thumb-outer">
                         <div class="client-thumbs-carousel owl-carousel owl-theme">
+                                                                   <?php
+
+                                $COMMENT = new Comments(NULL);
+
+                                foreach ($COMMENT->all() as $comment) {
+
+                                    ?>
                             <div class="thumb-item">
-                                <figure class="thumb-box"><img src="images/resource/author-1.jpg" alt=""></figure>
+                                <figure class="thumb-box"><img src="upload/comments/<?php echo $comment['image_name']; ?>" alt=""></figure>
                                 <div class="thumb-content">
-                                    <h3>Kristen stewart</h3>
+                                    <h3><?php echo $comment['name']; ?></h3>
                                     <div class="designation">Parents</div>
                                 </div>
                             </div>
-                            <div class="thumb-item">
-                                <figure class="thumb-box"><img src="images/resource/author-2.jpg" alt=""></figure>
-                                <div class="thumb-content">
-                                    <h3>Kristen stewart</h3>
-                                    <div class="designation">Parents</div>
-                                </div>
-                            </div>
-                            <div class="thumb-item">
-                                <figure class="thumb-box"><img src="images/resource/author-3.jpg" alt=""></figure>
-                                <div class="thumb-content">
-                                    <h3>Kristen stewart</h3>
-                                    <div class="designation">Parents</div>
-                                </div>
-                            </div>
-                            <div class="thumb-item">
-                                <figure class="thumb-box"><img src="images/resource/author-1.jpg" alt=""></figure>
-                                <div class="thumb-content">
-                                    <h3>Kristen stewart</h3>
-                                    <div class="designation">Parents</div>
-                                </div>
-                            </div>
-                            <div class="thumb-item">
-                                <figure class="thumb-box"><img src="images/resource/author-2.jpg" alt=""></figure>
-                                <div class="thumb-content">
-                                    <h3>Kristen stewart</h3>
-                                    <div class="designation">Parents</div>
-                                </div>
-                            </div>
-                            <div class="thumb-item">
-                                <figure class="thumb-box"><img src="images/resource/author-3.jpg" alt=""></figure>
-                                <div class="thumb-content">
-                                    <h3>Kristen stewart</h3>
-                                    <div class="designation">Parents</div>
-                                </div>
-                            </div>
+  <?php
+                                }?>
                         </div>
                     </div>
-
+                                
+                    
                 </div>
             </section>
             <!--End Testimonial Section-->
