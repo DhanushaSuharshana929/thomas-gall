@@ -1,3 +1,7 @@
+<?php
+include './class/include.php';
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -45,7 +49,7 @@
             <!--Sidebar Page-->
             <div class="sidebar-page-container">
                 <div class="auto-container">
-             
+
                     <div class="row clearfix">
 
                         <!--Content Side-->
@@ -53,90 +57,57 @@
 
                             <!--Comments Area-->
                             <div class="comments-area">
-                               
+
                                 <!--Comment Box-->
-                                <div class="comment-box">
-                                    <div class="comment">
-                                        <div class="author-thumb">
-                                            <div class="image">
-                                                <img src="images/resource/author-4.jpg" alt="">
+
+
+                                <?php
+                                $COMMENT = new Comments(NULL);
+
+                                foreach ($COMMENT->all() as $key => $comment) {
+                                    if ($key % 2 == 0) {
+                                        ?>
+                                        <div class="comment-box">
+                                            <div class="comment">
+                                                <div class="author-thumb">
+                                                    <div class="image">
+                                                        <img src="upload/comments/<?php echo $comment['image_name']; ?>" alt="">
+                                                    </div>
+                                                    <div class="author-name"><?php echo $comment['name']; ?></div>
+                                                </div>
+
+
+                                                <div class="comment-inner">
+                                                    <div class="comment-info"><div class="comment-time">Mar 7, 2017</div></div>
+                                                    <div class="text"><?php echo $comment['comment']; ?></div>
+                                                </div>
                                             </div>
-                                            <div class="author-name">Game Smith</div>
                                         </div>
-                                        <div class="comment-inner">
-                                            <div class="comment-info"><div class="comment-time">Mar 7, 2017</div></div>
-                                            <div class="text">leads a rag-tag fugitive fleet on a lonely quest - a shining planet known as Earth. So lets make the most of this beautiful day. </div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                <!--Comment Box-->
-                                <div class="comment-box reply-comment">
-                                    <div class="comment">
-                                        <div class="author-thumb">
-                                            <div class="image">
-                                                <img src="images/resource/author-5.jpg" alt="">
+                                        <?php
+                                    }else{
+                                        ?>
+                                        <div class="comment-box reply-comment">
+                                            <div class="comment">
+                                                <div class="author-thumb">
+                                                    <div class="image">
+                                                        <img src="upload/comments/<?php echo $comment['image_name']; ?>" alt="">
+                                                    </div>
+                                                    <div class="author-name"><?php echo $comment['name']; ?></div>
+                                                </div>
+                                                <div class="comment-inner">
+                                                    <div class="comment-info clearfix"><div class="comment-time">Mar 10, 2017</div></div>
+                                                    <div class="text"><?php echo $comment['comment']; ?></div>
+                                                </div>
                                             </div>
-                                            <div class="author-name">Adam Gem</div>
+
                                         </div>
-                                        <div class="comment-inner">
-                                            <div class="comment-info clearfix"><div class="comment-time">Mar 10, 2017</div></div>
-                                            <div class="text">Just two good ol' boys Wouldn't change if they could. Fightin' the system like a true modern day Robin Hood.</div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                
-                                <!--Comment Box-->
-                                <div class="comment-box">
-                                    <div class="comment">
-                                        <div class="author-thumb">
-                                            <div class="image">
-                                                <img src="images/resource/author-6.jpg" alt="">
-                                            </div>
-                                            <div class="author-name">John Doe</div>
-                                        </div>
-                                        <div class="comment-inner">
-                                            <div class="comment-info clearfix"><div class="comment-time">Mar 13, 2017</div></div>
-                                            <div class="text">Ne Go Speed Racer go. And you know where you were then. Mister we could use a man like Herbert Hoover again.</div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                <!--Comment Box-->
-                                <div class="comment-box reply-comment">
-                                    <div class="comment">
-                                        <div class="author-thumb">
-                                            <div class="image">
-                                                <img src="images/resource/author-5.jpg" alt="">
-                                            </div>
-                                            <div class="author-name">Adam Gem</div>
-                                        </div>
-                                        <div class="comment-inner">
-                                            <div class="comment-info clearfix"><div class="comment-time">Mar 10, 2017</div></div>
-                                            <div class="text">Just two good ol' boys Wouldn't change if they could. Fightin' the system like a true modern day Robin Hood.</div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                  <!--Comment Box-->
-                                <div class="comment-box">
-                                    <div class="comment">
-                                        <div class="author-thumb">
-                                            <div class="image">
-                                                <img src="images/resource/author-6.jpg" alt="">
-                                            </div>
-                                            <div class="author-name">John Doe</div>
-                                        </div>
-                                        <div class="comment-inner">
-                                            <div class="comment-info clearfix"><div class="comment-time">Mar 13, 2017</div></div>
-                                            <div class="text">Ne Go Speed Racer go. And you know where you were then. Mister we could use a man like Herbert Hoover again.</div>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                                
-                                
+
+                                        <?php
+                                    }
+                                }
+                                ?>
+
+
                             </div>
                             <!--End Comments Area-->
 
@@ -150,7 +121,7 @@
 
 
             <!--Main Footer-->
-            <?php include './footer.php'; ?>
+<?php include './footer.php'; ?>
             <!--End Main Footer-->
 
         </div>
