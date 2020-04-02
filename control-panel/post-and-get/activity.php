@@ -1,7 +1,5 @@
 <?php
 
-
-
 include_once(dirname(__FILE__) . '/../../class/include.php');
 
 
@@ -14,7 +12,7 @@ if (isset($_POST['create'])) {
 
     $VALID = new Validator();
 
-$ACTIVITY->activity_type = $_POST['activity_type'];
+    $ACTIVITY->activity_type = $_POST['activity_type'];
 
     $ACTIVITY->title = $_POST['title'];
 
@@ -61,9 +59,7 @@ $ACTIVITY->activity_type = $_POST['activity_type'];
             $info = getimagesize($handle->file_dst_pathname);
 
             $imgName = $handle->file_dst_name;
-
         }
-
     }
 
 
@@ -79,7 +75,6 @@ $ACTIVITY->activity_type = $_POST['activity_type'];
     echo json_encode($result);
 
     exit();
-
 }
 
 
@@ -127,16 +122,14 @@ if (isset($_POST['update'])) {
             $info = getimagesize($handle->file_dst_pathname);
 
             $imgName = $handle->file_dst_name;
-
         }
-
     }
 
 
 
     $ACTIVITY = new Activities($_POST['id']);
 
-
+    $ACTIVITY->activity_type = $_POST['activity_type'];
 
     $ACTIVITY->image_name = $_POST['oldImageName'];
 
@@ -148,7 +141,7 @@ if (isset($_POST['update'])) {
 
     $ACTIVITY->update();
 
-   
+
 
 
 
@@ -157,7 +150,6 @@ if (isset($_POST['update'])) {
     echo json_encode($result);
 
     exit();
-
 }
 
 
@@ -177,7 +169,5 @@ if (isset($_POST['save-data'])) {
 
 
         header('Location: ' . $_SERVER['HTTP_REFERER']);
-
     }
-
 }
