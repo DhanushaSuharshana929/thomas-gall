@@ -44,9 +44,8 @@ if (isset($_POST['create'])) {
 
         $handle->file_new_name_body = Helper::randamId();
 
-        $handle->image_x = 350;
-
-        $handle->image_y = 370;
+        $handle->image_x = 148;
+        $handle->image_y = 107;
 
 
 
@@ -107,9 +106,8 @@ if (isset($_POST['update'])) {
 
         $handle->file_new_name_body = $_POST ["oldImageName"];
 
-        $handle->image_x = 350;
-
-        $handle->image_y = 370;
+        $handle->image_x = 148;
+        $handle->image_y = 107;
 
 
 
