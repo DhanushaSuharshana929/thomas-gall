@@ -1,9 +1,11 @@
 
 <?php
-
 include './class/include.php';
-
-
+$STUDENTLIFE1 = new Activities(NULL);
+$ACTIVITY1 = $STUDENTLIFE1->allActiviesByType(1);
+$ACTIVITY2 = $STUDENTLIFE1->allActiviesByType(2);
+$ACTIVITY3 = $STUDENTLIFE1->allActiviesByType(3);
+$ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
 ?>
 <!DOCTYPE html>
 <html>
@@ -35,13 +37,13 @@ include './class/include.php';
             <!--End Main Header -->
 
             <!--Main Slider-->
-         <?php include './slider.php'; ?>
+            <?php include './slider.php'; ?>
             <!--End Main Slider-->
 
             <!--Classes News-->
             <section class="classes-news-section">
                 <div class="auto-container">
-                    
+
                     <div class="row clearfix">
 
                         <!--News Style Two-->
@@ -140,7 +142,7 @@ include './class/include.php';
                         <a href="services.html" class="#">Read More</a>
                     </div>
                     <!--End Sec Title-->
-                    
+
                     <div class="row clearfix">
                         <!--Column/ Pull Left-->
                         <div class="column pull-left col-md-4 col-sm-6 col-xs-12">
@@ -371,48 +373,44 @@ include './class/include.php';
                     <!--Client Testimonial Carousel-->
                     <div class="client-testimonial-carousel owl-carousel owl-theme">
 
-                                       <?php
+                        <?php
+                        $COMMENT = new Comments(NULL);
 
-                                $COMMENT = new Comments(NULL);
-
-                                foreach ($COMMENT->all() as $comment) {
-
-                                    ?>                 <!--Testimonial Block Two-->
-                        <div class="testimonial-block-two">
-                            <div class="inner-box">
-                                <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                                <div class="text"><?php echo $comment['comment']; ?>...</div>
+                        foreach ($COMMENT->all() as $comment) {
+                            ?>                 <!--Testimonial Block Two-->
+                            <div class="testimonial-block-two">
+                                <div class="inner-box">
+                                    <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
+                                    <div class="text"><?php echo $comment['comment']; ?>...</div>
+                                </div>
                             </div>
-                        </div>
-<?php
-                                }?>
-       
+                        <?php }
+                        ?>
+
 
                     </div>
 
                     <!--Product Thumbs Carousel-->
                     <div class="client-thumb-outer">
                         <div class="client-thumbs-carousel owl-carousel owl-theme">
-                                                                   <?php
+                            <?php
+                            $COMMENT = new Comments(NULL);
 
-                                $COMMENT = new Comments(NULL);
-
-                                foreach ($COMMENT->all() as $comment) {
-
-                                    ?>
-                            <div class="thumb-item">
-                                <figure class="thumb-box"><img src="upload/comments/<?php echo $comment['image_name']; ?>" alt=""></figure>
-                                <div class="thumb-content">
-                                    <h3><?php echo $comment['name']; ?></h3>
-                                    <div class="designation">Parents</div>
+                            foreach ($COMMENT->all() as $comment) {
+                                ?>
+                                <div class="thumb-item">
+                                    <figure class="thumb-box"><img src="upload/comments/<?php echo $comment['image_name']; ?>" alt=""></figure>
+                                    <div class="thumb-content">
+                                        <h3><?php echo $comment['name']; ?></h3>
+                                        <div class="designation">Parents</div>
+                                    </div>
                                 </div>
-                            </div>
-  <?php
-                                }?>
+                            <?php }
+                            ?>
                         </div>
                     </div>
-                                
-                    
+
+
                 </div>
             </section>
             <!--End Testimonial Section-->
@@ -429,7 +427,7 @@ include './class/include.php';
                     </div>
                     <div class="row clearfix">
                         <!--Blog Column-->
-                        <div class="blog-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="blog-column col-md-4 col-sm-12 col-xs-12">
                             <!--News Style Three-->
                             <div class="news-style-three">
                                 <div class="row clearfix">
@@ -444,7 +442,7 @@ include './class/include.php';
                                     <div class="content-column col-md-8 col-sm-8 col-xs-12">
                                         <div class="content-inner">
                                             <h3><a href="#">MUSIC ACTIVITIES</a></h3>
-                                            
+
                                         </div>
                                         <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. and playing with as different Education Major...</div>
                                     </div>
@@ -465,7 +463,7 @@ include './class/include.php';
                                     <div class="content-column col-md-8 col-sm-8 col-xs-12">
                                         <div class="content-inner">
                                             <h3><a href="#">SCHOOL ANNIVERSARY</a></h3>
-                                            
+
                                         </div>
                                         <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. and playing with as different Education Major...</div>
                                     </div>
@@ -486,7 +484,7 @@ include './class/include.php';
                                     <div class="content-column col-md-8 col-sm-8 col-xs-12">
                                         <div class="content-inner">
                                             <h3><a href="#">BIO SPECIAL</a></h3>
-                                            
+
                                         </div>
                                         <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. and playing with as different Education Major...</div>
                                     </div>
@@ -495,7 +493,7 @@ include './class/include.php';
 
                         </div>
                         <!--Tab Column-->
-                        <div class="tab-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="tab-column col-md-8 col-sm-12 col-xs-12">
 
                             <!--Product Info Tabs-->
                             <div class="product-info-tabs">
@@ -504,10 +502,10 @@ include './class/include.php';
 
                                     <!--Tab Btns-->
                                     <ul class="tab-btns tab-buttons clearfix">
-                                        <li data-tab="#education" class="tab-btn active-btn">Education</li>
-                                        <li data-tab="#activity" class="tab-btn">Actvities</li>
-                                        <li data-tab="#painting" class="tab-btn">News</li>
-                                        <li data-tab="#games" class="tab-btn">About</li>
+                                        <li data-tab="#education" class="tab-btn active-btn">Student Support & Wellbeing</li>
+                                        <li data-tab="#activity" class="tab-btn">Charity And Community</li>
+                                        <li data-tab="#painting" class="tab-btn">Curricular Activities</li>
+                                        <li data-tab="#games" class="tab-btn">Cultural Event</li>
                                     </ul>
 
                                     <!--Tabs Container-->
@@ -516,92 +514,91 @@ include './class/include.php';
                                         <!--Tab / Active Tab-->
                                         <div class="tab active-tab" id="education">
                                             <div class="content">
-                                                <!--Tab Boxed-->
-                                                <div class="tab-boxed">
-                                                    <div class="inner-box">
-                                                        <div class="image">
-                                                            <img src="images/resource/tab-1.jpg" alt="" />
-                                                        </div>
-                                                        <h3>Let the Learning Begin</h3>
-                                                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  and playing  with as different Education Major. </div>
-                                                    </div>
-                                                </div>
 
+                                                <?php foreach ($ACTIVITY1 as $Studentsnw)
+                                                    
+                                                    ?>
                                                 <!--Tab Boxed-->
                                                 <div class="tab-boxed">
                                                     <div class="inner-box">
                                                         <div class="image">
-                                                            <img src="images/resource/tab-2.jpg" alt="" />
+                                                            <img src="upload/activity/<?php echo $Studentsnw['image_name'] ?>" alt="" />
                                                         </div>
-                                                        <h3>Special Cources programes</h3>
-                                                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  and playing  with as different Education Major. </div>
+                                                        <h3><?php echo $Studentsnw['title'] ?></h3>
+                                                        <div class="text"><?php echo $Studentsnw['description'] ?> </div>
                                                     </div>
                                                 </div>
+<?php ?>
+
 
                                             </div>
                                         </div>
 
                                         <!--Tab-->
                                         <div class="tab" id="activity">
-                                            <div class="content">
+                                               <div class="content">
 
+                                                <?php foreach ($ACTIVITY2 as $charity)
+                                                    
+                                                    ?>
                                                 <!--Tab Boxed-->
                                                 <div class="tab-boxed">
                                                     <div class="inner-box">
                                                         <div class="image">
-                                                            <img src="images/resource/tab-2.jpg" alt="" />
+                                                            <img src="upload/activity/<?php echo $charity['image_name'] ?>" alt="" />
                                                         </div>
-                                                        <h3>Special Cources programes</h3>
-                                                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  and playing  with as different Education Major. </div>
+                                                        <h3><?php echo $charity['title'] ?></h3>
+                                                        <div class="text"><?php echo $charity['description'] ?> </div>
                                                     </div>
                                                 </div>
+<?php ?>
 
-                                                <!--Tab Boxed-->
-                                                <div class="tab-boxed">
-                                                    <div class="inner-box">
-                                                        <div class="image">
-                                                            <img src="images/resource/tab-1.jpg" alt="" />
-                                                        </div>
-                                                        <h3>Let the Learning Begin</h3>
-                                                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  and playing  with as different Education Major. </div>
-                                                    </div>
-                                                </div>
 
                                             </div>
                                         </div>
 
                                         <!--Tab-->
                                         <div class="tab" id="painting">
-                                            <div class="content">
+                                           <div class="content">
 
+                                                <?php foreach ($ACTIVITY3 as $cirricular)
+                                                    
+                                                    ?>
                                                 <!--Tab Boxed-->
                                                 <div class="tab-boxed">
                                                     <div class="inner-box">
                                                         <div class="image">
-                                                            <img src="images/resource/tab-1.jpg" alt="" />
+                                                            <img src="upload/activity/<?php echo $cirricular['image_name'] ?>" alt="" />
                                                         </div>
-                                                        <h3>Let the Learning Begin</h3>
-                                                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  and playing  with as different Education Major. </div>
+                                                        <h3><?php echo $cirricular['title'] ?></h3>
+                                                        <div class="text"><?php echo $cirricular['description'] ?> </div>
                                                     </div>
                                                 </div>
+<?php ?>
+
 
                                             </div>
                                         </div>
 
                                         <!--Tab-->
                                         <div class="tab" id="games">
-                                            <div class="content">
+                                                 <div class="content">
 
+                                                <?php foreach ($ACTIVITY4 as $cultural)
+                                                    
+                                                    ?>
                                                 <!--Tab Boxed-->
                                                 <div class="tab-boxed">
                                                     <div class="inner-box">
                                                         <div class="image">
-                                                            <img src="images/resource/tab-2.jpg" alt="" />
+                                                            <img src="upload/activity/<?php echo $cultural['image_name'] ?>" alt="" />
                                                         </div>
-                                                        <h3>Special Cources programes</h3>
-                                                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  and playing  with as different Education Major. </div>
+                                                        <h3><?php echo $cultural['title'] ?></h3>
+                                                        <div class="text"><?php echo $cultural['description'] ?> </div>
                                                     </div>
                                                 </div>
+<?php ?>
+
 
                                             </div>
                                         </div>
@@ -619,13 +616,13 @@ include './class/include.php';
             <!--End Blog Section-->
 
 
-          
+
 
 
             <!--Main Footer-->
-            <?php include './footer.php'; ?>
+<?php include './footer.php'; ?>
             <!--End Main Footer-->
-            
+
         </div>
         <!--End pagewrapper-->
 

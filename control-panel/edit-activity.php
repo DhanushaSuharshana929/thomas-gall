@@ -1,4 +1,4 @@
-<?php
+   <?php
 include_once(dirname(__FILE__) . '/../class/include.php');
 include_once(dirname(__FILE__) . '/auth.php');
 
@@ -6,7 +6,10 @@ $id = '';
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
 }
+
 $ACTIVITY = new Activities($id);
+$TOUR = new TourType($ACTIVITY->activity_type);
+var_dump($ACTIVITY);        
 ?> 
 
 <!DOCTYPE html>
@@ -57,7 +60,28 @@ $ACTIVITY = new Activities($id);
                             </div>
                             <div class="body">
                                 <form class="form-horizontal" method="post" id="form-data" enctype="multipart/form-data"> 
+                                    <div class="col-md-12">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
 
+                                                <select class="form-control" name="activity_type" id="activity_type">
+                                                    <option value=""> <?php  echo $TOUR->name; ?></option>
+
+                                                    <?php
+                                                    $TOUR_TYPE = new TourType(NULL);
+                                                    foreach ($TOUR_TYPE->all() as $key => $tour_type) {
+                                                        ?>
+                                                        <option value=" <?php echo $tour_type['id'] ?>">
+                                                            <?php echo $tour_type['name'] ?>
+                                                        </option> 
+                                                    <?php } ?>
+
+
+                                                </select>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-md-12">
                                         <div class="form-group form-float">
                                             <div class="form-line">
