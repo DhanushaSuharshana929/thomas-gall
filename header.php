@@ -120,7 +120,7 @@
             </div>
 
             <!--Right Col-->
-            <div class="right-col pull-right">
+            <div class="right-col alignh">
                 <!-- Main Menu -->
                 <nav class="main-menu">
                     <div class="navbar-header">
@@ -138,14 +138,14 @@
                             <li class="dropdown"><a href="about.php">ABOUT TGS</a>
                                 <ul>
 
-                                    <li><a href="about.php">Founders Welcome</a></li>
-                                    <li><a href="about.php">Vision, Mission & Core Value</a></li>
-                                    <li><a href="about.php">People (Directors/Staff)</a></li>
+                                    <li><a href="about.php#welcome">Founders Welcome</a></li>
+                                    <li><a href="about.php#vision">Vision, Mission & Core Value</a></li>
+                                    <li><a href="about.php#people">People (Directors/Staff)</a></li>
 
                                 </ul>
                             </li>
 
-                            <li class="dropdown"><a href="learning.php">LEARNING</a>
+                            <a href="learning.php"><li class="dropdown">LEARNING
                                 <ul>
                                     <li><a href="early-years.php">Early years</a></li>
                                     <li><a href="primary.php">Primary</a></li>
@@ -153,7 +153,7 @@
                                     <li><a href="language.php">International Language Academy</a></li>
                                     <li><a href="testimonials.php">Testimonials</a></li>
                                 </ul>
-                            </li>
+                            </li></a>
 
                             <li class="dropdown"><a href="student-life.php">STUDENT LIFE</a>
                                 <ul>

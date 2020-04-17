@@ -755,6 +755,9 @@ img{
     -ms-transition:all 500ms ease;
     -o-transition:all 500ms ease;	
 }
+.alignh{
+    float: right;
+}
 
 .main-menu .navbar-collapse > ul li.dropdown .dropdown-btn{
     position:absolute;
@@ -1715,7 +1718,7 @@ img{
 .testimonial-section{
     position:relative;
     background-size:cover;
-    padding:115px 0px 80px;
+    padding:35px 0px 5px;
     background-color:rgba(16,9,236,0.95);
 }
 
@@ -1890,7 +1893,7 @@ img{
 
 .classes-section{
     position:relative;
-    padding:100px 0px 0px;
+    padding:80px 0px 65px 0px   ;  
 }
 
 .clasic-block{
@@ -4516,4 +4519,8 @@ img{
 
 .accordion-box .block .content p:last-child{
     margin-bottom:0px;	
+}
+
+.alignh{
+    float: right;
 }
