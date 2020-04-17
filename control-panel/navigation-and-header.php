@@ -570,7 +570,7 @@
                 <li class="hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
-                        <span>Tour Type</span>
+                        <span>Activiy Type</span>
                     </a>
                     <ul class="ml-menu">
                         <li>

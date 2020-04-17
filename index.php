@@ -522,7 +522,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                                 <div class="tab-boxed">
                                                     <div class="inner-box">
                                                         <div class="image">
-                                                            <img src="upload/activity/<?php echo $Studentsnw['image_name'] ?>" alt="" />
+                                                            <img src="upload/activity/thumb/<?php echo $Studentsnw['image_name'] ?>" alt="" />
                                                         </div>
                                                         <h3><?php echo $Studentsnw['title'] ?></h3>
                                                         <div class="text"><?php echo $Studentsnw['description'] ?> </div>
@@ -545,7 +545,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                                 <div class="tab-boxed">
                                                     <div class="inner-box">
                                                         <div class="image">
-                                                            <img src="upload/activity/<?php echo $charity['image_name'] ?>" alt="" />
+                                                            <img src="upload/activity/thumb/<?php echo $charity['image_name'] ?>" alt="" />
                                                         </div>
                                                         <h3><?php echo $charity['title'] ?></h3>
                                                         <div class="text"><?php echo $charity['description'] ?> </div>
@@ -568,7 +568,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                                 <div class="tab-boxed">
                                                     <div class="inner-box">
                                                         <div class="image">
-                                                            <img src="upload/activity/<?php echo $cirricular['image_name'] ?>" alt="" />
+                                                            <img src="upload/activity/thumb/<?php echo $cirricular['image_name'] ?>" alt="" />
                                                         </div>
                                                         <h3><?php echo $cirricular['title'] ?></h3>
                                                         <div class="text"><?php echo $cirricular['description'] ?> </div>
@@ -591,7 +591,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                                 <div class="tab-boxed">
                                                     <div class="inner-box">
                                                         <div class="image">
-                                                            <img src="upload/activity/<?php echo $cultural['image_name'] ?>" alt="" />
+                                                            <img src="upload/activity/thumb/<?php echo $cultural['image_name'] ?>" alt="" />
                                                         </div>
                                                         <h3><?php echo $cultural['title'] ?></h3>
                                                         <div class="text"><?php echo $cultural['description'] ?> </div>

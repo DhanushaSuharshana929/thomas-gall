@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Description of TourTypes
+ * Description of ActivityTypes
  *
  * @author U s E r ¨
  */
-class TourType {
+class ActivityType {
 
     public $id;
     public $name;
@@ -102,7 +102,7 @@ class TourType {
         return $db->readQuery($query);
     }
 
-    public function GetTourTypeById($id) {
+    public function GetActivityTypeById($id) {
 
         $query = "SELECT * FROM `tour_type` WHERE `id` = '" . $id . "' ORDER BY `sort` ASC";
 

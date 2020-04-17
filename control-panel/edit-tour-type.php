@@ -6,7 +6,7 @@ $id = '';
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
 }
-$TOUR_TYPE = new TourType($id);
+$ACTIVITY_TYPE = new ActivityType($id);
 ?> 
 
 <!DOCTYPE html>
@@ -60,7 +60,7 @@ $TOUR_TYPE = new TourType($id);
                                     <div class="col-md-12">
                                         <div class="form-group form-float">
                                             <div class="form-line">
-                                                <input type="text" id="title" class="form-control"  value="<?php echo $TOUR_TYPE->name; ?>"  name="name"  required="TRUE">
+                                                <input type="text" id="title" class="form-control"  value="<?php echo $ACTIVITY_TYPE->name; ?>"  name="name"  required="TRUE">
                                                 <label class="form-label">Title</label>
                                             </div>
                                         </div>
@@ -69,9 +69,9 @@ $TOUR_TYPE = new TourType($id);
                                     <div class="col-md-12">                                       
                                         <div class="form-group form-float">
                                             <div class="form-line">
-                                                <input type="file"   class="form-control" value="<?php echo $TOUR_TYPE->image_name; ?>"  name="image">
-                                                <input type="hidden" id="image" class="form-control" value="<?php echo $TOUR_TYPE->image_name; ?>"  name="image">
-                                                <img src="../upload/tour-type/thumb/<?php echo $TOUR_TYPE->image_name; ?>" id="image" class="view-edit-img img img-responsive img-thumbnail" name="image" alt="old image">
+                                                <input type="file"   class="form-control" value="<?php echo $ACTIVITY_TYPE->image_name; ?>"  name="image">
+                                                <input type="hidden" id="image" class="form-control" value="<?php echo $ACTIVITY_TYPE->image_name; ?>"  name="image">
+                                                <img src="../upload/tour-type/thumb/<?php echo $ACTIVITY_TYPE->image_name; ?>" id="image" class="view-edit-img img img-responsive img-thumbnail" name="image" alt="old image">
                                             </div>
                                         </div>
                                     </div>
@@ -80,7 +80,7 @@ $TOUR_TYPE = new TourType($id);
                                     <div class="col-sm-12">
                                         <div class="form-group form-float">
                                             <div class="form-line">
-                                                <input type="text" id="short_description" class="form-control" value="<?php echo $TOUR_TYPE->short_description; ?>"  name="short_description">
+                                                <input type="text" id="short_description" class="form-control" value="<?php echo $ACTIVITY_TYPE->short_description; ?>"  name="short_description">
                                                 <label class="form-label">Short Description</label>
                                             </div>
                                         </div>
@@ -88,13 +88,13 @@ $TOUR_TYPE = new TourType($id);
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <label for="description">Description</label>
                                         <div class="form-line">
-                                            <textarea id="description" name="description" class="form-control" rows="5"><?php echo $TOUR_TYPE->description; ?></textarea> 
+                                            <textarea id="description" name="description" class="form-control" rows="5"><?php echo $ACTIVITY_TYPE->description; ?></textarea> 
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <input type="hidden" name="update"value="update"/>
-                                        <input type="hidden" id="oldImageName" value="<?php echo $TOUR_TYPE->image_name; ?>" name="oldImageName"/>
-                                        <input type="hidden" id="id" value="<?php echo $TOUR_TYPE->id; ?>" name="id"/>
+                                        <input type="hidden" id="oldImageName" value="<?php echo $ACTIVITY_TYPE->image_name; ?>" name="oldImageName"/>
+                                        <input type="hidden" id="id" value="<?php echo $ACTIVITY_TYPE->id; ?>" name="id"/>
 <!--                                            <input type="hidden" id="authToken" value="<?php echo $_SESSION["authToken"]; ?>" name="authToken"/>-->
                                         <button type="submit" class="btn btn-primary m-t-15 waves-effect" id="update" value="update">Save Changes</button>
                                     </div>

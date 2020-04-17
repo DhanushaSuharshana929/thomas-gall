@@ -78,10 +78,12 @@
                             </li>
                             <li class="dropdown"><a href="student-life.php">STUDENT LIFE</a>
                                 <ul>
-                                    <li><a href="student-life.php">Student Support & Wellbeing</a></li>
-                                    <li><a href="student-life.php">Charity and Community</a></li>
-                                    <li><a href="student-life.php">Circular Activity</a></li>
-                                    <li><a href="student-life.php">Cultural Events</a></li>                                 
+                                    <?php 
+                                    $ACTIVITYNAV=new ActivityType(Null);
+                                    
+                                    foreach($ACTIVITYNAV->all() as $st ){?>
+                                    <li><a href="student-life.php?type=<?php echo $st['id']?>"><?php echo $st['name']?></a></li>
+                                    <?php  }?>  
                                 </ul>
                             </li>
 
@@ -157,10 +159,12 @@
 
                             <li class="dropdown"><a href="student-life.php">STUDENT LIFE</a>
                                 <ul>
-                                    <li><a href="student-life.php">Student Support & Wellbeing</a></li>
-                                    <li><a href="student-life.php">Charity and Community</a></li>
-                                    <li><a href="student-life.php">Circular Activity</a></li>
-                                    <li><a href="student-life.php">Cultural Events</a></li>                                 
+                                        <?php 
+                                    $ACTIVITYNAV=new ActivityType(Null);
+                                    
+                                    foreach($ACTIVITYNAV->all() as $st ){?>
+                                    <li><a href="student-life.php?type=<?php echo $st['id']?>"><?php echo $st['name']?></a></li>
+                                    <?php  }?>  
                                 </ul>
                             </li>
 
