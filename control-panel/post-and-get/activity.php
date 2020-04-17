@@ -80,22 +80,18 @@ if (isset($_POST['create'])) {
 
 if (isset($_POST['update'])) {
 
-
-
-
-    $dir_dest = '../../upload/activity';
+   $dir_dest = '../../upload/activity/';
     $dir_dest_thumb = '../../upload/activity/thumb/';
 
     $handle = new Upload($_FILES['image']);
 
-    $imgName = null;
-    $img = Helper::randamId();
+    $img = $_POST ["oldImageName"];
 
     if ($handle->uploaded) {
         $handle->image_resize = true;
         $handle->file_new_name_body = TRUE;
         $handle->file_overwrite = TRUE;
-        $handle->file_new_name_ext = 'jpg';
+        $handle->file_new_name_ext = FALSE;
         $handle->image_ratio_crop = 'C';
         $handle->file_new_name_body = $img;
         $handle->image_x = 600;
@@ -105,14 +101,14 @@ if (isset($_POST['update'])) {
 
         if ($handle->processed) {
             $info = getimagesize($handle->file_dst_pathname);
-            $imgName = $handle->file_dst_name;
+            $img = $handle->file_dst_name;
         }
 
 
         $handle->image_resize = true;
         $handle->file_new_name_body = TRUE;
         $handle->file_overwrite = TRUE;
-        $handle->file_new_name_ext = 'jpg';
+        $handle->file_new_name_ext = FALSE;
         $handle->image_ratio_crop = 'C';
         $handle->file_new_name_body = $img;
         $handle->image_x = 148;
@@ -122,9 +118,10 @@ if (isset($_POST['update'])) {
 
         if ($handle->processed) {
             $info = getimagesize($handle->file_dst_pathname);
-            $imgName = $handle->file_dst_name;
+            $img = $handle->file_dst_name;
         }
     }
+
 
 
     $ACTIVITY = new Activities($_POST['id']);
