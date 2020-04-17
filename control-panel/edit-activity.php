@@ -8,8 +8,8 @@ if (isset($_GET['id'])) {
 }
 
 $ACTIVITY = new Activities($id);
-$TOUR = new TourType($ACTIVITY->activity_type);
-var_dump($ACTIVITY);        
+$ACT = new ActivityType($ACTIVITY->activity_type);
+     
 ?> 
 
 <!DOCTYPE html>
@@ -65,14 +65,14 @@ var_dump($ACTIVITY);
                                             <div class="form-line">
 
                                                 <select class="form-control" name="activity_type" id="activity_type">
-                                                    <option value=""> <?php  echo $TOUR->name; ?></option>
+                                                    <option value="<?php echo $ACT->id ?>"> <?php  echo $ACT->name; ?></option>
 
                                                     <?php
-                                                    $TOUR_TYPE = new TourType(NULL);
-                                                    foreach ($TOUR_TYPE->all() as $key => $tour_type) {
+                                                    $ACTIVITY_TYPE = new ActivityType(NULL);
+                                                    foreach ($ACTIVITY_TYPE->all() as $key => $activity_type) {
                                                         ?>
-                                                        <option value=" <?php echo $tour_type['id'] ?>">
-                                                            <?php echo $tour_type['name'] ?>
+                                                        <option value=" <?php echo $activity_type['id'] ?>">
+                                                            <?php echo $activity_type['name'] ?>
                                                         </option> 
                                                     <?php } ?>
 

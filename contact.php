@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+include './class/include.php';
+?><!DOCTYPE html>
 <html>
 
     <!-- Mirrored from t.commonsupport.xyz/saratov/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:55:19 GMT -->

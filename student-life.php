@@ -1,7 +1,11 @@
+<?php
+include './class/include.php';
+$STUDENT = new Activities(NULL);
+$type = $_GET['type'];
+?>
 <!DOCTYPE html>
 <html>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/classes.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:39 GMT -->
     <head>
         <meta charset="utf-8">
         <title>Thomas Gall School | Activities</title>
@@ -36,7 +40,7 @@
                         <ul class="bread-crumb">
                             <li><a href="index.php">Home</a></li>
                             <li>Student Life</li>
-                            
+
                         </ul>
                     </div>
                 </div>
@@ -49,166 +53,47 @@
                     <div class="row clearfix">
 
                         <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="#"><img src="images/resource/news-4.jpg" alt="" /></a>
-                                       
-                                        <div class="overlay-layer">
-                                            <a href="#"><span class="icon flaticon-unlink"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-                                        <div class="post-date">Mar 27, 2020</div>
-                                        <h3><a href="#">Lorem Ipsum</a></h3>
-                                        
-                                        <a href="view-student-life.php" class="theme-btn btn-style-one">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?php
+                        foreach ($STUDENT->allActiviesByType($type) as $studentlife) {
+                            ?>
+                            <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+                                <div class="inner-box">
+                                    <!--Image Column-->
+                                    <div class="image-column">
+                                        <div class="image">
+                                            <a href="#"><img src="upload/activity/<?php echo  $studentlife['image_name']?>" alt="" /></a>
 
-                        <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="#"><img src="images/resource/news-4.jpg" alt="" /></a>
-                                       
-                                        <div class="overlay-layer">
-                                            <a href="#"><span class="icon flaticon-unlink"></span></a>
+                                            <div class="overlay-layer">
+                                                <a href="view-student-life.php?id=<?php echo  $studentlife['id']?>"><span class="icon flaticon-unlink"></span></a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-                                        <div class="post-date">Mar 27, 2020</div>
-                                        <h3><a href="#">Lorem Ipsum</a></h3>
-                                        
-                                        <a href="view-student-life.php" class="theme-btn btn-style-one">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                    <!--Content Column-->
+                                    <div class="content-column">
+                                        <div class="inner">
+                                            <h3><a href="view-student-life.php?id=<?php echo  $studentlife['id']?>"><?php echo  $studentlife['title']?></a></h3>
 
-                        <!--News Style Two-->
-                         <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="#"><img src="images/resource/news-4.jpg" alt="" /></a>
-                                       
-                                        <div class="overlay-layer">
-                                            <a href="#"><span class="icon flaticon-unlink"></span></a>
+                                            <a href="view-student-life.php?id=<?php echo  $studentlife['id']?>" class="theme-btn btn-style-one">View More</a>
                                         </div>
                                     </div>
                                 </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-                                        <div class="post-date">Mar 27, 2020</div>
-                                        <h3><a href="#">Lorem Ipsum</a></h3>
-                                        
-                                        <a href="view-student-life.php" class="theme-btn btn-style-one">View More</a>
-                                    </div>
-                                </div>
                             </div>
-                        </div>
-                        
-                        <!--News Style Two-->
-                        <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="#"><img src="images/resource/news-4.jpg" alt="" /></a>
-                                       
-                                        <div class="overlay-layer">
-                                            <a href="#"><span class="icon flaticon-unlink"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-                                        <div class="post-date">Mar 27, 2020</div>
-                                        <h3><a href="#">Lorem Ipsum</a></h3>
-                                        
-                                        <a href="view-student-life.php" class="theme-btn btn-style-one">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <!--News Style Two-->
-                         <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="#"><img src="images/resource/news-4.jpg" alt="" /></a>
-                                       
-                                        <div class="overlay-layer">
-                                            <a href="#"><span class="icon flaticon-unlink"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-                                        <div class="post-date">Mar 27, 2020</div>
-                                        <h3><a href="#">Lorem Ipsum</a></h3>
-                                        
-                                        <a href="view-student-life.php" class="theme-btn btn-style-one">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--News Style Two-->
-                         <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <!--Image Column-->
-                                <div class="image-column">
-                                    <div class="image">
-                                        <a href="#"><img src="images/resource/news-4.jpg" alt="" /></a>
-                                       
-                                        <div class="overlay-layer">
-                                            <a href="#"><span class="icon flaticon-unlink"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Content Column-->
-                                <div class="content-column">
-                                    <div class="inner">
-                                        <div class="post-date">Mar 27, 2020</div>
-                                        <h3><a href="#">Lorem Ipsum</a></h3>
-                                        
-                                        <a href="view-student-life.php" class="theme-btn btn-style-one">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <?php
+}
+?>
 
 
                     </div>
 
-                   
+
                 </div>
             </section>
 
-            
 
-             <!--Main Footer-->
-            <?php include './footer.php'; ?>
+
+            <!--Main Footer-->
+<?php include './footer.php'; ?>
             <!--End Main Footer-->
 
         </div>
@@ -228,6 +113,5 @@
         <script src="js/script.js"></script>
     </body>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/classes.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:51 GMT -->
 </html>
 

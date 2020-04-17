@@ -56,11 +56,11 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                     <option value=""> --Please Select the activity type -- </option>
 
                                                     <?php
-                                                    $TOUR_TYPE = new TourType(NULL);
-                                                    foreach ($TOUR_TYPE->all() as $key => $tour_type) {
+                                                    $ACTIVITY_TYPE = new ActivityType(NULL);
+                                                    foreach ($ACTIVITY_TYPE->all() as $key => $ACTIVITY_type) {
                                                         ?>
-                                                        <option value=" <?php echo $tour_type['id'] ?>">
-                                                            <?php echo $tour_type['name'] ?>
+                                                        <option value=" <?php echo $ACTIVITY_type['id'] ?>">
+                                                            <?php echo $ACTIVITY_type['name'] ?>
                                                         </option> 
                                                     <?php } ?>
 
