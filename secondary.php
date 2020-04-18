@@ -6,10 +6,13 @@ $SECONDARY = new Page(6);
 <!DOCTYPE html>
 <html>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/classes-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:51 GMT -->
     <head>
         <meta charset="utf-8">
         <title>Thomas Gall School | Primary School</title>
+        <meta name="description" content="We will give your chld a standard secondary education to gain massive knowladge and tosharp their skills in each and every factor.We got a great familier and healty enviroment to keep your child intrested in learning.We have an experienced teachers&staff who will guide your child to success." />
+        <meta name="keywords" content="thomas gall international school,thoams gall,international schools in galle,english medium preschool,english medium schools galle,primary school galle,secondary school galle,international language academy,private schools galle,best international school,schools in galle,best private schools galle,language acedemy galle,primary education,secondary education" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -21,8 +24,7 @@ $SECONDARY = new Page(6);
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link href="css/responsive.css" rel="stylesheet">
-        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
     </head>
 
 
@@ -50,7 +52,7 @@ $SECONDARY = new Page(6);
             </section>
             <!--End Page Title-->
 
-            
+
             <div class="sidebar-page-container">
                 <div class="auto-container">
                     <div class="row clearfix">
@@ -65,15 +67,15 @@ $SECONDARY = new Page(6);
                                     <div class="inner-box">
                                         <!--Image Column-->
                                         <div class="image">
-                                            <a href="learning.php"><img src="upload/page/<?php echo $SECONDARY->image_name?>" alt="" /></a>
+                                            <a href="learning.php"><img src="upload/page/<?php echo $SECONDARY->image_name ?>" alt="" /></a>
                                         </div>
                                         <!--Content Column-->
                                         <div class="content-column">
                                             <div class="inner">
 
-                                                <h3><a href="learning.php"><?php echo $SECONDARY->title?></a></h3>
+                                                <h3><a href="learning.php"><?php echo $SECONDARY->title ?></a></h3>
 
-                                                <div class="text"><?php echo $SECONDARY->description?></div>
+                                                <div class="text"><?php echo $SECONDARY->description ?></div>
 
                                             </div>
                                         </div>
@@ -103,7 +105,7 @@ $SECONDARY = new Page(6);
                             </aside>
                         </div>
                         <!--End Sidebar-->
-                        
+
                     </div>
                 </div>
             </div>

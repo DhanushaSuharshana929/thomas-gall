@@ -4,10 +4,14 @@ include './class/include.php';
 <!DOCTYPE html>
 <html>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:55:19 GMT -->
     <head>
         <meta charset="utf-8">
         <title>Thomas Gall School | Online Admission</title>
+        <meta name="description" content="Thomas Gall International is the most leading international school in galle area.You can submit your details through the online form.late on,we will contact you over the phone for the further details." />
+        <meta name="keywords" content="thomas gall international school,thoams gall,international schools in galle,english medium preschool,english medium schools galle,primary school galle,secondary school galle,international language academy,private schools galle,best international school,schools in galle,best private schools galle,language acedemy galle,primary education,secondary education" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -72,7 +76,7 @@ include './class/include.php';
                                             </div>
                                             <span id="spanBirthday"></span>
                                         </div>
-                                        
+
                                         <div class="col-md-6">
 
                                             <div class="form-group">
@@ -85,7 +89,7 @@ include './class/include.php';
                                                 <span id="spanGender"></span>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="col-md-6">
                                             <label>Nationality</label>
                                             <div class="form-group">
@@ -93,7 +97,7 @@ include './class/include.php';
                                             </div>
                                             <span id="spanNationality"></span>
                                         </div>
-                                        
+
                                         <div class="col-md-12">
                                             <label>Email</label>
                                             <div class="form-group">
@@ -101,7 +105,7 @@ include './class/include.php';
                                             </div>
                                             <span id="spanEmail"></span>
                                         </div>
-                                        
+
                                         <div class="col-md-12">
                                             <label>Contact No</label>
                                             <div class="form-group">
@@ -109,7 +113,7 @@ include './class/include.php';
                                             </div>
                                             <span id="spanPhone"></span>
                                         </div>
-                                        
+
                                         <div class="col-md-12">
                                             <label>Address</label>
                                             <div class="form-group">
@@ -117,7 +121,7 @@ include './class/include.php';
                                             </div>
                                             <span id="spanAddress"></span>
                                         </div>
-                                        
+
                                         <div class="col-md-5">
                                             <label>Captcha Code</label>
                                             <div class="form-group">
@@ -125,7 +129,7 @@ include './class/include.php';
                                             </div>
                                             <span id="capspan"></span>
                                         </div>
-                                        
+
                                         <div class="col-md-3 col-sm-3 col-xs-3 "style="margin-top: 28px;">
                                             <div class="form-group">
                                                 <center> <?php include './registration-form/captchacode-widget.php'; ?>
@@ -133,7 +137,7 @@ include './class/include.php';
 
                                             </div>
                                         </div>
-                                        
+
                                         <div class="col-md-4 col-sm-4 col-xs-4" style="margin-top: 28px;">
 
                                             <div class="form-group">

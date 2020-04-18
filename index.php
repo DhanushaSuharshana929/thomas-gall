@@ -11,6 +11,11 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
 <html>
     <head>
         <meta charset="utf-8">
+
+        <meta name="description" content="Thomas Gall International is the most leading international school in galle area.We got healthy and suitable learning enviroment which helps keep your child safe and to devolop their skills.We will offer your child a higherly Standard Primary and Secondary education in English medium with a talented and experienced teacher and staff.We also maintain an international language academy to build up strong foundation to gain a supurior skill in English " />
+        <meta name="keywords" content="thomas gall international school,thoams gall,international schools in galle,english medium preschool,english medium schools galle,primary school galle,secondary school galle,international language academy,private schools galle,best international school,schools in galle,best private schools galle,language acedemy galle,primary education,secondary education" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Thomas Gall School</title>
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -25,8 +30,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link href="css/responsive.css" rel="stylesheet">
-        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
     </head>
 
     <body>
@@ -528,7 +532,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                                         <div class="text"><?php echo $Studentsnw['description'] ?> </div>
                                                     </div>
                                                 </div>
-<?php ?>
+                                                <?php ?>
 
 
                                             </div>
@@ -536,7 +540,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
 
                                         <!--Tab-->
                                         <div class="tab" id="activity">
-                                               <div class="content">
+                                            <div class="content">
 
                                                 <?php foreach ($ACTIVITY2 as $charity)
                                                     
@@ -551,7 +555,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                                         <div class="text"><?php echo $charity['description'] ?> </div>
                                                     </div>
                                                 </div>
-<?php ?>
+                                                <?php ?>
 
 
                                             </div>
@@ -559,7 +563,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
 
                                         <!--Tab-->
                                         <div class="tab" id="painting">
-                                           <div class="content">
+                                            <div class="content">
 
                                                 <?php foreach ($ACTIVITY3 as $cirricular)
                                                     
@@ -574,7 +578,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                                         <div class="text"><?php echo $cirricular['description'] ?> </div>
                                                     </div>
                                                 </div>
-<?php ?>
+                                                <?php ?>
 
 
                                             </div>
@@ -582,7 +586,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
 
                                         <!--Tab-->
                                         <div class="tab" id="games">
-                                                 <div class="content">
+                                            <div class="content">
 
                                                 <?php foreach ($ACTIVITY4 as $cultural)
                                                     
@@ -597,7 +601,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                                         <div class="text"><?php echo $cultural['description'] ?> </div>
                                                     </div>
                                                 </div>
-<?php ?>
+                                                <?php ?>
 
 
                                             </div>
@@ -620,7 +624,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
 
 
             <!--Main Footer-->
-<?php include './footer.php'; ?>
+            <?php include './footer.php'; ?>
             <!--End Main Footer-->
 
         </div>

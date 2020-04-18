@@ -5,9 +5,12 @@ $LANGUAGE = new Page(7);
 <!DOCTYPE html>
 <html>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/classes-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:51 GMT -->
     <head>
         <meta charset="utf-8">
+        <meta name="description" content="We conduct an internation language acedemy to devolop the skills on english of the children to make them able to do their further studies in English much more comfortably.The course isvconducted by qualified and experienced teachers who got special knack of handeling childrens in a friendly manner." />
+        <meta name="keywords" content="thomas gall international school,thoams gall,international schools in galle,english medium preschool,english medium schools galle,primary school galle,secondary school galle,international language academy,private schools galle,best international school,schools in galle,best private schools galle,language acedemy galle,primary education,secondary education" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+
         <title>Thomas Gall School | Primary School</title>
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -20,8 +23,6 @@ $LANGUAGE = new Page(7);
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link href="css/responsive.css" rel="stylesheet">
-        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
     </head>
 
 
@@ -49,7 +50,7 @@ $LANGUAGE = new Page(7);
             </section>
             <!--End Page Title-->
 
-            
+
             <div class="sidebar-page-container">
                 <div class="auto-container">
                     <div class="row clearfix">
@@ -60,19 +61,19 @@ $LANGUAGE = new Page(7);
                             <section class="blog-classic">
 
                                 <!--News Style Four-->
-                                  <div class="news-style-four">
+                                <div class="news-style-four">
                                     <div class="inner-box">
                                         <!--Image Column-->
                                         <div class="image">
-                                            <a href="learning.php"><img src="upload/page/<?php echo $LANGUAGE->image_name?>" alt="" /></a>
+                                            <a href="learning.php"><img src="upload/page/<?php echo $LANGUAGE->image_name ?>" alt="" /></a>
                                         </div>
                                         <!--Content Column-->
                                         <div class="content-column">
                                             <div class="inner">
 
-                                                <h3><a href="learning.php"><?php echo $LANGUAGE->title?></a></h3>
+                                                <h3><a href="learning.php"><?php echo $LANGUAGE->title ?></a></h3>
 
-                                                <div class="text"><?php echo $LANGUAGE->description?></div>
+                                                <div class="text"><?php echo $LANGUAGE->description ?></div>
 
                                             </div>
                                         </div>
@@ -102,7 +103,7 @@ $LANGUAGE = new Page(7);
                             </aside>
                         </div>
                         <!--End Sidebar-->
-                        
+
                     </div>
                 </div>
             </div>
@@ -130,5 +131,5 @@ $LANGUAGE = new Page(7);
 
     </body>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:55:10 GMT -->
+    ->
 </html>

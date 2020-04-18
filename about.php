@@ -4,10 +4,14 @@ include './class/include.php';
 ?>
 <html>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:33 GMT -->
     <head>
         <meta charset="utf-8">
         <title>Thomas Gall School | About TGS</title>
+        <meta name="description" content="Thomas Gall International is the most leading international school in galle area.We got healthy and suitable learning enviroment which helps keep your child safe and to devolop their skills.We will offer your child a higherly Standard Primary and Secondary education in English medium with a talented and experienced teacher and staff.We also maintain an international language academy to build up strong foundation to gain a supurior skill in English " />
+        <meta name="keywords" content="thomas gall international school,thoams gall,international schools in galle,english medium preschool,english medium schools galle,primary school galle,secondary school galle,international language academy,private schools galle,best international school,schools in galle,best private schools galle,language acedemy galle,primary education,secondary education" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -19,8 +23,7 @@ include './class/include.php';
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link href="css/responsive.css" rel="stylesheet">
-        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
     </head>
 
     <body>
@@ -46,7 +49,7 @@ include './class/include.php';
             <!--End Page Title-->
 
             <!--Founders Welcome Section-->
-           
+
             <section class="welcome-section" id="welcome">
                 <div class="auto-container">
 
@@ -58,30 +61,30 @@ include './class/include.php';
                     </div>
                     <!--End Sec Title-->
                     <div class="row">
-                    <div class="col-md-5">
-                        <img src="images/gallery/image-2.jpg">
+                        <div class="col-md-5">
+                            <img src="images/gallery/image-2.jpg">
+                        </div>
+                        <div class=" col-md-7">
+                            <p text-align="justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                                printer took a galley of type and scrambled it to make a type specimen book. It has survived 
+                                not only five centuries, but also the leap into electronic typesetting, remaining essentially 
+                                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                                Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+                                versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+                                took a galley of type and scrambled it to make a type specimen book. </p>
+                        </div>
                     </div>
-                    <div class=" col-md-7">
-                         <p text-align="justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                             printer took a galley of type and scrambled it to make a type specimen book. It has survived 
-                             not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-                             unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-                             Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-                             versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-                             took a galley of type and scrambled it to make a type specimen book. </p>
-                    </div>
-                    </div>
-                    
+
                 </div>
             </section>
-           
+
             <!--End Welcome Section-->
 
 
             <!--Classes News-->
- 
+
             <section class="classes-news-section" id="vision">
                 <div class="auto-container">
 
@@ -153,11 +156,11 @@ include './class/include.php';
                     </div>
                 </div>
             </section>
-        
+
             <!--End Classes News-->
-            
+
             <!--values Section-->
-          
+
             <section class="featured-section" >
                 <div class="auto-container">
                     <!--Sec Title-->
@@ -247,118 +250,117 @@ include './class/include.php';
                     </div>
                 </div>
             </section>
-            </a>
-            <!--End values Section-->
+        </a>
+        <!--End values Section-->
 
 
 
-            <!--Teachers Section-->
-            <section class="teachers-section no-padding-btm" id="people">
-                <div class="auto-container">
-                    <!--Sec Title-->
-                    <div class="sec-title centered">
-                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
-                        <h2>Our Staff</h2>
-                        <div class="title">Our Great Team</div>
-                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
-                    </div>
-
-                    <div class="three-item-carousel owl-carousel owl-theme">
-
-                        <!--Teacher Block-->
-                        <div class="teacher-block">
-                            <div class="inner-box">
-                                <div class="image-box">
-                                    <img src="images/resource/teacher-1.jpg" alt="" />
-                                </div>
-                                <h3>Lorem Ipsum</h3>
-                                <div class="designation">Lorem Ipsum</div>
-
-                            </div>
-                        </div>
-
-                        <!--Teacher Block-->
-                        <div class="teacher-block">
-                            <div class="inner-box">
-                                <div class="image-box">
-                                    <img src="images/resource/teacher-2.jpg" alt="" />
-                                </div>
-                                <h3>Lorem Ipsum</h3>
-                                <div class="designation">Lorem Ipsum</div>
-                            </div>
-                        </div>
-
-                        <!--Teacher Block-->
-                        <div class="teacher-block">
-                            <div class="inner-box">
-                                <div class="image-box">
-                                    <img src="images/resource/teacher-3.jpg" alt="" />
-                                </div>
-                                <h3>Lorem Ipsum</h3>
-                                <div class="designation">Lorem Ipsum</div>
-                            </div>
-                        </div>
-
-                        <!--Teacher Block-->
-                        <div class="teacher-block">
-                            <div class="inner-box">
-                                <div class="image-box">
-                                    <img src="images/resource/teacher-1.jpg" alt="" />
-                                </div>
-                                <h3>Lorem Ipsum</h3>
-                                <div class="designation">Lorem Ipsum</div>
-                            </div>
-                        </div>
-
-                        <!--Teacher Block-->
-                        <div class="teacher-block">
-                            <div class="inner-box">
-                                <div class="image-box">
-                                    <img src="images/resource/teacher-2.jpg" alt="" />
-                                </div>
-                                <h3>David warner</h3>
-                                <div class="designation">Lorem Ipsum</div>
-                            </div>
-                        </div>
-
-                        <!--Teacher Block-->
-                        <div class="teacher-block">
-                            <div class="inner-box">
-                                <div class="image-box">
-                                    <img src="images/resource/teacher-3.jpg" alt="" />
-                                </div>
-                                <h3>Lorem Ipsum</h3>
-                                <div class="designation">Lorem Ipsum</div>
-                            </div>
-                        </div>
-
-                    </div>
+        <!--Teachers Section-->
+        <section class="teachers-section no-padding-btm" id="people">
+            <div class="auto-container">
+                <!--Sec Title-->
+                <div class="sec-title centered">
+                    <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
+                    <h2>Our Staff</h2>
+                    <div class="title">Our Great Team</div>
+                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
                 </div>
 
-            </section>
-            <!--End Teachers Section-->
+                <div class="three-item-carousel owl-carousel owl-theme">
+
+                    <!--Teacher Block-->
+                    <div class="teacher-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="images/resource/teacher-1.jpg" alt="" />
+                            </div>
+                            <h3>Lorem Ipsum</h3>
+                            <div class="designation">Lorem Ipsum</div>
+
+                        </div>
+                    </div>
+
+                    <!--Teacher Block-->
+                    <div class="teacher-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="images/resource/teacher-2.jpg" alt="" />
+                            </div>
+                            <h3>Lorem Ipsum</h3>
+                            <div class="designation">Lorem Ipsum</div>
+                        </div>
+                    </div>
+
+                    <!--Teacher Block-->
+                    <div class="teacher-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="images/resource/teacher-3.jpg" alt="" />
+                            </div>
+                            <h3>Lorem Ipsum</h3>
+                            <div class="designation">Lorem Ipsum</div>
+                        </div>
+                    </div>
+
+                    <!--Teacher Block-->
+                    <div class="teacher-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="images/resource/teacher-1.jpg" alt="" />
+                            </div>
+                            <h3>Lorem Ipsum</h3>
+                            <div class="designation">Lorem Ipsum</div>
+                        </div>
+                    </div>
+
+                    <!--Teacher Block-->
+                    <div class="teacher-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="images/resource/teacher-2.jpg" alt="" />
+                            </div>
+                            <h3>David warner</h3>
+                            <div class="designation">Lorem Ipsum</div>
+                        </div>
+                    </div>
+
+                    <!--Teacher Block-->
+                    <div class="teacher-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="images/resource/teacher-3.jpg" alt="" />
+                            </div>
+                            <h3>Lorem Ipsum</h3>
+                            <div class="designation">Lorem Ipsum</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!--End Teachers Section-->
 
 
-            <!--Main Footer-->
-            <?php include './footer.php'; ?>
-            <!--End Main Footer-->
+        <!--Main Footer-->
+        <?php include './footer.php'; ?>
+        <!--End Main Footer-->
 
-        </div>
-        <!--End pagewrapper-->
+    </div>
+    <!--End pagewrapper-->
 
-        <!--Scroll to top-->
-        <div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="icon fa fa-long-arrow-up"></span></div>
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="icon fa fa-long-arrow-up"></span></div>
 
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.fancybox.pack.js"></script>
-        <script src="js/jquery.fancybox-media.js"></script>
-        <script src="js/owl.js"></script>
-        <script src="js/appear.js"></script>
-        <script src="js/wow.js"></script>
-        <script src="js/jquery-ui.js"></script>
-        <script src="js/script.js"></script>
-    </body>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.fancybox-media.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+</body>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:39 GMT -->
 </html>

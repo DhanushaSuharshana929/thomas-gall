@@ -8,6 +8,11 @@ $type = $_GET['type'];
 
     <head>
         <meta charset="utf-8">
+        <meta name="description" content="We arrange large number of activities to devolop the the esthetic skills and  the logical thinking factor of our childerns.We will make your child  a smart and a talented individual in each and every factor with guidence of our experienced and tallented staff." />
+        <meta name="keywords" content="thomas gall international school,thoams gall,international schools in galle,english medium preschool,english medium schools galle,primary school galle,secondary school galle,international language academy,private schools galle,best international school,schools in galle,best private schools galle,language acedemy galle,primary education,secondary education" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
         <title>Thomas Gall School | Activities</title>
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -20,8 +25,6 @@ $type = $_GET['type'];
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link href="css/responsive.css" rel="stylesheet">
-        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
     </head>
 
     <body>
