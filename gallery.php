@@ -4,10 +4,15 @@ include './class/include.php';
 <!DOCTYPE html>
 <html>
 
-    
+
     <head>
         <meta charset="utf-8">
         <title>Thomas Gall School | Gallery</title>
+        <meta name="description" content="Thomas Gall International is the most leading international school in galle area.Lets take a look at the oue gallery which will help you to explore about the leaning enviroment of our schools " />
+        <meta name="keywords" content="thomas gall international school,thoams gall,international schools in galle,english medium preschool,english medium schools galle,primary school galle,secondary school galle,international language academy,private schools galle,best international school,schools in galle,best private schools galle,language acedemy galle,primary education,secondary education" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">

@@ -5,10 +5,15 @@ $EARLY_YEARS = new Page(4);
 <!DOCTYPE html>
 <html>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/classes-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:51 GMT -->
     <head>
         <meta charset="utf-8">
         <title>Thomas Gall School | Primary School</title>
+        <meta name="description" content="We begin to devolop the mind set of your childrebn in their early age with number of well arranged activies.This will aslo make your child for perfect than other who begin to start up the education at the age of 5.We make the chind familar to the learning enviroment.We also let your hangout with their friends to make the kid to be freindly with others." />
+        <meta name="keywords" content="thomas gall international school,thoams gall,international schools in galle,english medium preschool,english medium schools galle,primary school galle,secondary school galle,international language academy,private schools galle,best international school,schools in galle,best private schools galle,language acedemy galle,primary education,secondary education" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -20,8 +25,7 @@ $EARLY_YEARS = new Page(4);
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link href="css/responsive.css" rel="stylesheet">
-        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
     </head>
 
 
@@ -49,7 +53,7 @@ $EARLY_YEARS = new Page(4);
             </section>
             <!--End Page Title-->
 
-            
+
             <div class="sidebar-page-container">
                 <div class="auto-container">
                     <div class="row clearfix">
@@ -64,15 +68,15 @@ $EARLY_YEARS = new Page(4);
                                     <div class="inner-box">
                                         <!--Image Column-->
                                         <div class="image">
-                                            <a href="learning.php"><img src="upload/page/<?php echo $EARLY_YEARS->image_name?>" alt="" /></a>
+                                            <a href="learning.php"><img src="upload/page/<?php echo $EARLY_YEARS->image_name ?>" alt="" /></a>
                                         </div>
                                         <!--Content Column-->
                                         <div class="content-column">
                                             <div class="inner">
 
-                                                <h3><a href="learning.php"><?php echo $EARLY_YEARS->title?></a></h3>
+                                                <h3><a href="learning.php"><?php echo $EARLY_YEARS->title ?></a></h3>
 
-                                                <div class="text"><?php echo $EARLY_YEARS->description?></div>
+                                                <div class="text"><?php echo $EARLY_YEARS->description ?></div>
 
                                             </div>
                                         </div>
@@ -102,7 +106,7 @@ $EARLY_YEARS = new Page(4);
                             </aside>
                         </div>
                         <!--End Sidebar-->
-                        
+
                     </div>
                 </div>
             </div>

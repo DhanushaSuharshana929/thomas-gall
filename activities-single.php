@@ -4,9 +4,13 @@ include './class/include.php';
 <!DOCTYPE html>
 <html>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/news-single.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:55:15 GMT -->
     <head>
         <meta charset="utf-8">
+        <meta name="description" content="We arrange large number of activities to devolop the the esthetic skills and  the logical thinking factor of our childerns.We will make your child  a smart and a talented individual in each and every factor with guidence of our experienced and tallented staff." />
+        <meta name="keywords" content="thomas gall international school,thoams gall,international schools in galle,english medium preschool,english medium schools galle,primary school galle,secondary school galle,international language academy,private schools galle,best international school,schools in galle,best private schools galle,language acedemy galle,primary education,secondary education" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
         <title>Thomas Gall School | Activities Single</title>
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -19,8 +23,6 @@ include './class/include.php';
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link href="css/responsive.css" rel="stylesheet">
-        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
     </head>
 
     <body>
@@ -28,7 +30,7 @@ include './class/include.php';
 
 
 
-             <!-- Main Header-->
+            <!-- Main Header-->
             <?php include './header.php'; ?>
             <!--End Main Header -->
 
@@ -67,12 +69,12 @@ include './class/include.php';
                                         <!--Content Column-->
                                         <div class="content-column">
                                             <div class="inner">
-                                                
+
                                                 <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-                                               
+
                                                 <div class="text">
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                                    
+
                                                 </div>
 
                                             </div>
@@ -80,15 +82,15 @@ include './class/include.php';
                                     </div>
                                 </div>
 
-                                
 
-                                
+
+
 
                             </section>
 
                         </div>
 
-                       <!--Sidebar-->
+                        <!--Sidebar-->
                         <div class="sidebar-side col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <aside class="sidebar">
 
@@ -104,7 +106,7 @@ include './class/include.php';
                                         <a class="read-more" href="activities.php">View More <span class="icon fa fa-angle-right"></span></a>
                                     </ul>
                                 </div>
- 
+
                             </aside>
                         </div>
                         <!--End Sidebar-->
@@ -113,7 +115,7 @@ include './class/include.php';
                 </div>
             </div>
 
-      
+
 
             <!--Main Footer-->
             <?php include './footer.php'; ?>

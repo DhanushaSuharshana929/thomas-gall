@@ -4,9 +4,14 @@ include './class/include.php';
 <!DOCTYPE html>
 <html>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/classes.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:39 GMT -->
     <head>
         <meta charset="utf-8">
+        <meta name="description" content="We arrange large number of activities to devolop the the esthetic skills and  the logical thinking factor of our childerns.We will make your child  a smart and a talented individual in each and every factor with guidence of our experienced and tallented staff." />
+        <meta name="keywords" content="thomas gall international school,thoams gall,international schools in galle,english medium preschool,english medium schools galle,primary school galle,secondary school galle,international language academy,private schools galle,best international school,schools in galle,best private schools galle,language acedemy galle,primary education,secondary education" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Thomas Gall School | Activities</title>
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -19,8 +24,6 @@ include './class/include.php';
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link href="css/responsive.css" rel="stylesheet">
-        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
     </head>
 
     <body>
@@ -39,7 +42,7 @@ include './class/include.php';
                         <ul class="bread-crumb">
                             <li><a href="index.php">Home</a></li>
                             <li>Activities</li>
-                            
+
                         </ul>
                     </div>
                 </div>
@@ -58,7 +61,7 @@ include './class/include.php';
                                 <div class="image-column">
                                     <div class="image">
                                         <a href="#"><img src="images/resource/news-4.jpg" alt="" /></a>
-                                       
+
                                         <div class="overlay-layer">
                                             <a href="#"><span class="icon flaticon-unlink"></span></a>
                                         </div>
@@ -67,7 +70,7 @@ include './class/include.php';
                                 <!--Content Column-->
                                 <div class="content-column">
                                     <div class="inner">
-                                        
+
                                         <h3><a href="#">Lorem Ipsum</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="activities-single.php" class="theme-btn btn-style-one">View More</a>
@@ -83,7 +86,7 @@ include './class/include.php';
                                 <div class="image-column">
                                     <div class="image">
                                         <a href="#"><img src="images/resource/news-5.jpg" alt="" /></a>
-                                        
+
                                         <div class="overlay-layer">
                                             <a href="#"><span class="icon flaticon-unlink"></span></a>
                                         </div>
@@ -92,7 +95,7 @@ include './class/include.php';
                                 <!--Content Column-->
                                 <div class="content-column">
                                     <div class="inner">
-                                        
+
                                         <h3><a href="#">Lorem Ipsum</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="#" class="theme-btn btn-style-one">View More</a>
@@ -108,7 +111,7 @@ include './class/include.php';
                                 <div class="image-column">
                                     <div class="image">
                                         <a href="classes-single.html"><img src="images/resource/news-6.jpg" alt="" /></a>
-                                        
+
                                         <div class="overlay-layer">
                                             <a href="#"><span class="icon flaticon-unlink"></span></a>
                                         </div>
@@ -117,7 +120,7 @@ include './class/include.php';
                                 <!--Content Column-->
                                 <div class="content-column">
                                     <div class="inner">
-                                        
+
                                         <h3><a href="language.php">Lorem Ipsum</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="#" class="theme-btn btn-style-one">View More</a>
@@ -133,7 +136,7 @@ include './class/include.php';
                                 <div class="image-column">
                                     <div class="image">
                                         <a href="classes-single.html"><img src="images/resource/news-15.jpg" alt="" /></a>
-                                       
+
                                         <div class="overlay-layer">
                                             <a href="classes-single.html"><span class="icon flaticon-unlink"></span></a>
                                         </div>
@@ -142,7 +145,7 @@ include './class/include.php';
                                 <!--Content Column-->
                                 <div class="content-column">
                                     <div class="inner">
-                                       
+
                                         <h3><a href="classes-single.html">Lorem Ipsum</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="#" class="theme-btn btn-style-one">View More</a>
@@ -158,7 +161,7 @@ include './class/include.php';
                                 <div class="image-column">
                                     <div class="image">
                                         <a href="classes-single.html"><img src="images/resource/news-16.jpg" alt="" /></a>
-                                        
+
                                         <div class="overlay-layer">
                                             <a href="classes-single.html"><span class="icon flaticon-unlink"></span></a>
                                         </div>
@@ -167,7 +170,7 @@ include './class/include.php';
                                 <!--Content Column-->
                                 <div class="content-column">
                                     <div class="inner">
-                                        
+
                                         <h3><a href="classes-single.html">Lorem Ipsum</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="#" class="theme-btn btn-style-one">View More</a>
@@ -183,7 +186,7 @@ include './class/include.php';
                                 <div class="image-column">
                                     <div class="image">
                                         <a href="classes-single.html"><img src="images/resource/news-17.jpg" alt="" /></a>
-                                        
+
                                         <div class="overlay-layer">
                                             <a href="classes-single.html"><span class="icon flaticon-unlink"></span></a>
                                         </div>
@@ -192,7 +195,7 @@ include './class/include.php';
                                 <!--Content Column-->
                                 <div class="content-column">
                                     <div class="inner">
-                                        
+
                                         <h3><a href="classes-single.html">Lorem Ipsum</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="#" class="theme-btn btn-style-one">View More</a>
@@ -208,7 +211,7 @@ include './class/include.php';
                                 <div class="image-column">
                                     <div class="image">
                                         <a href="classes-single.html"><img src="images/resource/news-17.jpg" alt="" /></a>
-                                        
+
                                         <div class="overlay-layer">
                                             <a href="classes-single.html"><span class="icon flaticon-unlink"></span></a>
                                         </div>
@@ -217,7 +220,7 @@ include './class/include.php';
                                 <!--Content Column-->
                                 <div class="content-column">
                                     <div class="inner">
-                                       
+
                                         <h3><a href="classes-single.html">Lorem Ipsum</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="#" class="theme-btn btn-style-one">View More</a>
@@ -233,7 +236,7 @@ include './class/include.php';
                                 <div class="image-column">
                                     <div class="image">
                                         <a href="classes-single.html"><img src="images/resource/news-18.jpg" alt="" /></a>
-                                        
+
                                         <div class="overlay-layer">
                                             <a href="classes-single.html"><span class="icon flaticon-unlink"></span></a>
                                         </div>
@@ -242,7 +245,7 @@ include './class/include.php';
                                 <!--Content Column-->
                                 <div class="content-column">
                                     <div class="inner">
-                                        
+
                                         <h3><a href="classes-single.html">Lorem Ipsum</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="#" class="theme-btn btn-style-one">View More</a>
@@ -258,7 +261,7 @@ include './class/include.php';
                                 <div class="image-column">
                                     <div class="image">
                                         <a href="classes-single.html"><img src="images/resource/news-19.jpg" alt="" /></a>
-                                        
+
                                         <div class="overlay-layer">
                                             <a href="classes-single.html"><span class="icon flaticon-unlink"></span></a>
                                         </div>
@@ -267,7 +270,7 @@ include './class/include.php';
                                 <!--Content Column-->
                                 <div class="content-column">
                                     <div class="inner">
-                                        
+
                                         <h3><a href="classes-single.html">Lorem Ipsum</a></h3>
                                         <div class="text">We build up the best education nvironment for themselves at most</div>
                                         <a href="#" class="theme-btn btn-style-one">View More</a>
@@ -278,13 +281,13 @@ include './class/include.php';
 
                     </div>
 
-                   
+
                 </div>
             </section>
 
-            
 
-             <!--Main Footer-->
+
+            <!--Main Footer-->
             <?php include './footer.php'; ?>
             <!--End Main Footer-->
 
@@ -305,6 +308,5 @@ include './class/include.php';
         <script src="js/script.js"></script>
     </body>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/classes.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:54:51 GMT -->
 </html>
 

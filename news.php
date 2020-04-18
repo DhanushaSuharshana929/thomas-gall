@@ -4,10 +4,14 @@ include './class/include.php';
 <!DOCTYPE html>
 <html>
 
-    <!-- Mirrored from t.commonsupport.xyz/saratov/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:55:09 GMT -->
     <head>
         <meta charset="utf-8">
         <title>Thomas Gall School | News</title>
+        <meta name="description" content="Thomas Gall International is the most leading international school in galle area.We got healthy and suitable learning enviroment which helps keep your child safe and to devolop their skills.We will offer your child a higherly Standard Primary and Secondary education in English medium with a talented and experienced teacher and staff.We also maintain an international language academy to build up strong foundation to gain a supurior skill in English " />
+        <meta name="keywords" content="thomas gall international school,thoams gall,international schools in galle,english medium preschool,english medium schools galle,primary school galle,secondary school galle,international language academy,private schools galle,best international school,schools in galle,best private schools galle,language acedemy galle,primary education,secondary education" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
         <!-- Stylesheets -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -19,8 +23,6 @@ include './class/include.php';
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link href="css/responsive.css" rel="stylesheet">
-        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
     </head>
 
     <body>
@@ -66,7 +68,7 @@ include './class/include.php';
                                             <div class="inner">
                                                 <div class="post-date">April 08,2017</div>
                                                 <h3><a href="news-single.php">Lorem Ipsum is simply dummy text of the printing and typesetting industry</a></h3>
-                                                
+
                                                 <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
                                                 <a class="read-more" href="news-single.php">Read More <span class="icon fa fa-angle-right"></span></a>
                                             </div>
@@ -86,7 +88,7 @@ include './class/include.php';
                                             <div class="inner">
                                                 <div class="post-date">April 02,2017</div>
                                                 <h3><a href="news-single.php">Lorem Ipsum is simply dummy text of the printing and typesetting industry</a></h3>
-                                              
+
                                                 <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
                                                 <a class="read-more" href="news-single.php">Read More <span class="icon fa fa-angle-right"></span></a>
                                             </div>
@@ -106,7 +108,7 @@ include './class/include.php';
                                             <div class="inner">
                                                 <div class="post-date">March 27,2017</div>
                                                 <h3><a href="news-single.php">Lorem Ipsum is simply dummy text of the printing and typesetting industry</a></h3>
-                                                
+
                                                 <div class="text">Class aptent taciti sociosqu adtora torq uent per conubia mauris eros nostra. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consect etur, adipisci velit.</div>
                                                 <a class="read-more" href="news-single.php">Read More <span class="icon fa fa-angle-right"></span></a>
                                             </div>
@@ -126,7 +128,7 @@ include './class/include.php';
                                             <div class="inner">
                                                 <div class="post-date">March 13,2017</div>
                                                 <h3><a href="news-single.php">Lorem Ipsum is simply dummy text of the printing and typesetting industry</a></h3>
-                                               
+
                                                 <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
                                                 <a class="read-more" href="news-single.php">Read More <span class="icon fa fa-angle-right"></span></a>
                                             </div>
@@ -138,7 +140,7 @@ include './class/include.php';
 
                             </section>
 
-                           
+
                         </div>
 
                         <!--Sidebar-->
@@ -181,13 +183,13 @@ include './class/include.php';
                                         <div class="text"><a href="#">Children's Day</a></div>
                                         <div class="post-info">Posted by Adam Rose</div>
                                     </article>
-                                    
+
                                     <a class="read-more" href="activities.php">View More <span class="icon fa fa-angle-right"></span></a>
                                 </div>
 
-                              
 
-                                
+
+
                             </aside>
                         </div>
                         <!--End Sidebar-->
@@ -196,7 +198,7 @@ include './class/include.php';
                 </div>
             </div>
 
-          
+
 
             <!-- Main footer-->
             <?php include './footer.php'; ?>
@@ -220,6 +222,4 @@ include './class/include.php';
         <script src="js/script.js"></script>
 
     </body>
-
-    <!-- Mirrored from t.commonsupport.xyz/saratov/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Feb 2020 08:55:10 GMT -->
 </html>
