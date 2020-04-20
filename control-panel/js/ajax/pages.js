@@ -21,6 +21,23 @@ $(document).ready(function () {
                 timer: 1500,
                 showConfirmButton: false
             });
+
+        } else if (!$('#height').val() || $('#height').val().length === 0) {
+            swal({
+                title: "Error!",
+                text: "Please enter  height..!",
+                type: 'error',
+                timer: 1500,
+                showConfirmButton: false
+            });
+        } else if (!$('#width').val() || $('#width').val().length === 0) {
+            swal({
+                title: "Error!",
+                text: "Please enter  width..!",
+                type: 'error',
+                timer: 1500,
+                showConfirmButton: false
+            });
         } else if (!$('#description').val() || $('#description').val().length === 0) {
             swal({
                 title: "Error!",

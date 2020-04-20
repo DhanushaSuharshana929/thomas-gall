@@ -6,6 +6,9 @@ if (isset($_POST['create'])) {
 
     $PAGES = new Page(NULL);
     $VALID = new Validator();
+    
+    $height=$_POST['height'];
+    $width=$_POST['width'];
 
     $PAGES->title = $_POST['title'];
     $PAGES->description = $_POST['description'];
@@ -21,8 +24,8 @@ if (isset($_POST['create'])) {
         $handle->file_new_name_ext = 'jpg';
         $handle->image_ratio_crop = 'C';
         $handle->file_new_name_body = Helper::randamId();
-        $handle->image_x = 770;
-        $handle->image_y = 400;
+        $handle->image_x = $width;
+        $handle->image_y = $height;
 
         $handle->Process($dir_dest);
 
