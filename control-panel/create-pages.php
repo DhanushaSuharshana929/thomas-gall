@@ -79,6 +79,33 @@ $PAGES = new Page($id);
                                                 </div>
                                             </div>
                                         </div>
+                                        
+                                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
+                                            <label for="title">Image Height</label>
+                                        </div>
+
+                                        <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
+                                            <div class="form-group">
+                                                <div class="form-line">
+                                                    <input type="text" id="height" class="form-control"  name="height"  >
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
+                                            <label for="title">Image Width</label>
+                                        </div>
+
+                                        <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
+                                            <div class="form-group">
+                                                <div class="form-line">
+                                                    <input type="text" id="width" class="form-control"  name="width"  >
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+
                                         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
                                             <label for="description">Description</label>
                                         </div>
@@ -145,7 +172,7 @@ $PAGES = new Page($id);
 
             });
 
-           
+
         </script>
         <script src="js/ajax/pages.js" type="text/javascript"></script>
     </body>
