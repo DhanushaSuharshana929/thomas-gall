@@ -302,7 +302,7 @@ img{
 
 .main-header .header-top a{
     font-weight: 600;
-        color:#fff;
+    color:#fff;
     -webkit-transition:all 300ms ease;
     -ms-transition:all 300ms ease;
     -o-transition:all 300ms ease;
@@ -1486,7 +1486,7 @@ img{
 .featured-section{
     position:relative;
     overflow:hidden;
-    padding:10px 0px 70px;
+    padding:50px 0px 70px;
 }
 
 .featured-section .sec-title{
@@ -1527,6 +1527,7 @@ img{
 
 .featured-section.style-two{
     /*padding-bottom:80px;*/
+    background-color: #f0f8ff9e;
 }
 
 .featured-section.style-two .image-column .image{
@@ -1728,7 +1729,7 @@ img{
     left:0px;
     top:0px;
     width:100%;
-    height:100%;
+    height:140%;
     display:block;
     background-color:rgba(119,209,189,0.94);
 }
@@ -2714,7 +2715,7 @@ img{
 
 .involved-section .involved-inner{
     position:relative;
-    margin-bottom:-62px;
+    margin-bottom:-90px;
     padding:40px 75px 30px;
     border-radius:15px;
     border:2px solid #ffffff;
@@ -2861,7 +2862,7 @@ img{
 .news-style-two .inner-box .content-column .inner{
     position:relative;
     padding:35px 15px;
-    text-align:center;
+    text-align:justify;
 }
 
 .news-style-two .inner-box .content-column .inner .post-date{
@@ -3145,23 +3146,23 @@ img{
 }
 
 .prod-tabs .tab-btns .tab-btn{
-    position:relative;
-    top:1px;
-    display:block;
-    float:left;
-    margin-right:8px;
-    font-size:11px;
-    background:#55b5bd;
-    color:#ffffff;
-    font-weight:700;
-    line-height:24px;
-    cursor:pointer;
-    margin-bottom:20px;
-    padding:12px 32px 12px;
-    transition:all 500ms ease;
-    border-radius:5px 0px 5px 0px;
+    position: relative;
+    top: 1px;
+    display: block;
+    float: left;
+    margin-right: 8px;
+    font-size: 13px;
+    background: #55b5bd;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 12px 70px 12px;
+    transition: all 500ms ease;
+    border-radius: 5px 0px 5px 0px;
     font-family: 'Dosis', sans-serif;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 .prod-tabs .tab-btns .tab-btn:after{
@@ -3521,7 +3522,7 @@ img{
 }
 
 .contact-form button{
-    
+
 }
 
 .contact-form input:focus,

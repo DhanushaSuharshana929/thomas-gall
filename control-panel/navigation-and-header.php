@@ -375,14 +375,14 @@
 
                     <a href="edit-pages.php?id=2" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
-                        <span>Vision, Mission & Core Value</span>
+                        <span>Vision</span>
                     </a>                
                 </li>
                 <li class="qqq">
 
                     <a href="edit-pages.php?id=3" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
-                        <span>People (Directors/Staff)</span>
+                        <span>Mission</span>
                     </a>                
                 </li>
                 <li class="qqq">

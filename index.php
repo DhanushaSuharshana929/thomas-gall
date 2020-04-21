@@ -236,268 +236,22 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
             <!--End Call To Action-->
 
 
-            <!--classes section--> 
-            <section class="classes-section">
-                <div class="auto-container">
-                    <!--Sec Title-->
-                    <div class="sec-title centered">
-                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt=""></div>
-                        <h2>OUR LEARNINGS</h2>
-                        <div class="title">Our courses</div>
-                        <div class="text">We're a childcare centre with an engaging curriculum backed by qualified, experienced and experienced </div>
-                    </div>
-                    <!--End Sec Title-->
-                    <div class="row clearfix">
-                        <!--Classic Block-->
-                        <div class="clasic-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="inner-box wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
-                                <div class="clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="image">
-                                            <img src="images/resource/classic-1.jpg" alt="">
-                                            <div class="overlay-layer">
-                                                <a href="#"><span class="icon fa fa-link"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--Content Column-->
-                                    <div class="content-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="inner">
-                                            <h3><a href="#">Lorem Ipsum</a></h3>
-
-                                            <!--Info Outer-->
-                                            <div class="info-outer">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Classic Block-->
-                        <div class="clasic-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="inner-box wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
-                                <div class="clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="image">
-                                            <img src="images/resource/classic-2.jpg" alt="">
-                                            <div class="overlay-layer">
-                                                <a href="#"><span class="icon fa fa-link"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--Content Column-->
-                                    <div class="content-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="inner">
-                                            <h3><a href="#">Lorem Ipsum</a></h3>
-
-                                            <!--Info Outer-->
-                                            <div class="info-outer">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Classic Block-->
-                        <div class="clasic-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="inner-box wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
-                                <div class="clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="image">
-                                            <img src="images/resource/classic-3.jpg" alt="">
-                                            <div class="overlay-layer">
-                                                <a href="#"><span class="icon fa fa-link"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--Content Column-->
-                                    <div class="content-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="inner">
-                                            <h3><a href="#">Lorem Ipsum</a></h3>
-
-                                            <!--Info Outer-->
-                                            <div class="info-outer">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Classic Block-->
-                        <div class="clasic-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="inner-box wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
-                                <div class="clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="image">
-                                            <img src="images/resource/classic-4.jpg" alt="">
-                                            <div class="overlay-layer">
-                                                <a href="#"><span class="icon fa fa-link"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--Content Column-->
-                                    <div class="content-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="inner">
-                                            <h3><a href="#">Lorem Ipsum</a></h3>
-
-                                            <!--Info Outer-->
-                                            <div class="info-outer">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-            <!--end classes section-->
-
-            <!--Testimonial Section-->
-
-            <section class="testimonial-section" style="background-image:url(images/background/pattern-1.png);">
-
-                <div class="auto-container">
-                    <div class="sec-title centered">
-                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt=""></div>
-                        <h2>TESTIMONIALS</h2>
-                    </div>
-                    <!--Client Testimonial Carousel-->
-                    <div class="client-testimonial-carousel owl-carousel owl-theme">
-
-                        <?php
-                        $COMMENT = new Comments(NULL);
-
-                        foreach ($COMMENT->all() as $comment) {
-                            ?>                 <!--Testimonial Block Two-->
-                            <div class="testimonial-block-two">
-                                <div class="inner-box">
-                                    <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
-                                    <div class="text"><?php echo $comment['comment']; ?>...</div>
-                                </div>
-                            </div>
-                        <?php }
-                        ?>
 
 
-                    </div>
-
-                    <!--Product Thumbs Carousel-->
-                    <div class="client-thumb-outer">
-                        <div class="client-thumbs-carousel owl-carousel owl-theme">
-                            <?php
-                            $COMMENT = new Comments(NULL);
-
-                            foreach ($COMMENT->all() as $comment) {
-                                ?>
-                                <div class="thumb-item">
-                                    <figure class="thumb-box"><img src="upload/comments/<?php echo $comment['image_name']; ?>" alt=""></figure>
-                                    <div class="thumb-content">
-                                        <h3><?php echo $comment['name']; ?></h3>
-                                        <div class="designation">Parents</div>
-                                    </div>
-                                </div>
-                            <?php }
-                            ?>
-                        </div>
-                    </div>
-
-
-                </div>
-            </section>
-            <!--End Testimonial Section-->
 
             <!--Blog Section-->
             <section class="blog-section">
                 <div class="auto-container">
                     <!--Sec Title-->
-                    <div class="sec-title centered">
+                     <div class="sec-title centered">
                         <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
-                        <h2>News & Events</h2>
+                        <h2>Student Life</h2>
                         <div class="title">Time Line & Ativities</div>
                         <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
-                    </div>
+                    </div></center>
                     <div class="row clearfix">
-                        <!--Blog Column-->
-                        <div class="blog-column col-md-4 col-sm-12 col-xs-12">
-                            <!--News Style Three-->
-                            <div class="news-style-three">
-                                <div class="row clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column col-md-4 col-sm-4 col-xs-12">
-                                        <div class="image">
-                                            <div class="date-box">4<span>Apr</span></div>
-                                            <a href="#"><img src="images/resource/news-7.jpg" alt="" /></a>
-                                        </div>
-                                    </div>
-                                    <!--Content Column-->
-                                    <div class="content-column col-md-8 col-sm-8 col-xs-12">
-                                        <div class="content-inner">
-                                            <h3><a href="#">MUSIC ACTIVITIES</a></h3>
 
-                                        </div>
-                                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. and playing with as different Education Major...</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--News Style Three-->
-                            <div class="news-style-three">
-                                <div class="row clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column col-md-4 col-sm-4 col-xs-12">
-                                        <div class="image">
-                                            <div class="date-box">3<span>Apr</span></div>
-                                            <a href="#"><img src="images/resource/news-8.jpg" alt="" /></a>
-                                        </div>
-                                    </div>
-                                    <!--Content Column-->
-                                    <div class="content-column col-md-8 col-sm-8 col-xs-12">
-                                        <div class="content-inner">
-                                            <h3><a href="#">SCHOOL ANNIVERSARY</a></h3>
-
-                                        </div>
-                                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. and playing with as different Education Major...</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--News Style Three-->
-                            <div class="news-style-three">
-                                <div class="row clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column col-md-4 col-sm-4 col-xs-12">
-                                        <div class="image">
-                                            <div class="date-box">1<span>Apr</span></div>
-                                            <a href="#"><img src="images/resource/news-9.jpg" alt="" /></a>
-                                        </div>
-                                    </div>
-                                    <!--Content Column-->
-                                    <div class="content-column col-md-8 col-sm-8 col-xs-12">
-                                        <div class="content-inner">
-                                            <h3><a href="#">BIO SPECIAL</a></h3>
-
-                                        </div>
-                                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. and playing with as different Education Major...</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <!--Tab Column-->
-                        <div class="tab-column col-md-8 col-sm-12 col-xs-12">
+                        <div class="tab-column col-md-12 col-sm-12 col-xs-12">
 
                             <!--Product Info Tabs-->
                             <div class="product-info-tabs">
@@ -621,10 +375,63 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
 
 
 
+            <!--Testimonial Section-->
+
+            <section class="testimonial-section" style="background-image:url(images/background/pattern-1.png);">
+
+                <div class="auto-container">
+                    <div class="sec-title centered">
+                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt=""></div>
+                        <h2>TESTIMONIALS</h2>
+                    </div>
+                    <!--Client Testimonial Carousel-->
+                    <div class="client-testimonial-carousel owl-carousel owl-theme">
+
+                        <?php
+                        $COMMENT = new Comments(NULL);
+
+                        foreach ($COMMENT->all() as $comment) {
+                            ?>                 <!--Testimonial Block Two-->
+                            <div class="testimonial-block-two">
+                                <div class="inner-box">
+                                    <div class="quote-icon"><span class="icon flaticon-left-quote"></span></div>
+                                    <div class="text"><?php echo $comment['comment']; ?>...</div>
+                                </div>
+                            </div>
+                        <?php }
+                        ?>
+
+
+                    </div>
+
+                    <!--Product Thumbs Carousel-->
+                    <div class="client-thumb-outer">
+                        <div class="client-thumbs-carousel owl-carousel owl-theme">
+                            <?php
+                            $COMMENT = new Comments(NULL);
+
+                            foreach ($COMMENT->all() as $comment) {
+                                ?>
+                                <div class="thumb-item">
+                                    <figure class="thumb-box"><img src="upload/comments/<?php echo $comment['image_name']; ?>" alt=""></figure>
+                                    <div class="thumb-content">
+                                        <h3><?php echo $comment['name']; ?></h3>
+                                        <div class="designation">Parents</div>
+                                    </div>
+                                </div>
+                            <?php }
+                            ?>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+            <!--End Testimonial Section-->
 
 
             <!--Main Footer-->
-            <?php include './footer.php'; ?>
+            <?php include './footer-index.php'; ?>
             <!--End Main Footer-->
 
         </div>

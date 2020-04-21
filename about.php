@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <?php
 include './class/include.php';
+$FOUNDERS_WELCOME = new Page(1);
+
+$VISION = new Page(2);
+
+$MISSION = new Page(3);
 ?>
 <html>
 
@@ -62,18 +67,10 @@ include './class/include.php';
                     <!--End Sec Title-->
                     <div class="row">
                         <div class="col-md-5">
-                            <img src="images/gallery/image-2.jpg">
+                            <img src="upload/page/<?php echo $FOUNDERS_WELCOME->image_name ?>">
                         </div>
                         <div class=" col-md-7">
-                            <p text-align="justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                                printer took a galley of type and scrambled it to make a type specimen book. It has survived 
-                                not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-                                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-                                Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-                                versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-                                took a galley of type and scrambled it to make a type specimen book. </p>
+                            <p text-align="justify"><?php echo $FOUNDERS_WELCOME->description ?></p>
                         </div>
                     </div>
 
@@ -109,7 +106,7 @@ include './class/include.php';
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="#"><img src="images/resource/news-5.jpg" alt="" /></a>
+                                        <a href="#"><img src="upload/page/<?php echo $VISION->image_name ?>" alt="" /></a>
 
                                         <div class="overlay-layer">
                                             <a href="#"><span class="icon flaticon-unlink"></span></a>
@@ -121,8 +118,8 @@ include './class/include.php';
                                     <div class="inner">
 
                                         <h3><a href="#">Our Vision</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="#" class="theme-btn btn-style-one">Read More</a>
+                                        <div class="text"><?php echo $VISION->description ?></div>
+
                                     </div>
                                 </div>
                             </div>
@@ -134,7 +131,7 @@ include './class/include.php';
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="#"><img src="images/resource/news-6.jpg" alt="" /></a>
+                                        <a href="#"><img src="upload/page/<?php echo $MISSION->image_name ?>" alt="" /></a>
 
                                         <div class="overlay-layer">
                                             <a href="#"><span class="icon flaticon-unlink"></span></a>
@@ -146,8 +143,8 @@ include './class/include.php';
                                     <div class="inner">
 
                                         <h3><a href="#">Our Mission</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="#" class="theme-btn btn-style-one">Read More</a>
+                                        <div class="text"><?php echo $MISSION->description ?></div>
+                           
                                     </div>
                                 </div>
                             </div>
@@ -268,73 +265,22 @@ include './class/include.php';
 
                 <div class="three-item-carousel owl-carousel owl-theme">
 
-                    <!--Teacher Block-->
-                    <div class="teacher-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <img src="images/resource/teacher-1.jpg" alt="" />
+                    <?php
+                    $PEOPLE = new Attraction(null);
+                    foreach ($PEOPLE->all() as $people) {
+                        ?>
+                        <div class="teacher-block">
+                            <div class="inner-box">
+                                <div class="image-box">
+                                    <img src="upload/attraction/<?php echo $people['image_name'] ?>" alt="" />
+                                </div>
+                                <h3><?php echo $people['title'] ?></h3>
+                                <div class="designation"><?php echo $people['description'] ?></div>
+
                             </div>
-                            <h3>Lorem Ipsum</h3>
-                            <div class="designation">Lorem Ipsum</div>
-
                         </div>
-                    </div>
 
-                    <!--Teacher Block-->
-                    <div class="teacher-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <img src="images/resource/teacher-2.jpg" alt="" />
-                            </div>
-                            <h3>Lorem Ipsum</h3>
-                            <div class="designation">Lorem Ipsum</div>
-                        </div>
-                    </div>
-
-                    <!--Teacher Block-->
-                    <div class="teacher-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <img src="images/resource/teacher-3.jpg" alt="" />
-                            </div>
-                            <h3>Lorem Ipsum</h3>
-                            <div class="designation">Lorem Ipsum</div>
-                        </div>
-                    </div>
-
-                    <!--Teacher Block-->
-                    <div class="teacher-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <img src="images/resource/teacher-1.jpg" alt="" />
-                            </div>
-                            <h3>Lorem Ipsum</h3>
-                            <div class="designation">Lorem Ipsum</div>
-                        </div>
-                    </div>
-
-                    <!--Teacher Block-->
-                    <div class="teacher-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <img src="images/resource/teacher-2.jpg" alt="" />
-                            </div>
-                            <h3>David warner</h3>
-                            <div class="designation">Lorem Ipsum</div>
-                        </div>
-                    </div>
-
-                    <!--Teacher Block-->
-                    <div class="teacher-block">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <img src="images/resource/teacher-3.jpg" alt="" />
-                            </div>
-                            <h3>Lorem Ipsum</h3>
-                            <div class="designation">Lorem Ipsum</div>
-                        </div>
-                    </div>
-
+<?php } ?>
                 </div>
             </div>
 
@@ -343,7 +289,7 @@ include './class/include.php';
 
 
         <!--Main Footer-->
-        <?php include './footer.php'; ?>
+<?php include './footer.php'; ?>
         <!--End Main Footer-->
 
     </div>
