@@ -25,7 +25,7 @@ $(document).ready(function () {
         } else if (!$('#height').val() || $('#height').val().length === 0) {
             swal({
                 title: "Error!",
-                text: "Please enter  height..!",
+                text: "Please enter  image height..!",
                 type: 'error',
                 timer: 1500,
                 showConfirmButton: false
@@ -33,7 +33,7 @@ $(document).ready(function () {
         } else if (!$('#width').val() || $('#width').val().length === 0) {
             swal({
                 title: "Error!",
-                text: "Please enter  width..!",
+                text: "Please enter  image width..!",
                 type: 'error',
                 timer: 1500,
                 showConfirmButton: false
@@ -108,6 +108,22 @@ $(document).ready(function () {
             swal({
                 title: "Error!",
                 text: "Please enter  image..!",
+                type: 'error',
+                timer: 1500,
+                showConfirmButton: false
+            });
+        } else if (!$('#height').val() || $('#height').val().length === 0) {
+            swal({
+                title: "Error!",
+                text: "Please enter  image height..!",
+                type: 'error',
+                timer: 1500,
+                showConfirmButton: false
+            });
+        } else if (!$('#width').val() || $('#width').val().length === 0) {
+            swal({
+                title: "Error!",
+                text: "Please enter  image width..!",
                 type: 'error',
                 timer: 1500,
                 showConfirmButton: false

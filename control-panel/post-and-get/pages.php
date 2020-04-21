@@ -6,9 +6,9 @@ if (isset($_POST['create'])) {
 
     $PAGES = new Page(NULL);
     $VALID = new Validator();
-    
-    $height=$_POST['height'];
-    $width=$_POST['width'];
+
+    $height = $_POST['height'];
+    $width = $_POST['width'];
 
     $PAGES->title = $_POST['title'];
     $PAGES->description = $_POST['description'];
@@ -48,6 +48,11 @@ if (isset($_POST['update'])) {
     $handle = new Upload($_FILES['image']);
 
     $imgName = null;
+    
+    $height = $_POST['height'];
+    
+    $width = $_POST['width'];
+
 
     if ($handle->uploaded) {
         $handle->image_resize = true;
@@ -56,8 +61,8 @@ if (isset($_POST['update'])) {
         $handle->file_new_name_ext = FALSE;
         $handle->image_ratio_crop = 'C';
         $handle->file_new_name_body = $_POST ["oldImageName"];
-        $handle->image_x = 770;
-        $handle->image_y = 400;
+        $handle->image_x = $width;
+        $handle->image_y = $height;
 
         $handle->Process($dir_dest);
 
