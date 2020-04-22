@@ -2315,7 +2315,8 @@ img{
 .teacher-block .inner-box .designation{
     position:relative;
     color:#777777;
-    font-size:19px;
+    font-size:13px;
+    text-align: justify;
     font-weight:300;
     margin-bottom:15px;
     margin-top:8px;
