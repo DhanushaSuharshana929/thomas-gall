@@ -131,5 +131,4 @@ $LANGUAGE = new Page(7);
 
     </body>
 
-    ->
 </html>

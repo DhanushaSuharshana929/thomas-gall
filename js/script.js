@@ -51,7 +51,7 @@
 		
 		$('.main-slider .tp-banner').show().revolution({
 		  dottedOverlay: slideOverlay,
-		  delay:50000,
+		  delay:3500,
 		  startwidth:1200,
 		  startheight:strtHeight,
 		  hideThumbs:600,
@@ -61,7 +61,7 @@
 		  thumbAmount:5,
 
 		  navigationType:"bullet",
-		  navigationArrows:"0",
+		  navigationArrows:"0", 
 		  navigationStyle:"preview3",
 
 		  touchenabled:"on",

@@ -54,9 +54,10 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                         <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
                             <div class="inner-box">
                                 <!--Image Column-->
+                                <?php $PRIMARY=new Page(5);?>
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="#"><img src="images/resource/news-4.jpg" alt="" /></a>
+                                        <a href="#"><img src="upload/page/<?php echo $PRIMARY->image_name?>" alt="" /></a>
 
                                         <div class="overlay-layer">
                                             <a href="#"><span class="icon flaticon-unlink"></span></a>
@@ -64,11 +65,11 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                     </div>
                                 </div>
                                 <!--Content Column-->
-                                <div class="content-column">
+                                                                <div class="content-column">
                                     <div class="inner">
-
-                                        <h3><a href="#">Primary School</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
+                                
+                                        <h3><a href="#"><?php echo $PRIMARY->title?></a></h3>
+                                        <div class="text"><?php echo substr($PRIMARY->description,0,70)."..."?></div>
                                         <a href="#" class="theme-btn btn-style-one">Read More</a>
                                     </div>
                                 </div>
@@ -79,9 +80,10 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                         <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
                             <div class="inner-box">
                                 <!--Image Column-->
+                                <?php $SECONDARY=new Page(6)?>
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="#"><img src="images/resource/news-5.jpg" alt="" /></a>
+                                        <a href="#"><img src="upload/page/<?php echo $SECONDARY->image_name?>" alt="" /></a>
 
                                         <div class="overlay-layer">
                                             <a href="#"><span class="icon flaticon-unlink"></span></a>
@@ -89,11 +91,12 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                     </div>
                                 </div>
                                 <!--Content Column-->
+                                
                                 <div class="content-column">
                                     <div class="inner">
 
-                                        <h3><a href="#">Secondary School</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
+                                        <h3><a href="#"><?php echo $SECONDARY->title?></a></h3>
+                                        <div class="text"><?php echo substr($SECONDARY->description,0,70)."..."?></div>
                                         <a href="#" class="theme-btn btn-style-one">Read More</a>
                                     </div>
                                 </div>
@@ -102,11 +105,12 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
 
                         <!--News Style Two-->
                         <div class="news-style-two col-md-4 col-sm-6 col-xs-12">
+                                    <?php $LANGUAGE_ACEDEMY=new Page(7) ?>
                             <div class="inner-box">
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="#"><img src="images/resource/news-6.jpg" alt="" /></a>
+                                        <a href="learning.php"><img src="upload/page/<?php echo $LANGUAGE_ACEDEMY->image_name?>" alt="" /></a>
 
                                         <div class="overlay-layer">
                                             <a href="#"><span class="icon flaticon-unlink"></span></a>
@@ -115,10 +119,11 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                 </div>
                                 <!--Content Column-->
                                 <div class="content-column">
+      
                                     <div class="inner">
 
-                                        <h3><a href="#">Language Academy</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
+                                        <h3><a href="#"><?php echo $LANGUAGE_ACEDEMY->title?></a></h3>
+                                        <div class="text"><?php echo substr($LANGUAGE_ACEDEMY->description,0,70)."..."?></div>
                                         <a href="#" class="theme-btn btn-style-one">Read More</a>
                                     </div>
                                 </div>
@@ -143,7 +148,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                         <div class="title">About Our Thomas Gall School</div>
                         <div class="dark-text">Learning for self,  society and a sustainable future</div>
                         <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-                        <a href="services.html" class="#">Read More</a>
+                        <a href="#" class="theme-btn btn-style-one">Read More</a>
                     </div>
                     <!--End Sec Title-->
 
