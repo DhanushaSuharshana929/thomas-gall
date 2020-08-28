@@ -65,7 +65,7 @@
                                      data-elementdelay="0.01"
                                      data-endelementdelay="0.3"
                                      data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><div class="text">See Our Thomas Gall School Special Features!</div></div>
+                                     data-endeasing="Power4.easeIn"><div class="text mobile-text">See Our Thomas Gall School Special Features!</div></div>
 
                                 <div class="tp-caption sfb sfb tp-resizeme"
                                      data-x="center" data-hoffset="0"

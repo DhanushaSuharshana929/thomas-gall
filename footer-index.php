@@ -89,28 +89,20 @@
 
                         <!--Footer Column-->
                         <div class="footer-column col-md-6 col-sm-6 col-xs-12">
-
-                            <div class="footer-widget subscribe-widget">
+                            <!--Links Widget-->
+                            <div class="footer-widget links-widget">
                                 <div class="footer-title">
-                                    <h2>News letter</h2>
+                                    <h2>Contact Details</h2>
                                 </div>
                                 <div class="widget-content">
-                                    <div class="newsletter-form">
-                                        <form method="post" action="http://t.commonsupport.xyz/saratov/contact.html">
-                                            <div class="form-group">
-                                                <input type="text" name="name" value="" placeholder="Name *" required="">
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="email" name="email" value="" placeholder="Email Id" required="">
-                                            </div>
-                                            <div class="form-group">
-                                                <button type="submit" class="theme-btn btn-style-one">SUBSCRIBE</button>
-                                            </div>
-                                        </form>
-                                    </div>
+                                    <ul class="list">
+                                        <li><a href=""><i class="fa-address-book"></i>No: 364/A, Morris Road, Ambalanwaththa, Galle, Sri Lanka.</a></li>
+                                        <li><a href="">(+94) 91 563 3958</a></li>
+                                        <li><a href="">admin@thomasgallschool.com</a></li>
+                                       
+                                    </ul>
                                 </div>
                             </div>
-
                         </div>
 
                     </div>

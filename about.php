@@ -60,7 +60,7 @@ $MISSION = new Page(3);
 
                     <!--Start Sec Title-->
                     <div class="sec-title centered">
-                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
+<!--                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>-->
                         <h2>Founders Welcome</h2>
                         <div class="title">Learning for self,  society and a sustainable future</div>
                     </div>
@@ -87,7 +87,7 @@ $MISSION = new Page(3);
 
                     <!--Sec Title-->
                     <div class="sec-title centered">
-                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
+<!--                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>-->
                         <h2>Our vission, Mission & Core values</h2>
                         <div class="title">Learning for self,  society and a sustainable future</div>
 
@@ -162,7 +162,7 @@ $MISSION = new Page(3);
                 <div class="auto-container">
                     <!--Sec Title-->
                     <div class="sec-title centered">
-                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
+<!--                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>-->
                         <h2>TGS Values</h2>
                         <div class="title">CREW</div>
                         <div class="text">We're a childcare centre with an engaging curriculum backed by qualified, experienced and experienced </div>
@@ -257,7 +257,7 @@ $MISSION = new Page(3);
             <div class="auto-container">
                 <!--Sec Title-->
                 <div class="sec-title centered">
-                    <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
+<!--                    <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>-->
                     <h2>Our Staff</h2>
                     <div class="title">Our Great Team</div>
                     <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>

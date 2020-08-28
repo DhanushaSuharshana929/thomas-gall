@@ -69,6 +69,7 @@
 
                             <li class="dropdown"><a href="learning.php">LEARNING</a>
                                 <ul>
+                                    <li><a href="age-chart.php">Age Chart</a></li>
                                     <li><a href="early-years.php">Early years</a></li>
                                     <li><a href="primary.php">Primary</a></li>
                                     <li><a href="secondary.php">Secondary</a></li>
@@ -149,6 +150,7 @@
 
                             <a href="learning.php"><li class="dropdown">LEARNING
                                 <ul>
+                                    <li><a href="age-chart.php">Age Chart</a></li>
                                     <li><a href="early-years.php">Early years</a></li>
                                     <li><a href="primary.php">Primary</a></li>
                                     <li><a href="secondary.php">Secondary</a></li>

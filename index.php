@@ -143,7 +143,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
 
                     <!--Sec Title-->
                     <div class="sec-title centered">
-                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
+<!--                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>-->
                         <h2>Welcome to Thomas Gall School</h2>
                         <div class="title">About Our Thomas Gall School</div>
                         <div class="dark-text">Learning for self,  society and a sustainable future</div>
@@ -249,7 +249,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                 <div class="auto-container">
                     <!--Sec Title-->
                      <div class="sec-title centered">
-                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>
+<!--                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>-->
                         <h2>Student Life</h2>
                         <div class="title">Time Line & Ativities</div>
                         <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
