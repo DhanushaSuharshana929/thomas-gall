@@ -69,7 +69,7 @@ if (isset($_POST['update'])) {
 
     $ROOM = new Room($_POST['id']);
 
-    $ROOM->image_name = $_POST['oldImageName'];
+//    $ROOM->image_name = $_POST['oldImageName'];
     $ROOM->title = $_POST['title'];
     $ROOM->short_description = $_POST['short_description'];
     $ROOM->description = $_POST['description'];

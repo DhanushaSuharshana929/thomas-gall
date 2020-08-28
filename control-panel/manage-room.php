@@ -9,7 +9,7 @@ $ROOM = new Room(NULL);
     <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Room</title>
+        <title>Term Dates</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
@@ -34,7 +34,7 @@ $ROOM = new Room(NULL);
                         <div class="card">
                             <div class="header">
                                 <h2>
-                                    Manage Room
+                                    Manage Term Dates
                                 </h2>
                                 <ul class="header-dropdown">
                                     <li>
@@ -54,16 +54,16 @@ $ROOM = new Room(NULL);
                                             foreach ($ROOM as $key => $room) {
                                                 ?>
                                                 <div class="col-md-3"  id="div<?php echo $room['id']; ?>">
-                                                    <div class="photo-img-container">
+<!--                                                    <div class="photo-img-container">
                                                         <img src="../upload/room/<?php echo $room['image_name']; ?>" class="img-responsive ">
-                                                    </div>
+                                                    </div>-->
                                                     <div class="img-caption">
                                                         <p class="maxlinetitle"><?php echo $room['title']; ?></p>
                                                         <div class="d">
                                                             <a href="#"  class="delete-room" data-id="<?php echo $room['id']; ?>"> <button class="glyphicon glyphicon-trash delete-btn"></button></a>
                                                             <a href="edit-room.php?id=<?php echo $room['id']; ?>"> <button class="glyphicon glyphicon-pencil edit-btn"></button></a>
                                                             <a href="arrange-room.php?id=<?php echo $room['id']; ?>">  <button class="glyphicon glyphicon-random arrange-btn"></button></a>
-                                                            <a href="view-room-photos.php?id=<?php echo $room['id']; ?>">  <button class="glyphicon glyphicon-picture arrange-btn"></button></a>
+<!--                                                            <a href="view-room-photos.php?id=<?php echo $room['id']; ?>">  <button class="glyphicon glyphicon-picture arrange-btn"></button></a>-->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -71,7 +71,7 @@ $ROOM = new Room(NULL);
                                             }
                                         } else {
                                             ?> 
-                                            <b style="padding-left: 15px;">No Rooms in the database.</b> 
+                                            <b style="padding-left: 15px;">No Data in the database.</b> 
                                         <?php } ?> 
 
                                     </div>

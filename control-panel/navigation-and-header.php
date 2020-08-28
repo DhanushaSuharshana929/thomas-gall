@@ -340,7 +340,7 @@
                 <li>
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
-                        <span>Service</span>
+                        <span>School Fees</span>
                     </a>
                     <ul class="ml-menu">
                         <li>
@@ -419,10 +419,10 @@
 
 
 
-                <li class="hidden">
+                <li class="">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
-                        <span>Rooms</span>
+                        <span>Term Dates</span>
                     </a>
                     <ul class="ml-menu">
                         <li>

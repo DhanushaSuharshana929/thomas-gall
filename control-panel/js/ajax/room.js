@@ -13,23 +13,25 @@ $(document).ready(function () {
                 timer: 1500,
                 showConfirmButton: false
             });
-        } else if (!$('#image').val() || $('#image').val().length === 0) {
-            swal({
-                title: "Error!",
-                text: "Please enter  image..!",
-                type: 'error',
-                timer: 1500,
-                showConfirmButton: false
-            });
-        } else if (!$('#short_description').val() || $('#short_description').val().length === 0) {
-            swal({
-                title: "Error!",
-                text: "Please enter short description..!",
-                type: 'error',
-                timer: 1500,
-                showConfirmButton: false
-            });
-        } else if (!$('#description').val() || $('#description').val().length === 0) {
+        } 
+//        else if (!$('#image').val() || $('#image').val().length === 0) {
+//            swal({
+//                title: "Error!",
+//                text: "Please enter  image..!",
+//                type: 'error',
+//                timer: 1500,
+//                showConfirmButton: false
+//            });
+//        } else if (!$('#short_description').val() || $('#short_description').val().length === 0) {
+//            swal({
+//                title: "Error!",
+//                text: "Please enter short description..!",
+//                type: 'error',
+//                timer: 1500,
+//                showConfirmButton: false
+//            });
+//        } 
+        else if (!$('#description').val() || $('#description').val().length === 0) {
             swal({
                 title: "Error!",
                 text: "Please enter description..!",
@@ -47,15 +49,17 @@ $(document).ready(function () {
                 timer: 3500,
                 showConfirmButton: false
             });
-        } else if ($('#short_description').val().includes("'")) {
-            swal({
-                title: "Error!",
-                text: "Sorry, Invalid character found ( ' ) in short description. Please remove that character.",
-                type: 'error',
-                timer: 3500,
-                showConfirmButton: false
-            });
-        } else if ($('#description').val().includes("'")) {
+        } 
+//        else if ($('#short_description').val().includes("'")) {
+//            swal({
+//                title: "Error!",
+//                text: "Sorry, Invalid character found ( ' ) in short description. Please remove that character.",
+//                type: 'error',
+//                timer: 3500,
+//                showConfirmButton: false
+//            });
+//        } 
+        else if ($('#description').val().includes("'")) {
             swal({
                 title: "Error!",
                 text: "Sorry, Invalid character found ( ' ) in description. Please remove that character.",
@@ -105,23 +109,26 @@ $(document).ready(function () {
                 timer: 1500,
                 showConfirmButton: false
             });
-        } else if (!$('#image').val() || $('#image').val().length === 0) {
-            swal({
-                title: "Error!",
-                text: "Please enter  image..!",
-                type: 'error',
-                timer: 1500,
-                showConfirmButton: false
-            });
-        } else if (!$('#short_description').val() || $('#short_description').val().length === 0) {
-            swal({
-                title: "Error!",
-                text: "Please enter short description..!",
-                type: 'error',
-                timer: 1500,
-                showConfirmButton: false
-            });
-        } else if (!$('#description').val() || $('#description').val().length === 0) {
+        } 
+//        else if (!$('#image').val() || $('#image').val().length === 0) {
+//            swal({
+//                title: "Error!",
+//                text: "Please enter  image..!",
+//                type: 'error',
+//                timer: 1500,
+//                showConfirmButton: false
+//            });
+//        }
+//        else if (!$('#short_description').val() || $('#short_description').val().length === 0) {
+//            swal({
+//                title: "Error!",
+//                text: "Please enter short description..!",
+//                type: 'error',
+//                timer: 1500,
+//                showConfirmButton: false
+//            });
+//        } 
+        else if (!$('#description').val() || $('#description').val().length === 0) {
             swal({
                 title: "Error!",
                 text: "Please enter description..!",

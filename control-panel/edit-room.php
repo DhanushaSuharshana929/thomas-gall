@@ -14,7 +14,7 @@ $ROOM = new Room($id);
     <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Edit Room</title>
+        <title>Edit Term Dates</title>
         <!-- Favicon-->
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
@@ -45,7 +45,7 @@ $ROOM = new Room($id);
                         <div class="card">
                             <div class="header">
                                 <h2>
-                                    Edit Room
+                                    Edit Term Dates
                                 </h2>
                                 <ul class="header-dropdown">
                                     <li class="">
@@ -65,7 +65,7 @@ $ROOM = new Room($id);
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 hidden">
                                         <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="text" id="no_of_rooms" class="form-control"  value="<?php echo $ROOM->no_of_rooms; ?>"  name="no_of_rooms"  required="TRUE">
@@ -73,7 +73,7 @@ $ROOM = new Room($id);
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 hidden">
                                         <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="text" id="price" class="form-control"  value="<?php echo $ROOM->price; ?>"  name="price"  required="TRUE">
@@ -81,7 +81,7 @@ $ROOM = new Room($id);
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">                                       
+                                    <div class="col-md-12 hidden">                                       
                                         <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="file"   class="form-control" value="<?php echo $ROOM->image_name; ?>"  name="image">
@@ -90,7 +90,7 @@ $ROOM = new Room($id);
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 hidden">
                                         <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="text" id="short_description" class="form-control" value="<?php echo $ROOM->short_description; ?>"  name="short_description">
@@ -106,7 +106,7 @@ $ROOM = new Room($id);
                                     </div>
                                     <div class="col-md-12">
                                         <input type="hidden" name="update"value="update"/>
-                                        <input type="hidden" id="oldImageName" value="<?php echo $ROOM->image_name; ?>" name="oldImageName"/>
+<!--                                        <input type="hidden" id="oldImageName" value="<?php echo $ROOM->image_name; ?>" name="oldImageName"/>-->
                                         <input type="hidden" id="id" value="<?php echo $ROOM->id; ?>" name="id"/>
                                         <button type="submit" class="btn btn-primary m-t-15 waves-effect" id="update" value="update">Save Changes</button>
                                     </div>

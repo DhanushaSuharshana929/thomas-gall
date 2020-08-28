@@ -24,7 +24,24 @@ include './class/include.php';
         <link href="css/responsive.css" rel="stylesheet">
 
     </head>
+<style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px black;
+        }
 
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+/*        tr:nth-child(even) {
+            background-color: #dddddd;
+        }*/
+    </style>
     <body>
         <div class="page-wrapper">
 
@@ -59,35 +76,7 @@ include './class/include.php';
                             <!--Classes Single-->
                             <section class="classes-single">
                                 <div class="inner-box">
-                                    <div class="classes-carousel">
-                                        <div class="carousel-outer">
-
-                                            <ul class="image-carousel owl-carousel owl-theme">
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                                <li><a href="images/resource/products/1.jpg" class="lightbox-image" title="Image Caption Here"><img src="images/resource/products/1.jpg" alt=""></a></li>
-                                            </ul>
-
-                                            <ul class="thumbs-carousel owl-carousel owl-theme">
-                                                <li><img src="images/resource/products/class-thumb-1.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-2.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-3.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-4.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-5.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-6.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-1.jpg" alt=""></li>
-                                                <li><img src="images/resource/products/class-thumb-2.jpg" alt=""></li>
-                                            </ul>                                  
-
-                                        </div>
-                                    </div>
+                                    
                                     <!--Lower Box-->
                                     <div class="lower-content">
                                         <!--Upper Box-->
@@ -101,13 +90,17 @@ include './class/include.php';
                                         </div>
                                         <!--Lower Box-->
                                         <div class="lower-box">
+                                            
+                                            <?php 
+                                            $TERM_DATES = new Room(NULL);
+                                            foreach ($TERM_DATES->all() as $term_dates){
+                                            ?>
                                             <div class="text">
-                                                <p>Proin nec lacus lacus. Sed vitae consectetur est, et mattis felis. Fusce lacinia nibh 
-                                                    vitae fermentum finibus. Donec malesuada efficitur dapibus. Cras euismod nunc tellus, 
-                                                    eget tempor purus finibus id. Aliquam magna nibh, mattis a urna nec, semper venenatis 
-                                                    magna. Cras suscipit neque libero, in bibendum orci scelerisque mollis. Nunc auctor ut 
-                                                    erat vel euismod. Aenean tristique leo eros, at gravida massa semper eu.</p>                                       
+                                                <p><?php echo $term_dates['description']; ?></p>                                       
                                             </div>
+                                            <?php
+                                            }
+                                            ?>
                                         </div>
                                     </div>
                                 </div>

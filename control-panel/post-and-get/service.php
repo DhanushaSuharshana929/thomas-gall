@@ -42,35 +42,35 @@ if (isset($_POST['create'])) {
 }
 
 if (isset($_POST['update'])) {
-    $dir_dest = '../../upload/service/';
+//    $dir_dest = '../../upload/service/';
+//
+//    $handle = new Upload($_FILES['image']);
+//
+//    $imgName = null;
 
-    $handle = new Upload($_FILES['image']);
-
-    $imgName = null;
-
-    if ($handle->uploaded) {
-        $handle->image_resize = true;
-        $handle->file_new_name_body = TRUE;
-        $handle->file_overwrite = TRUE;
-        $handle->file_new_name_ext = FALSE;
-        $handle->image_ratio_crop = 'C';
-        $handle->file_new_name_body = $_POST ["oldImageName"];
-        $handle->image_x = 900;
-        $handle->image_y = 600;
-
-        $handle->Process($dir_dest);
-
-        if ($handle->processed) {
-            $info = getimagesize($handle->file_dst_pathname);
-            $imgName = $handle->file_dst_name;
-        }
-    }
+//    if ($handle->uploaded) {
+//        $handle->image_resize = true;
+//        $handle->file_new_name_body = TRUE;
+//        $handle->file_overwrite = TRUE;
+//        $handle->file_new_name_ext = FALSE;
+//        $handle->image_ratio_crop = 'C';
+//        $handle->file_new_name_body = $_POST ["oldImageName"];
+//        $handle->image_x = 900;
+//        $handle->image_y = 600;
+//
+//        $handle->Process($dir_dest);
+//
+//        if ($handle->processed) {
+//            $info = getimagesize($handle->file_dst_pathname);
+//            $imgName = $handle->file_dst_name;
+//        }
+//    }
 
     $SERVICE = new Service($_POST['id']);
 
-    $SERVICE->image_name = $_POST['oldImageName'];
+//    $SERVICE->image_name = $_POST['oldImageName'];
     $SERVICE->title = $_POST['title'];
-    $SERVICE->short_description = $_POST['short_description'];
+//    $SERVICE->short_description = $_POST['short_description'];
     $SERVICE->description = $_POST['description'];
 
     $SERVICE->update();

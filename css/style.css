@@ -990,7 +990,7 @@ img{
     color:#777777;
     font-size:26px;
     margin-bottom:25px;
-    font-family: 'Grand Hotel', cursive;
+/*    font-family: 'Grand Hotel', cursive;*/
 }
 
 .sec-title .dark-text{
@@ -2593,7 +2593,6 @@ img{
     font-size:15px;
     font-weight:400;
     padding:4px 0px 4px 0px;
-    text-transform:capitalize;
     color:#909090;
     transition:all 0.3s ease;
     -moz-transition:all 0.3s ease;
@@ -3690,7 +3689,7 @@ img{
 
 .sidebar-page-container{
     position:relative;
-    padding:120px 0px 90px;
+    padding:30px 0px 0px;
 }
 
 .sidebar-page-container .sidebar-side,

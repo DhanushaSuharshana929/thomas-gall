@@ -14,7 +14,7 @@ $SERVICE = new Service($id);
     <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Service</title>
+        <title>School Fees</title>
         <!-- Favicon-->
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
@@ -44,7 +44,7 @@ $SERVICE = new Service($id);
                         <div class="card">
                             <div class="header">
                                 <h2>
-                                    Edit Service
+                                    Edit School Fees
                                 </h2>
 
                             </div>
@@ -58,7 +58,7 @@ $SERVICE = new Service($id);
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">                                       
+<!--                                    <div class="col-md-12">                                       
                                         <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="file"  class="form-control" value="<?php echo $SERVICE->image_name; ?>"  name="image">
@@ -66,17 +66,17 @@ $SERVICE = new Service($id);
                                                 <img src="../upload/service/<?php echo $SERVICE->image_name; ?>" id="image" class="view-edit-img img img-responsive img-thumbnail" name="image" alt="old image">
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>-->
 
 
-                                    <div class="col-sm-12 hidden">
+<!--                                    <div class="col-sm-12 hidden">
                                         <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="text" id="short_description" class="form-control" value="<?php echo $SERVICE->short_description; ?>"  name="short_description">
                                                 <label class="form-label">Short Description</label>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <label for="description">Description</label>
                                         <div class="form-line">
@@ -85,7 +85,7 @@ $SERVICE = new Service($id);
                                     </div>
                                     <div class="col-md-12">
                                         <input type="hidden" name="update"value="update"/>
-                                        <input type="hidden" id="oldImageName" value="<?php echo $SERVICE->image_name; ?>" name="oldImageName"/>
+<!--                                        <input type="hidden" id="oldImageName" value="<?php echo $SERVICE->image_name; ?>" name="oldImageName"/>-->
                                         <input type="hidden" id="id" value="<?php echo $SERVICE->id; ?>" name="id"/>
                                         <button type="submit" class="btn btn-primary m-t-15 waves-effect" id="update" value="update">Save Changes</button>
                                     </div>

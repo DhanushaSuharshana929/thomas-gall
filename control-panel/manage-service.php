@@ -7,7 +7,7 @@ include_once(dirname(__FILE__) . '/auth.php');
     <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Services</title>
+        <title>School Fees</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
@@ -33,7 +33,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                         <div class="card">
                             <div class="header">
                                 <h2>
-                                    Manage Services
+                                    Manage School Fees
                                 </h2>
                                 <ul class="header-dropdown">
                                     <li>
@@ -54,16 +54,16 @@ include_once(dirname(__FILE__) . '/auth.php');
                                             foreach ($SERVICE as $key => $service) {
                                                 ?>
                                                 <div class="col-md-3"  id="div<?php echo $service['id']; ?>">
-                                                    <div class="photo-img-container">
+<!--                                                    <div class="photo-img-container">
                                                         <img src="../upload/service/<?php echo $service['image_name']; ?>" class="img-responsive ">
-                                                    </div>
+                                                    </div>-->
                                                     <div class="img-caption">
                                                         <p class="maxlinetitle"><?php echo $service['title']; ?></p>
                                                         <div class="d">
                                                             <a href="#"  class="delete-service" data-id="<?php echo $service['id']; ?>"> <button class="glyphicon glyphicon-trash delete-btn"></button></a>
                                                             <a href="edit-service.php?id=<?php echo $service['id']; ?>"> <button class="glyphicon glyphicon-pencil edit-btn"></button></a>
                                                             <a href="arrange-services.php?id=<?php echo $service['id']; ?>">  <button class="glyphicon glyphicon-random arrange-btn"></button></a>
-                                                            <a href="view-service-photos.php?id=<?php echo $service['id']; ?>">  <button class="glyphicon glyphicon-picture arrange-btn"></button></a>
+<!--                                                            <a href="view-service-photos.php?id=<?php echo $service['id']; ?>">  <button class="glyphicon glyphicon-picture arrange-btn"></button></a>-->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -71,7 +71,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                             }
                                         } else {
                                             ?> 
-                                            <b style="padding-left: 15px;">No Services in the database.</b> 
+                                            <b style="padding-left: 15px;">No Data in the database.</b> 
                                         <?php } ?> 
 
                                     </div>
