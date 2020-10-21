@@ -15,7 +15,7 @@ $COUNT_GALLERY = count(AlbumPhoto::all());
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Dashbord - www.sublime.lk</title>
+        <title>Dashbord - www.thomasgallschool.com</title>
         <!-- Favicon-->
         <link rel="icon" href="favicon.ico" type="image/x-icon">
 
@@ -119,7 +119,7 @@ $COUNT_GALLERY = count(AlbumPhoto::all());
                         <div class="card">
                             <div class="header bg-blue-grey">
                                 <h2>
-                                    ACCOMMODATION <small>  </small>
+                                    TERM DATES <small>  </small>
                                 </h2>
                                 <ul class="header-dropdown m-r--5">
                                     <div class="number count-to" data-from="0" data-to=" <?php echo $COUNT_ROOM; ?>" data-speed="1500" data-fresh-interval="1"></div>
@@ -138,7 +138,7 @@ $COUNT_GALLERY = count(AlbumPhoto::all());
                         <div class="card">
                             <div class="header bg-blue-grey">
                                 <h2>
-                                    EXCURSIONS
+                                    STAFF
     <!--                                    <small>  </small>-->
                                 </h2>
                                 <ul class="header-dropdown m-r--5">
@@ -158,7 +158,7 @@ $COUNT_GALLERY = count(AlbumPhoto::all());
                         <div class="card">
                             <div class="header bg-blue-grey">
                                 <h2>
-                                    SERVICES
+                                    SCHOOL FEES
     <!--                                    <small></small>-->
                                 </h2>
                                 <ul class="header-dropdown m-r--5">

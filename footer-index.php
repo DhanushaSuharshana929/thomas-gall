@@ -30,12 +30,14 @@
                         <div class="footer-column col-md-6 col-sm-6 col-xs-12">
                             <div class="footer-widget logo-widget">
                                 <div class="footer-logo">
-                                    <a href="index-2.html"><img src="images/logo-2.png" alt="" /></a>
+                                    <a href="./"><img src="images/logo-2.png" alt="" /></a>
                                 </div>
                                 <div class="widget-content">
-                                    <div class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officiaproi-dent, sunt in culpa qui officia dese deserunt...</div>
+                                    <div class="text">We take great pleasure in welcoming our families and friends to TGS. It is with great pride that we share this pleasure with our dedicated teachers who have made TGS theirs.</div>
                                     <ul class="social-links-two">
-                                        <li class="facebook"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                        <li class="facebook">
+                                            <a href="https://www.facebook.com/thethomasgall/?ref=bookmarks"><span class="fa fa-facebook"></span></a>
+                                        </li>
                                         <li class="twitter"><a href="#"><span class="fa fa-twitter"></span></a></li>
                                         <li class="google-plus"><a href="#"><span class="fa fa-google-plus"></span></a></li>
                                         <li class="linkedin"><a href="#"><span class="fa fa-linkedin"></span></a></li>
@@ -55,7 +57,7 @@
                                     <ul class="list">
                                         <li><a href="index.php">Home</a></li>
                                         <li><a href="about.php">About Us</a></li>
-                                        <li><a href="learning.php">Learning</a></li>
+                                        <li><a href="age-chart.php">Age Chart</a></li>
                                         <li><a href="admission.php">Admissions</a></li>
                                     </ul>
                                 </div>
@@ -78,8 +80,8 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="list">
-                                        <li><a href="news.php">News</a></li>
-                                        <li><a href="activities.php">Activities</a></li>
+                                        <li><a href="application.php">Application</a></li>
+                                        <li><a href="term-dates.php">Term Dates</a></li>
                                         <li><a href="gallery.php">Gallery</a></li>
                                         <li><a href="contact.php">Contact Us</a></li>
                                     </ul>
@@ -96,9 +98,9 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="list">
-                                        <li><a href=""><i class="fa-address-book"></i>No: 364/A, Morris Road, Ambalanwaththa, Galle, Sri Lanka.</a></li>
-                                        <li><a href="">(+94) 91 563 3958</a></li>
-                                        <li><a href="">admin@thomasgallschool.com</a></li>
+                                        <li><a href="">No: 364/A, Morris Road, Ambalanwaththa, Galle, Sri Lanka.</a></li>
+                                        <li><a href="tel:(+94) 91 563 3958">(+94) 91 563 3958</a></li>
+                                        <li><a href="mailto:admin@thomasgallschool.com">admin@thomasgallschool.com</a></li>
                                        
                                     </ul>
                                 </div>
@@ -118,7 +120,7 @@
                     <div class="copyright">&copy; Copyrights 2020 Thomas Gall School All Rights Reserved</div>
                 </div>
                 <div class="column col-md-6 col-sm-6 col-xs-12">
-                    <div class="cards">Web Site By:Synotec Holdings(Pvt)Ltd.</div>
+                    <div class="cards" style="color: #FFF;">Web Site By : <a href="https://synotec.lk/">Synotec Holdings(Pvt)Ltd.</a></div>
                 </div>
             </div>
         </div>

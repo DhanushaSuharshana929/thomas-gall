@@ -22,9 +22,14 @@ class AlbumPhoto {
     public function __construct($id) {
         if ($id) {
 
+            $db = new Database();
+
+            $id = mysql_real_escape_string($id);
+
+
             $query = "SELECT `id`,`album`,`image_name`,`caption`,`queue` FROM `album_photo` WHERE `id`=" . $id;
 
-            $db = new Database();
+
 
             $result = mysql_fetch_array($db->readQuery($query));
 
@@ -40,13 +45,18 @@ class AlbumPhoto {
 
     public function create() {
 
+        $db = new Database();
+
+        $caption = mysql_real_escape_string($this->caption);
+
+
         $query = "INSERT INTO `album_photo` (`album`,`image_name`,`caption`,`queue`) VALUES  ('"
                 . $this->album . "','"
                 . $this->image_name . "', '"
-                . $this->caption . "', '"
+                . $caption . "', '"
                 . $this->queue . "')";
 
-        $db = new Database();
+        
 
         $result = $db->readQuery($query);
 
@@ -75,14 +85,19 @@ class AlbumPhoto {
 
     public function update() {
 
+        $db = new Database();
+
+        $caption = mysql_real_escape_string($this->caption);
+
+
         $query = "UPDATE  `album_photo` SET "
                 . "`album` ='" . $this->album . "', "
                 . "`image_name` ='" . $this->image_name . "', "
-                . "`caption` ='" . $this->caption . "', "
+                . "`caption` ='" . $caption . "', "
                 . "`queue` ='" . $this->queue . "' "
                 . "WHERE `id` = '" . $this->id . "'";
 
-        $db = new Database();
+       
 
         $result = $db->readQuery($query);
 

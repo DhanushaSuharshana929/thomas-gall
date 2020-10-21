@@ -65,7 +65,7 @@ $PRIMARY = new Page(5);
                                     <div class="inner-box">
                                         <!--Image Column-->
                                         <div class="image">
-                                            <a href="learning.php"><img src="images/age-chart.JPG" alt="" /></a>
+                                            <img src="images/age-chart.JPG" alt="" />
                                         </div>
                                         
                                     </div>
@@ -100,7 +100,7 @@ $PRIMARY = new Page(5);
             </div>
 
             <!--Main Footer-->
-            <?php include './footer.php'; ?>
+            <?php include './footer-index.php'; ?>
             <!--End Main Footer-->
 
         </div>

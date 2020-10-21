@@ -64,27 +64,37 @@ $type = $_GET['type'];
                                     <!--Image Column-->
                                     <div class="image-column">
                                         <div class="image">
-                                            <a href="#"><img src="upload/activity/<?php echo  $studentlife['image_name']?>" alt="" /></a>
+                                            <a href="view-student-life.php?id=<?php echo $studentlife['id'] ?>">
+                                                <img src="upload/activity/<?php echo $studentlife['image_name'] ?>" alt="" />
+                                            </a>
 
                                             <div class="overlay-layer">
-                                                <a href="view-student-life.php?id=<?php echo  $studentlife['id']?>"><span class="icon flaticon-unlink"></span></a>
+                                                <a href="view-student-life.php?id=<?php echo $studentlife['id'] ?>">
+                                                    <span class="icon flaticon-unlink"></span>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                     <!--Content Column-->
                                     <div class="content-column">
-                                        <div class="inner">
-                                            <h3><a href="view-student-life.php?id=<?php echo  $studentlife['id']?>"><?php echo  $studentlife['title']?></a></h3>
-
-                                            <a href="view-student-life.php?id=<?php echo  $studentlife['id']?>" class="theme-btn btn-style-one">View More</a>
+                                        <div class="inner" style="padding: 15px 15px">
+                                            <center>
+                                                <h3>
+                                                    <a href="view-student-life.php?id=<?php echo $studentlife['id'] ?>">
+                                                        <?php echo $studentlife['title'] ?></a>
+                                                </h3>
+                                            </center>
+                                            <center>
+                                            <a href="view-student-life.php?id=<?php echo $studentlife['id'] ?>" class="theme-btn btn-style-one">View More</a>
+                                            </center>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-    <?php
-}
-?>
+                            <?php
+                        }
+                        ?>
 
 
                     </div>
@@ -96,7 +106,7 @@ $type = $_GET['type'];
 
 
             <!--Main Footer-->
-<?php include './footer.php'; ?>
+            <?php include './footer-index.php'; ?>
             <!--End Main Footer-->
 
         </div>

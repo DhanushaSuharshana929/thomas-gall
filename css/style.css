@@ -1155,7 +1155,7 @@ img{
     font-size:30px;
     letter-spacing:1px;
     text-transform:capitalize;
-    font-family: 'Grand Hotel', cursive;
+/*    font-family: 'Grand Hotel', cursive;*/
 }
 
 .main-slider h4{
@@ -1371,7 +1371,7 @@ img{
 
 .welcome-section{
     position:relative;
-    padding:80px 0px 120px;
+    padding:45px 0px 48px;
 }
 
 .welcome-section .image{
@@ -1486,7 +1486,7 @@ img{
 .featured-section{
     position:relative;
     overflow:hidden;
-    padding:50px 0px 70px;
+    padding:50px 0px 30px;
 }
 
 .featured-section .sec-title{
@@ -1583,7 +1583,7 @@ img{
     position:relative;
     font-size:22px;
     font-weight:700;
-    top:-8px;
+    top:14px;
 }
 
 .feature-block .inner-box h3 a{
@@ -1663,7 +1663,7 @@ img{
     position:relative;
     font-size:22px;
     font-weight:700;
-    top:-8px;
+    top:14px;
 }
 
 .feature-block-two .inner-box h3 a{
@@ -2256,8 +2256,9 @@ img{
 }
 
 .teachers-section.no-padding-btm{
-    padding-bottom:0px;
+    padding-bottom:77px;
     /*padding-top:240px;*/
+    background: aliceblue;
 }
 
 .teachers-section .sec-title{
@@ -2571,7 +2572,7 @@ img{
 
 .main-footer .logo-widget .text{
     position:relative;
-    color:#909090;
+    color:#fff;
     font-size:15px;
     font-weight:400;
     line-height:1.8em;
@@ -2593,7 +2594,7 @@ img{
     font-size:15px;
     font-weight:400;
     padding:4px 0px 4px 0px;
-    color:#909090;
+    color:#fff;
     transition:all 0.3s ease;
     -moz-transition:all 0.3s ease;
     -webkit-transition:all 0.3s ease;
@@ -2657,7 +2658,7 @@ img{
 
 .main-footer .copyright{
     position:relative;
-    color:#888888;
+    color:#fff;
     font-size:15px;
 }
 
@@ -2760,6 +2761,7 @@ img{
 .classes-news-section{
     position:relative;
     padding:25px 0px 30px;
+    background: aliceblue;
 }
 
 /*News Style Two*/

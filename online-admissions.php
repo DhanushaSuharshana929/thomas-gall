@@ -188,7 +188,7 @@ include './class/include.php';
 
 
             <!-- Main footer-->
-            <?php include './footer.php'; ?>
+            <?php include './footer-index.php'; ?>
             <!--End Main footer -->
 
         </div>
