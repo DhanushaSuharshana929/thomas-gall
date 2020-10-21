@@ -58,10 +58,13 @@ include './class/include.php';
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="early-years.php"><img src="images/resource/news-4.jpg" alt="" /></a>
+                                        <a href="early-years.php">
+                                            <img src="images/resource/news-4.jpg" alt="" /></a>
 
                                         <div class="overlay-layer">
-                                            <a href="early-years.php"><span class="icon flaticon-unlink"></span></a>
+                                            <a href="early-years.php">
+                                                <span class="icon flaticon-unlink"></span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -69,9 +72,9 @@ include './class/include.php';
                                 <div class="content-column">
                                     <div class="inner">
 
-                                        <h3><a href="classes-single.html">Early Years</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="early-years.php" class="theme-btn btn-style-one">Apply Now</a>
+                                        <center>  <h3><a href="early-years.php">Early Years</a></h3></center>
+                                        
+                                        <center>  <a href="early-years.php" class="theme-btn btn-style-one">Apply Now</a></center>
                                     </div>
                                 </div>
                             </div>
@@ -82,7 +85,7 @@ include './class/include.php';
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="primary.php"><img src="images/resource/news-4.jpg" alt="" /></a>
+                                        <a href="primary.php"><img src="images/resource/news-5.jpg" alt="" /></a>
 
                                         <div class="overlay-layer">
                                             <a href="primary.php"><span class="icon flaticon-unlink"></span></a>
@@ -93,9 +96,9 @@ include './class/include.php';
                                 <div class="content-column">
                                     <div class="inner">
 
-                                        <h3><a href="primary.php">Primary School</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="primary.php" class="theme-btn btn-style-one">Apply Now</a>
+                                        <center> <h3><a href="primary.php">Primary School</a></h3></center>
+                                        
+                                         <center><a href="primary.php" class="theme-btn btn-style-one">Apply Now</a></center>
                                     </div>
                                 </div>
                             </div>
@@ -106,7 +109,7 @@ include './class/include.php';
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="secondary.php"><img src="images/resource/news-4.jpg" alt="" /></a>
+                                        <a href="secondary.php"><img src="images/resource/news-6.jpg" alt="" /></a>
 
                                         <div class="overlay-layer">
                                             <a href="secondary.php"><span class="icon flaticon-unlink"></span></a>
@@ -117,9 +120,9 @@ include './class/include.php';
                                 <div class="content-column">
                                     <div class="inner">
 
-                                        <h3><a href="secondary.php">Secondary School</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="secondary.php" class="theme-btn btn-style-one">Apply Now</a>
+                                        <center> <h3><a href="secondary.php">Secondary School</a></h3></center>
+                                        
+                                        <center><a href="secondary.php" class="theme-btn btn-style-one">Apply Now</a></center>
                                     </div>
                                 </div>
                             </div>
@@ -131,10 +134,10 @@ include './class/include.php';
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="language.php"><img src="images/resource/news-4.jpg" alt="" /></a>
+                                        <center> <a href="language.php"><img src="images/resource/news-7.jpg" alt="" /></a></center>
 
                                         <div class="overlay-layer">
-                                            <a href="language.php"><span class="icon flaticon-unlink"></span></a>
+                                            <center>   <a href="language.php"><span class="icon flaticon-unlink"></span></a></center>
                                         </div>
                                     </div>
                                 </div>
@@ -142,9 +145,9 @@ include './class/include.php';
                                 <div class="content-column">
                                     <div class="inner">
 
-                                        <h3><a href="language.php">Imternational Language Academy</a></h3>
-                                        <div class="text">We build up the best education nvironment for themselves at most</div>
-                                        <a href="language.php" class="theme-btn btn-style-one">Apply Now</a>
+                                        <center>   <h3><a href="language.php">International Language Academy</a></h3></center>
+                                      
+                                        <center>   <a href="language.php" class="theme-btn btn-style-one">Apply Now</a></center>
                                     </div>
                                 </div>
                             </div>
@@ -160,7 +163,7 @@ include './class/include.php';
 
 
             <!--Main Footer-->
-            <?php include './footer.php'; ?>
+            <?php include './footer-index.php'; ?>
             <!--End Main Footer-->
 
         </div>

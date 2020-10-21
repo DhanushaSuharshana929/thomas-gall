@@ -15,14 +15,14 @@
             <div class="top-right pull-right">
                 <ul class="links-nav clearfix">
                     <li><span class="icon fa fa-map-marker"></span><a href="#">364A, Morris Road, Ambalanwaththa, Galle, Sri Lanka.</a></li>
-                    <li class="language dropdown"><a class="btn btn-default dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#">En &ensp;<span class="icon fa fa-caret-down"></span></a>
+<!--                    <li class="language dropdown"><a class="btn btn-default dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#">En &ensp;<span class="icon fa fa-caret-down"></span></a>
                         <ul class="dropdown-menu style-one" aria-labelledby="dropdownMenu2">
                             <li><a href="#">English</a></li>
                             <li><a href="#">German</a></li>
                             <li><a href="#">Arabic</a></li>
                             <li><a href="#">Hindi</a></li>
                         </ul>
-                    </li>
+                    </li>-->
 
 
 
@@ -69,7 +69,7 @@
 
                             <li class="dropdown"><a href="learning.php">LEARNING</a>
                                 <ul>
-                                    <li><a href="age-chart.php">Age Chart</a></li>
+                                    
                                     <li><a href="early-years.php">Early years</a></li>
                                     <li><a href="primary.php">Primary</a></li>
                                     <li><a href="secondary.php">Secondary</a></li>
@@ -93,7 +93,8 @@
                         <ul class="navigation right-nav clearfix">
                             <li class="dropdown"><a href="#">ADMISSION</a>
                                 <ul>
-                                    <li><a href="arrange-a-visit.php">Arrange a Visit</a></li>
+                                    <li><a href="age-chart.php">Age Chart</a></li>
+                                    
                                     <li><a href="term-dates.php">Term Dates</a></li>
                                     <li><a href="years-group-guide.php">Years Group Guide</a></li>
                                     <li><a href="school-fees.php">School Fees</a></li> 
@@ -172,7 +173,7 @@
 
                             <li class="dropdown"><a href="#">ADMISSION</a>
                                 <ul>
-                                    <li><a href="arrange-a-visit.php">Arrange a Visit</a></li>
+                                    
                                     <li><a href="term-dates.php">Term Dates</a></li>
                                     <li><a href="years-group-guide.php">Years Group Guide</a></li>
                                     <li><a href="school-fees.php">School Fees</a></li> 

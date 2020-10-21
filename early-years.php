@@ -112,7 +112,7 @@ $EARLY_YEARS = new Page(4);
             </div>
 
             <!--Main Footer-->
-            <?php include './footer.php'; ?>
+            <?php include './footer-index.php'; ?>
             <!--End Main Footer-->
 
         </div>

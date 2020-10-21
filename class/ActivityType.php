@@ -17,16 +17,22 @@ class ActivityType {
     public function __construct($id) {
         if ($id) {
 
+            $db = new Database();
+
+            $id = mysql_real_escape_string($id);
+
+
+
             $query = "SELECT * FROM `tour_type` WHERE `id`=" . $id;
 
-            $db = new Database();
+
 
             $result = mysql_fetch_array($db->readQuery($query));
 
             $this->id = $result['id'];
             $this->name = $result['name'];
-            $this->short_description= $result['short_description'];
-            $this->description= $result['description'];
+            $this->short_description = $result['short_description'];
+            $this->description = $result['description'];
             $this->image_name = $result['image_name'];
             $this->sort = $result['sort'];
 
@@ -36,14 +42,21 @@ class ActivityType {
 
     public function create() {
 
+        $db = new Database();
+
+        $name = mysql_real_escape_string($this->name);
+        $short_description = mysql_real_escape_string($this->short_description);
+        $description = mysql_real_escape_string($this->description);
+
+
         $query = "INSERT INTO `tour_type` (`name`,`short_description`,`image_name`,`description`,`sort`) VALUES  ('"
-                . $this->name . "', '"
-                . $this->short_description . "', '"
+                . $name . "', '"
+                . $short_description . "', '"
                 . $this->image_name . "', '"
-                . $this->description . "', '"
+                . $description . "', '"
                 . $this->sort . "')";
 
-        $db = new Database();
+
 
         $result = $db->readQuery($query);
 
@@ -72,15 +85,21 @@ class ActivityType {
 
     public function update() {
 
+        $db = new Database();
+
+        $name = mysql_real_escape_string($this->name);
+        $short_description = mysql_real_escape_string($this->short_description);
+        $description = mysql_real_escape_string($this->description);
+
+
         $query = "UPDATE  `tour_type` SET "
-                . "`name` ='" . $this->name . "', "
-                . "`short_description` ='" . $this->short_description . "', "
+                . "`name` ='" . $name . "', "
+                . "`short_description` ='" . $short_description . "', "
                 . "`image_name` ='" . $this->image_name . "', "
-                . "`description` ='" . $this->description . "', "
+                . "`description` ='" . $description . "', "
                 . "`sort` ='" . $this->sort . "' "
                 . "WHERE `id` = '" . $this->id . "'";
 
-        $db = new Database();
 
         $result = $db->readQuery($query);
 
@@ -94,7 +113,7 @@ class ActivityType {
     public function delete() {
 
         unlink(Helper::getSitePath() . "upload/tour_type/" . $this->image_name);
-      
+
         $query = 'DELETE FROM `tour_type` WHERE id="' . $this->id . '"';
 
         $db = new Database();

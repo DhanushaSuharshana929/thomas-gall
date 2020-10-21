@@ -47,7 +47,8 @@ include_once(dirname(__FILE__) . '/auth.php');
                                 <div>
                                     <div class="row clearfix">
                                         <?php
-                                        $TOUR_TYPE = TourType::all();
+                                        $TOUR_TYPE = new ActivityType(null);
+                                        $TOUR_TYPE = $TOUR_TYPE->all();
                                         if (count($TOUR_TYPE) > 0) {
                                             foreach ($TOUR_TYPE as $key => $tour_type) {
                                                 ?>

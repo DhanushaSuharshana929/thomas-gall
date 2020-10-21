@@ -1,5 +1,7 @@
 <?php
 include './class/include.php';
+
+$APPLICATION = new Page(11);
 ?>
 <!DOCTYPE html>
 <html>
@@ -49,9 +51,13 @@ include './class/include.php';
             </section>
             <!--End Page Title-->
 
+            <div class="text container" style="padding-top: 30px;padding-bottom: 30px;">
+                <?php echo $APPLICATION->description; ?>
+                
+            </div>
 
             <!--Main Footer-->
-            <?php include './footer.php'; ?>
+            <?php include './footer-index.php'; ?>
             <!--End Main Footer-->
 
 

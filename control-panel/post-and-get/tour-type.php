@@ -103,7 +103,7 @@ if (isset($_POST['update'])) {
         }
     }
 
-    $TOUR_TYPE = new TourType($_POST['id']); 
+    $TOUR_TYPE = new ActivityType($_POST['id']); 
 
     $TOUR_TYPE->id = $_POST['id'];
     $TOUR_TYPE->name = $_POST['name'];

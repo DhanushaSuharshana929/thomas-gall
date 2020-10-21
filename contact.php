@@ -80,7 +80,7 @@ include './class/include.php';
                                     <div class="icon-box wow fadeIn" data-wow-delay="600ms">
                                         <span class="icon flaticon-smartphone"></span>
                                     </div>
-                                    <div class="text">+94 91 5633958 <br> 0774602588</div>
+                                    <div class="text">(+94) 91 563 3958 <br> (+94) 77 460 2588</div>
                                 </div>
                             </div>
 
@@ -193,7 +193,7 @@ include './class/include.php';
             <!--End Map Section-->
 
             <!-- Main footer-->
-            <?php include './footer.php'; ?>
+            <?php include './footer-index.php'; ?>
             <!--End Main footer -->
 
         </div>

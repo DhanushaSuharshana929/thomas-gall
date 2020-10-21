@@ -106,7 +106,7 @@ $MISSION = new Page(3);
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="#"><img src="upload/page/<?php echo $VISION->image_name ?>" alt="" /></a>
+<!--                                        <a href="#"><img src="upload/page/<?php echo $VISION->image_name ?>" alt="" /></a>-->
 
                                         <div class="overlay-layer">
                                             <a href="#"><span class="icon flaticon-unlink"></span></a>
@@ -114,10 +114,10 @@ $MISSION = new Page(3);
                                     </div>
                                 </div>
                                 <!--Content Column-->
-                                <div class="content-column">
+                                <div class="content-column" style="background: #FFF;">
                                     <div class="inner">
 
-                                        <h3><a href="#">Our Vision</a></h3>
+                                        <center> <h3><a href="#">Our Vision</a></h3></center>
                                         <div class="text"><?php echo $VISION->description ?></div>
 
                                     </div>
@@ -131,7 +131,7 @@ $MISSION = new Page(3);
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="#"><img src="upload/page/<?php echo $MISSION->image_name ?>" alt="" /></a>
+<!--                                        <a href="#"><img src="upload/page/<?php echo $MISSION->image_name ?>" alt="" /></a>-->
 
                                         <div class="overlay-layer">
                                             <a href="#"><span class="icon flaticon-unlink"></span></a>
@@ -139,12 +139,12 @@ $MISSION = new Page(3);
                                     </div>
                                 </div>
                                 <!--Content Column-->
-                                <div class="content-column">
+                                <div class="content-column" style="background: #FFF;">
                                     <div class="inner">
 
-                                        <h3><a href="#">Our Mission</a></h3>
+                                        <center><h3><a href="#">Our Mission</a></h3></center> 
                                         <div class="text"><?php echo $MISSION->description ?></div>
-                           
+
                                     </div>
                                 </div>
                             </div>
@@ -158,14 +158,14 @@ $MISSION = new Page(3);
 
             <!--values Section-->
 
-            <section class="featured-section" >
+            <section class="featured-section">
                 <div class="auto-container">
                     <!--Sec Title-->
                     <div class="sec-title centered">
 <!--                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>-->
                         <h2>TGS Values</h2>
                         <div class="title">CREW</div>
-                        <div class="text">We're a childcare centre with an engaging curriculum backed by qualified, experienced and experienced </div>
+                       
                     </div>
                     <!--End Sec Title-->
 
@@ -183,7 +183,7 @@ $MISSION = new Page(3);
                                         <span>C</span>
                                     </div>
                                     <h3><a href="#">Communicate politely</a></h3>
-                                    <div class="text">We are group of teachers who really love childrens and enjoy every mo-</div>
+                                    <!--                                    <div class="text">We are group of teachers who really love childrens and enjoy every mo-</div>-->
                                 </div>
                             </div>
 
@@ -194,7 +194,7 @@ $MISSION = new Page(3);
                                         <span>R</span>
                                     </div>
                                     <h3><a href="#">Respect others and property</a></h3>
-                                    <div class="text">We are group of teachers who really love childrens and enjoy every mo-</div>
+                                    <!--                                    <div class="text">We are group of teachers who really love childrens and enjoy every mo-</div>-->
                                 </div>
                             </div>
 
@@ -205,7 +205,7 @@ $MISSION = new Page(3);
                                         <span>R</span>
                                     </div>
                                     <h3><a href="#">Responsible choices at all times</a></h3>
-                                    <div class="text">We are group of teachers who really love childrens and enjoy every mo-</div>
+                                    <!--                                    <div class="text">We are group of teachers who really love childrens and enjoy every mo-</div>-->
                                 </div>
                             </div>
 
@@ -219,7 +219,7 @@ $MISSION = new Page(3);
                                         <span>U</span>
                                     </div>
                                     <h3><a href="#">Use time wisely</a></h3>
-                                    <div class="text">We are group of teachers who really love childrens and enjoy every mo-</div>
+                                    <!--                                    <div class="text">We are group of teachers who really love childrens and enjoy every mo-</div>-->
                                 </div>
                             </div>
 
@@ -230,7 +230,7 @@ $MISSION = new Page(3);
                                         <span>W</span>
                                     </div>
                                     <h3><a href="features.html">Work and play safely</a></h3>
-                                    <div class="text">We are group of teachers who really love childrens and enjoy every mo-</div>
+                                    <!--                                    <div class="text">We are group of teachers who really love childrens and enjoy every mo-</div>-->
                                 </div>
                             </div>
 
@@ -260,7 +260,7 @@ $MISSION = new Page(3);
 <!--                    <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>-->
                     <h2>Our Staff</h2>
                     <div class="title">Our Great Team</div>
-                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+
                 </div>
 
                 <div class="three-item-carousel owl-carousel owl-theme">
@@ -275,12 +275,13 @@ $MISSION = new Page(3);
                                     <img src="upload/attraction/<?php echo $people['image_name'] ?>" alt="" />
                                 </div>
                                 <h3><?php echo $people['title'] ?></h3>
+                                <h4><?php echo $people['short_description'] ?></h4>
                                 <div class="designation"><?php echo $people['description'] ?></div>
 
                             </div>
                         </div>
 
-<?php } ?>
+                    <?php } ?>
                 </div>
             </div>
 
@@ -289,7 +290,7 @@ $MISSION = new Page(3);
 
 
         <!--Main Footer-->
-<?php include './footer.php'; ?>
+        <?php include './footer-index.php'; ?>
         <!--End Main Footer-->
 
     </div>

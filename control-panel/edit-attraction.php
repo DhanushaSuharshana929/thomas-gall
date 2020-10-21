@@ -82,7 +82,7 @@ $ATTRACTION = new Attraction($id);
                                         <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="text" id="short_description" class="form-control" value="<?php echo $ATTRACTION->short_description; ?>"  name="short_description">
-                                                <label class="form-label">Short Description</label>
+                                                <label class="form-label">Designation</label>
                                             </div>
                                         </div>
                                     </div>

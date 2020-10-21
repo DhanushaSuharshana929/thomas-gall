@@ -21,9 +21,14 @@ class Page {
     public function __construct($id) {
         if ($id) {
 
+            $db = new Database();
+
+            $id = mysql_real_escape_string($id);
+
+
             $query = "SELECT `id`,`title`,`description`,`image_name` FROM `pages` WHERE `id`=" . $id;
 
-            $db = new Database();
+
 
             $result = mysql_fetch_array($db->readQuery($query));
 
@@ -39,13 +44,19 @@ class Page {
 
     public function create() {
 
+        $db = new Database();
+
+        $title = mysql_real_escape_string($this->title);
+        $description = mysql_real_escape_string($this->description);
+
+
         $query = "INSERT INTO `pages` (`title`,`description`,`image_name`) VALUES  ('"
-                . $this->title . "','"
-                . $this->description . "', '"
+                . $title . "','"
+                . $description . "', '"
                 . $this->image_name . "')";
 
 
-        $db = new Database();
+
 
         $result = $db->readQuery($query);
 
@@ -74,13 +85,18 @@ class Page {
 
     public function update() {
 
+        $db = new Database();
+
+        $title = mysql_real_escape_string($this->title);
+        $description = mysql_real_escape_string($this->description);
+
         $query = "UPDATE  `pages` SET "
-                . "`title` ='" . $this->title . "', "
-                . "`description` ='" . $this->description . "', "
+                . "`title` ='" . $title . "', "
+                . "`description` ='" . $description . "', "
                 . "`image_name` ='" . $this->image_name . "' "
                 . "WHERE `id` = '" . $this->id . "'";
 
-        $db = new Database();
+
 
         $result = $db->readQuery($query);
 

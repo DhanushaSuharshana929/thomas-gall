@@ -6,6 +6,8 @@ $ACTIVITY1 = $STUDENTLIFE1->allActiviesByType(1);
 $ACTIVITY2 = $STUDENTLIFE1->allActiviesByType(2);
 $ACTIVITY3 = $STUDENTLIFE1->allActiviesByType(3);
 $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
+
+$FOUNDERS_WELCOME_INDEX = new Page(1);
 ?>
 <!DOCTYPE html>
 <html>
@@ -57,10 +59,10 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                 <?php $PRIMARY=new Page(5);?>
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="#"><img src="upload/page/<?php echo $PRIMARY->image_name?>" alt="" /></a>
+                                        <a href="primary.php"><img src="upload/page/<?php echo $PRIMARY->image_name?>" alt="" /></a>
 
                                         <div class="overlay-layer">
-                                            <a href="#"><span class="icon flaticon-unlink"></span></a>
+                                            <a href="primary.php"><span class="icon flaticon-unlink"></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -68,9 +70,9 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                                                 <div class="content-column">
                                     <div class="inner">
                                 
-                                        <h3><a href="#"><?php echo $PRIMARY->title?></a></h3>
-                                        <div class="text"><?php echo substr($PRIMARY->description,0,70)."..."?></div>
-                                        <a href="#" class="theme-btn btn-style-one">Read More</a>
+                                        <h3><center><a href="primary.php"><?php echo $PRIMARY->title?></a></center></h3>
+<!--                                        <div class="text"><?php echo substr($PRIMARY->description,0,70)."..."?></div>-->
+                                        <center><a href="primary.php" class="theme-btn btn-style-one">Read More</a></center>
                                     </div>
                                 </div>
                             </div>
@@ -83,10 +85,10 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                 <?php $SECONDARY=new Page(6)?>
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="#"><img src="upload/page/<?php echo $SECONDARY->image_name?>" alt="" /></a>
+                                        <a href="secondary.php"><img src="upload/page/<?php echo $SECONDARY->image_name?>" alt="" /></a>
 
                                         <div class="overlay-layer">
-                                            <a href="#"><span class="icon flaticon-unlink"></span></a>
+                                            <a href="secondary.php"><span class="icon flaticon-unlink"></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -95,9 +97,9 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                 <div class="content-column">
                                     <div class="inner">
 
-                                        <h3><a href="#"><?php echo $SECONDARY->title?></a></h3>
-                                        <div class="text"><?php echo substr($SECONDARY->description,0,70)."..."?></div>
-                                        <a href="#" class="theme-btn btn-style-one">Read More</a>
+                                        <h3><center><a href="secondary.php"><?php echo $SECONDARY->title?></a></center></h3>
+<!--                                        <div class="text"><?php echo substr($SECONDARY->description,0,70)."..."?></div>-->
+                                        <center><a href="secondary.php" class="theme-btn btn-style-one">Read More</a></center>
                                     </div>
                                 </div>
                             </div>
@@ -110,10 +112,10 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                 <!--Image Column-->
                                 <div class="image-column">
                                     <div class="image">
-                                        <a href="learning.php"><img src="upload/page/<?php echo $LANGUAGE_ACEDEMY->image_name?>" alt="" /></a>
+                                        <a href="language.php"><img src="upload/page/<?php echo $LANGUAGE_ACEDEMY->image_name?>" alt="" /></a>
 
                                         <div class="overlay-layer">
-                                            <a href="#"><span class="icon flaticon-unlink"></span></a>
+                                            <a href="language.php"><span class="icon flaticon-unlink"></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -122,9 +124,9 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
       
                                     <div class="inner">
 
-                                        <h3><a href="#"><?php echo $LANGUAGE_ACEDEMY->title?></a></h3>
-                                        <div class="text"><?php echo substr($LANGUAGE_ACEDEMY->description,0,70)."..."?></div>
-                                        <a href="#" class="theme-btn btn-style-one">Read More</a>
+                                        <h3><center><a href="language.php"><?php echo $LANGUAGE_ACEDEMY->title?></a></center></h3>
+<!--                                        <div class="text"><?php echo substr($LANGUAGE_ACEDEMY->description,0,70)."..."?></div>-->
+                                        <center><a href="language.php" class="theme-btn btn-style-one">Read More</a></center>
                                     </div>
                                 </div>
                             </div>
@@ -147,8 +149,8 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                         <h2>Welcome to Thomas Gall School</h2>
                         <div class="title">About Our Thomas Gall School</div>
                         <div class="dark-text">Learning for self,  society and a sustainable future</div>
-                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-                        <a href="#" class="theme-btn btn-style-one">Read More</a>
+                        <div class="text"><?php echo substr($FOUNDERS_WELCOME_INDEX->description,0,573); ?>...</div>
+                        <a href="about.php" class="theme-btn btn-style-one">Read More</a>
                     </div>
                     <!--End Sec Title-->
 
@@ -162,7 +164,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                         <span class="icon flaticon-book"></span>
                                     </div>
                                     <h3><a href="#">Funny and Happy</a></h3>
-                                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+<!--                                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>-->
                                 </div>
                             </div>
 
@@ -173,7 +175,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                         <span class="icon flaticon-football"></span>
                                     </div>
                                     <h3><a href="#">Fulfill With Love</a></h3>
-                                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+<!--                                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>-->
                                 </div>
                             </div>
 
@@ -187,7 +189,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                         <span class="icon flaticon-paint-palette-and-brush"></span>
                                     </div>
                                     <h3><a href="#">Professional Teaching</a></h3>
-                                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+<!--                                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>-->
                                 </div>
                             </div>
 
@@ -198,7 +200,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                                         <span class="icon flaticon-graduation-cap"></span>
                                     </div>
                                     <h3><a href="#">Fully Equiped</a></h3>
-                                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+<!--                                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>-->
                                 </div>
                             </div>
 
@@ -217,7 +219,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
             <!--End Featured Section-->
 
             <!--Call To Action-->
-            <section class="call-to-action" style="background-image:url(images/background/2.jpg);">
+            <section class="call-to-action" style="background-image:url(images/background/1.png);">
                 <div class="auto-container">
                     <div class="row clearfix">
 
@@ -230,7 +232,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
                         <!--Image Column-->
                         <div class="image-column pull-left col-md-4 col-sm-12 col-xs-12">
                             <figure class="image wow fadeInUp">
-                                <img src="images/resource/baby.png" alt="" />
+<!--                                <img src="images/resource/baby.png" alt="" />-->
                             </figure>
                         </div>
 
@@ -252,7 +254,7 @@ $ACTIVITY4 = $STUDENTLIFE1->allActiviesByType(4);
 <!--                        <div class="title-icon"><img src="images/icons/sec-title-icon-1.png" alt="" /></div>-->
                         <h2>Student Life</h2>
                         <div class="title">Time Line & Ativities</div>
-                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+                        <div class="text">Learning for self,  society and a sustainable future</div>
                     </div></center>
                     <div class="row clearfix">
 

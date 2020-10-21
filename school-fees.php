@@ -1,5 +1,8 @@
 <?php
 include './class/include.php';
+
+$SCHOOL_FEES = new Page(12);
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -90,16 +93,11 @@ include './class/include.php';
                                         <!--Lower Box-->
                                         <div class="lower-box">
                                             <div class="text">
-                                                <?php
-                                                $SCHOOL_FEES = new Service(null);
-                                                foreach ($SCHOOL_FEES->all() as $school_fees) {
-                                                    ?>
+                                                
                                                     <div>
-                                                        <p><?php echo $school_fees['description']; ?></p>
+                                                        <p><?php echo $SCHOOL_FEES->description; ?></p>
                                                     </div>
-                                                    <?php
-                                                }
-                                                ?>                                       
+                                                                                      
                                             </div>
                                         </div>
                                     </div>
@@ -135,7 +133,7 @@ include './class/include.php';
             </div>
 
             <!--Main Footer-->
-            <?php include './footer.php'; ?>
+            <?php include './footer-index.php'; ?>
             <!--End Main Footer-->
 
 

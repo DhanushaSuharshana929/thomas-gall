@@ -109,7 +109,7 @@ $PRIMARY = new Page(5);
             </div>
 
             <!--Main Footer-->
-            <?php include './footer.php'; ?>
+            <?php include './footer-index.php'; ?>
             <!--End Main Footer-->
 
         </div>
