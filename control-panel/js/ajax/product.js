@@ -37,31 +37,33 @@ $(document).ready(function () {
                 showConfirmButton: false
             });
 
-        } else if ($('#name').val().includes("'")) {
-            swal({
-                title: "Error!",
-                text: "Sorry, Invalid character found ( ' ) in name. Please remove that character.",
-                type: 'error',
-                timer: 3500,
-                showConfirmButton: false
-            });
-        } else if ($('#short_description').val().includes("'")) {
-            swal({
-                title: "Error!",
-                text: "Sorry, Invalid character found ( ' ) in short description. Please remove that character.",
-                type: 'error',
-                timer: 3500,
-                showConfirmButton: false
-            });
-        } else if ($('#description').val().includes("'")) {
-            swal({
-                title: "Error!",
-                text: "Sorry, Invalid character found ( ' ) in description. Please remove that character.",
-                type: 'error',
-                timer: 3500,
-                showConfirmButton: false
-            });
-        } else {
+        } 
+//        else if ($('#name').val().includes("'")) {
+//            swal({
+//                title: "Error!",
+//                text: "Sorry, Invalid character found ( ' ) in name. Please remove that character.",
+//                type: 'error',
+//                timer: 3500,
+//                showConfirmButton: false
+//            });
+//        } else if ($('#short_description').val().includes("'")) {
+//            swal({
+//                title: "Error!",
+//                text: "Sorry, Invalid character found ( ' ) in short description. Please remove that character.",
+//                type: 'error',
+//                timer: 3500,
+//                showConfirmButton: false
+//            });
+//        } else if ($('#description').val().includes("'")) {
+//            swal({
+//                title: "Error!",
+//                text: "Sorry, Invalid character found ( ' ) in description. Please remove that character.",
+//                type: 'error',
+//                timer: 3500,
+//                showConfirmButton: false
+//            });
+//        } 
+        else {
             var formData = new FormData($('#form-data')[0]);
             $.ajax({
                 url: "post-and-get/product.php",

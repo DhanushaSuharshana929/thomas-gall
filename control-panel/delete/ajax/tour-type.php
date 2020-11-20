@@ -5,9 +5,9 @@ include_once(dirname(__FILE__) . '/../../auth.php');
 
 if ($_POST['option'] == 'delete') {
 
-    $ACTIVITY_TYPE = new ActivityType($_POST['id']);
+    $TOUR_TYPE = new TourType($_POST['id']);
   
-    $result =  $ACTIVITY_TYPE->delete();
+    $result =  $TOUR_TYPE->delete();
 
     if ($result) {
         $data = array("status" => TRUE);

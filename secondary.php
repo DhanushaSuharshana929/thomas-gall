@@ -57,6 +57,9 @@ $SECONDARY = new Page(6);
                 <div class="auto-container">
                     <div class="row clearfix">
 
+<div class="content-side col-lg-2 col-md-2  col-sm-12 col-xs-12">
+    
+                        </div>
                         <!--Content Side-->
                         <div class="content-side col-lg-8 col-md-8 col-sm-12 col-xs-12">
                             <!--Blog-->
@@ -83,29 +86,7 @@ $SECONDARY = new Page(6);
                                 </div>
                             </section>
                         </div>
-
-                        <!--Sidebar-->
-                        <div class="sidebar-side col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <aside class="sidebar">
-
-                                <!--Our learnings Category Widget-->
-                                <div class="sidebar-widget category-widget">
-                                    <div class="sidebar-title">
-                                        <h3>Our Learnings</h3>
-                                    </div>
-                                    <ul>
-                                        <li><a href="early-years.php">Early Years<span></span></a></li>
-                                        <li><a href="primary.php">Primary School<span></span></a></li>
-                                        <li><a href="secondary.php">Secondary school<span></span></a></li>
-                                        <li><a href="language.php">International Language Academy <span></span></a></li>                             
-                                    </ul>
-                                </div>
-                                <!--Our learnings Category Widget-->
-
-                            </aside>
-                        </div>
-                        <!--End Sidebar-->
-
+ 
                     </div>
                 </div>
             </div>

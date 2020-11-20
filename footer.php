@@ -78,10 +78,10 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="list">
-                                        <li><a href="">News</a></li>
-                                        <li><a href="">Activities</a></li>
-                                        <li><a href="">Gallery</a></li>
-                                        <li><a href="">Contact Us</a></li>
+                                        <li><a href="news.php">News</a></li>
+                                        <li><a href="activities.php">Activities</a></li>
+                                        <li><a href="gallery.php">Gallery</a></li>
+                                        <li><a href="contact.php">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -96,10 +96,10 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="list">
-                                        <li><a href="">News</a></li>
-                                        <li><a href="">Activities</a></li>
-                                        <li><a href="">Gallery</a></li>
-                                        <li><a href="">Contact Us</a></li>
+                                        <li><a href="news.php">News</a></li>
+                                        <li><a href="activities.php">Activities</a></li>
+                                        <li><a href="gallery.php">Gallery</a></li>
+                                        <li><a href="contact.php">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
