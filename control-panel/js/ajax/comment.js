@@ -45,31 +45,33 @@ $(document).ready(function () {
                 showConfirmButton: false
             });
 
-        } else if ($('#title').val().includes("'")) {
-            swal({
-                title: "Error!",
-                text: "Sorry, Invalid character found ( ' ) in title. Please remove that character.",
-                type: 'error',
-                timer: 3500,
-                showConfirmButton: false
-            });
-        } else if ($('#country').val().includes("'")) {
-            swal({
-                title: "Error!",
-                text: "Sorry, Invalid character found ( ' ) in country. Please remove that character.",
-                type: 'error',
-                timer: 3500,
-                showConfirmButton: false
-            });
-        } else if ($('#description').val().includes("'")) {
-            swal({
-                title: "Error!",
-                text: "Sorry, Invalid character found ( ' ) in description. Please remove that character.",
-                type: 'error',
-                timer: 3500,
-                showConfirmButton: false
-            });
-        } else {
+        } 
+//        else if ($('#title').val().includes("'")) {
+//            swal({
+//                title: "Error!",
+//                text: "Sorry, Invalid character found ( ' ) in title. Please remove that character.",
+//                type: 'error',
+//                timer: 3500,
+//                showConfirmButton: false
+//            });
+//        } else if ($('#country').val().includes("'")) {
+//            swal({
+//                title: "Error!",
+//                text: "Sorry, Invalid character found ( ' ) in country. Please remove that character.",
+//                type: 'error',
+//                timer: 3500,
+//                showConfirmButton: false
+//            });
+//        } else if ($('#description').val().includes("'")) {
+//            swal({
+//                title: "Error!",
+//                text: "Sorry, Invalid character found ( ' ) in description. Please remove that character.",
+//                type: 'error',
+//                timer: 3500,
+//                showConfirmButton: false
+//            });
+//        } 
+        else {
             var formData = new FormData($('#form-data')[0]);
             $.ajax({
                 url: "post-and-get/comment.php",
